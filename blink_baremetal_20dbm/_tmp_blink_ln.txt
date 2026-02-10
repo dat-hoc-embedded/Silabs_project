@@ -1,0 +1,78 @@
+    1 /***************************************************************************//**
+    2  * @file
+    3  * @brief Blink examples functions
+    4  *******************************************************************************
+    5  * # License
+    6  * <b>Copyright 2020 Silicon Laboratories Inc. www.silabs.com</b>
+    7  *******************************************************************************
+    8  *
+    9  * The licensor of this software is Silicon Laboratories Inc. Your use of this
+   10  * software is governed by the terms of Silicon Labs Master Software License
+   11  * Agreement (MSLA) available at
+   12  * www.silabs.com/about-us/legal/master-software-license-agreement. This
+   13  * software is distributed to you in Source Code format and is governed by the
+   14  * sections of the MSLA applicable to Source Code.
+   15  *
+   16  ******************************************************************************/
+   17 
+   18 #include "sl_simple_led.h"
+   19 #include "sl_simple_led_instances.h"
+   20 #include "sl_sleeptimer.h"
+   21 #include "sl_code_classification.h"
+   22 
+   23 /*******************************************************************************
+   24  *******************************   DEFINES   ***********************************
+   25  ******************************************************************************/
+   26 
+   27 #ifndef LED_INSTANCE
+   28 #define LED_INSTANCE    sl_led_led0
+   29 #endif
+   30 
+   31 #ifndef TOOGLE_DELAY_MS
+   32 #define TOOGLE_DELAY_MS         500
+   33 #endif
+   34 
+   35 /*******************************************************************************
+   36  ***************************  LOCAL VARIABLES   ********************************
+   37  ******************************************************************************/
+   38 
+   39 sl_sleeptimer_timer_handle_t timer;
+   40 volatile bool toggle_timeout = false;
+   41 
+   42 /*******************************************************************************
+   43  *********************   LOCAL FUNCTION PROTOTYPES   ***************************
+   44  ******************************************************************************/
+   45 
+   46 SL_CODE_RAM static void on_timeout(sl_sleeptimer_timer_handle_t *handle,
+   47                                    void *data);
+   48 
+   49 /*******************************************************************************
+   50  **************************   GLOBAL FUNCTIONS   *******************************
+   51  ******************************************************************************/
+   52 
+   53 /***************************************************************************//**
+   54  * Initialize blink example.
+   55  ******************************************************************************/
+   56 void blink_init(void)
+   58   // Create timer for waking up the system periodically.
+   59   	sl_sleeptimer_start_periodic_timer_ms(&timer,
+   60                                         TOOGLE_DELAY_MS,
+   61                                         on_timeout, NULL,
+   62                                         0,
+   63                                         SL_SLEEPTIMER_NO_HIGH_PRECISION_HF_CLOCKS_REQUIRED_FLAG);
+   65 
+   66 /***************************************************************************//**
+   67  * Blink ticking function.
+   68  ******************************************************************************/
+   69 void blink_process_action(void)
+   72     sl_led_toggle(&LED_INSTANCE);
+   73     toggle_timeout = false;
+   76 
+   77 /***************************************************************************//**
+   78  * Sleeptimer timeout callback.
+   79  ******************************************************************************/
+   80 static void on_timeout(sl_sleeptimer_timer_handle_t *handle,
+   81                        void *data)
+   83   (void)&handle;
+   84   (void)&data;
+   85   toggle_timeout = true;

@@ -1,0 +1,4 @@
+E:/CODE/Silicon_Labs/Open_Thread/ot-embeddat_/ot-embeddat__cmake/build/CMakeFiles/slc_ot-embeddat_.dir
+E:/CODE/Silicon_Labs/Open_Thread/ot-embeddat_/ot-embeddat__cmake/build/CMakeFiles/ot-embeddat_.dir
+E:/CODE/Silicon_Labs/Open_Thread/ot-embeddat_/ot-embeddat__cmake/build/CMakeFiles/edit_cache.dir
+E:/CODE/Silicon_Labs/Open_Thread/ot-embeddat_/ot-embeddat__cmake/build/CMakeFiles/rebuild_cache.dir

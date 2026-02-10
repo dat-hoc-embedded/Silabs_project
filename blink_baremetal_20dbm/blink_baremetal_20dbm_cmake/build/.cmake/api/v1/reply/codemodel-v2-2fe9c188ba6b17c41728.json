@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-default_config-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "default_config",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "blink_baremetal_20dbm",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "blink_baremetal_20dbm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-blink_baremetal_20dbm-default_config-ea03c0d794da2aadb70a.json",
+					"name" : "blink_baremetal_20dbm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "slc_blink_baremetal_20dbm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slc_blink_baremetal_20dbm-default_config-17f985660f5a77ea10ae.json",
+					"name" : "slc_blink_baremetal_20dbm",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/blink_baremetal_20dbm_cmake/build",
+		"source" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/blink_baremetal_20dbm_cmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

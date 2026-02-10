@@ -1,0 +1,51 @@
+# Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
+project_name: blink_baremetal_20dbm
+label: blink_baremetal_20dbm
+description: |
+  This example project shows how to blink an LED in a bare-metal configuration.
+category: Example|Platform
+filter:
+- name: Device Type
+  value: [SoC]
+- name: MCU
+  value: [32-bit MCU]
+- name: Project Difficulty
+  value: [Beginner]
+package: platform
+quality: production
+readme:
+- {path: readme.md}
+- {path: readme.md}
+source:
+- {path: app.c}
+- {path: blink.c}
+tag: ['hardware:component:led:1+']
+include:
+- path: .
+  file_list:
+  - {path: app.h}
+  - {path: blink.h}
+sdk: {id: simplicity_sdk, version: 2025.6.2}
+toolchain_settings: []
+component:
+- {id: EFR32MG24B220F1536IM48}
+- {id: app_log}
+- {id: brd4002a}
+- {id: brd4187c}
+- {id: clock_manager}
+- {id: code_classification}
+- {id: device_init}
+- instance: [vcom]
+  id: iostream_usart
+- instance: [led0, led1]
+  id: simple_led
+- {id: sl_main}
+- {id: sleeptimer}
+- instance: [exp]
+  id: uartdrv_eusart
+define:
+- {name: DEBUG_EFM}
+ui_hints:
+  highlight:
+  - {path: readme.md, focus: true}
+

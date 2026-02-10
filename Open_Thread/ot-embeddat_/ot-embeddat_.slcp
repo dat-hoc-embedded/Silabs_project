@@ -1,0 +1,107 @@
+# Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
+project_name: ot-embeddat_
+label: ot-embeddat_
+description: |
+  This is a very simple CLI application to test the OpenThread stack on a Full Thread Device. This is equivalent to the ot-cli-ftd application in the OpenThread GitHub repo.
+category: OpenThread Examples
+filter:
+- name: Device Type
+  value: [SoC]
+- name: Project Difficulty
+  value: [Beginner]
+- name: Wireless Technology
+  value: [Thread]
+package: openthread
+quality: production
+readme:
+- {path: README.md}
+- {path: README.md}
+source:
+- {path: app.c}
+tag: [prebuilt_demo]
+include:
+- path: .
+  file_list:
+  - {path: app.h}
+sdk: {id: simplicity_sdk, version: 2025.6.2}
+toolchain_settings: []
+component:
+- {id: EFR32MG24B220F1536IM48}
+- {id: bootloader_interface}
+- {id: brd4001a}
+- {id: brd4187c}
+- {id: clock_manager}
+- {id: iostream_recommended_console}
+- {id: iostream_retarget_stdio}
+- {id: ot_cli_source}
+- {id: ot_crash_handler}
+- {id: ot_reset_utils}
+- {id: ot_stack_ftd}
+- {id: rail_util_pti}
+- instance: [led0]
+  id: simple_led
+- {id: sl_main}
+- {id: toolchain_gcc_lto}
+configuration:
+- {name: SL_BOARD_ENABLE_VCOM, value: '1'}
+- {name: SL_MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED, value: '1'}
+- {name: SL_MBEDTLS_KEY_EXCHANGE_PSK_ENABLED, value: '1'}
+- condition: [iostream_usart]
+  name: SL_IOSTREAM_USART_VCOM_RX_BUFFER_SIZE
+  value: '128'
+- condition: [iostream_eusart]
+  name: SL_IOSTREAM_EUSART_VCOM_RX_BUFFER_SIZE
+  value: '128'
+- condition: [freertos]
+  name: SL_HEAP_SIZE
+  value: '16384'
+- condition: [toolchain_lto]
+  unless: [freertos]
+  name: SL_STACK_SIZE
+  value: '6144'
+- condition: [freertos]
+  unless: [toolchain_lto]
+  name: SL_STACK_SIZE
+  value: '4608'
+- condition: [toolchain_lto, freertos]
+  name: SL_STACK_SIZE
+  value: '5120'
+- unless: [toolchain_lto, freertos]
+  name: SL_STACK_SIZE
+  value: '5120'
+- condition: [sl_main, freertos]
+  name: SL_MAIN_START_TASK_STACK_SIZE_BYTES
+  value: '4608'
+- condition: [sl_main]
+  unless: [freertos]
+  name: SL_MAIN_START_TASK_STACK_SIZE_BYTES
+  value: '5120'
+- condition: [ot_rtt_log]
+  name: OPENTHREAD_CONFIG_LOG_OUTPUT
+  value: OPENTHREAD_CONFIG_LOG_OUTPUT_PLATFORM_DEFINED
+- condition: [ot_rtt_log]
+  name: BUFFER_SIZE_UP
+  value: '768'
+- condition: [ot_rtt_log]
+  name: BUFFER_SIZE_DOWN
+  value: '0'
+- {name: CIRCULAR_QUEUE_LEN_MAX, value: '16'}
+- condition: [iostream_usart]
+  name: SL_IOSTREAM_USART_VCOM_FLOW_CONTROL_TYPE
+  value: usartHwFlowControlCtsAndRts
+- condition: [iostream_eusart]
+  name: SL_IOSTREAM_EUSART_VCOM_FLOW_CONTROL_TYPE
+  value: SL_IOSTREAM_EUSART_UART_FLOW_CTRL_CTS_RTS
+- condition: [toolchain_lto, freertos]
+  name: SL_OPENTHREAD_SERIAL_TASK_MEM_SIZE
+  value: '5120'
+- condition: [toolchain_lto]
+  name: SL_OPENTHREAD_STACK_TASK_MEM_SIZE
+  value: '7168'
+- condition: [toolchain_lto, freertos]
+  name: configTOTAL_HEAP_SIZE
+  value: '16384'
+ui_hints:
+  highlight:
+  - {path: ./README.md, focus: true}
+
