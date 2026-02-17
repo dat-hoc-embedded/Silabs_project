@@ -1,0 +1,608 @@
+!SESSION 2026-02-17 17:28:09.850 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\CODE\Silicon_Labs\Bluetooth
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-02-17 17:28:12.606
+!MESSAGE Logging bundle not found: com.silabs.ss.logger, logging not initialized.
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-02-17 17:28:14.740
+!MESSAGE Jetty listening on: http://127.0.0.1:53387/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-02-17 17:28:16.001
+!MESSAGE ContentServer started at: 127.0.0.1, 53387
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-02-17 17:28:16.175
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.descriptor.core 2 0 2026-02-17 17:28:20.904
+!MESSAGE re-registering property: com.silabs.ss.platform.api.descriptor.core.model.impl.MPropertyImpl@d6a929b (id: universalConfig.compSelProjInstanceId, name: compSelProjInstanceId, label: null, description: specific id for this instance of a project) (propertyScope: ) (id: universalConfig.compSelProjInstanceId, type: String, defaultValueLiteral: null)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:28:22.373
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@281c7a4e (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@6563352a (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@11429ab7 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@2c8b2139 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@678ee0ec (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1bb85352 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1e2ae5b0 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 1 0 2026-02-17 17:28:39.361
+!MESSAGE isInternalNetwork: false
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2026-02-17 17:28:43.666
+!MESSAGE AdapterPack USB adapter pack has setupcheck function type 
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2026-02-17 17:28:45.035
+!MESSAGE AdapterPack J-Link Driver installer adapter pack has postupdate function, executing
+
+!ENTRY com.silabs.ss.platform.useraccounts.core 4 0 2026-02-17 17:28:59.780
+!MESSAGE Error in connection authentication or validation
+!STACK 0
+com.sforce.ws.SoapFaultException: StudioService: no access allowed to this class.
+	at com.sforce.ws.transport.SoapConnection.createException(SoapConnection.java:212)
+	at com.sforce.ws.transport.SoapConnection.receive(SoapConnection.java:156)
+	at com.sforce.ws.transport.SoapConnection.send(SoapConnection.java:99)
+	at com.sforce.soap.StudioService.SoapConnection.isValidated(SoapConnection.java:177)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.isValidated(SilabsSFAuthService.java:1019)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.createConnection(SilabsSFAuthService.java:257)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.getSecuredUpdateRepos(SilabsSFAuthService.java:358)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.getSecuredUpdateRepos(SilabsSFAuthService.java:339)
+	at com.silabs.ss.tool.internal.api.installer.core.SLSP2UpdateSites.fetchSFSecureModeUpdateSites(SLSP2UpdateSites.java:346)
+	at com.silabs.ss.tool.internal.api.installer.core.SLSP2UpdateSites.ensureStudioRepos(SLSP2UpdateSites.java:255)
+	at com.silabs.ss.tool.internal.api.installer.core.SLSP2UpdateSites.ensureStudioReposLoaded(SLSP2UpdateSites.java:619)
+	at com.silabs.ss.tool.internal.api.installer.core.InstallerUtils.ensurePackagesFetched(InstallerUtils.java:1909)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager.updatePackageMetadata(UpdateManager.java:236)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager.ensureUpdatesFetched(UpdateManager.java:306)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager$1.run(UpdateManager.java:189)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:29:00.000
+!MESSAGE Failed to rename temp file from E:\Application\SiliconLabs\SimplicityStudio\v5\configuration\studio\assets\assets.manifest.tmp to E:\Application\SiliconLabs\SimplicityStudio\v5\configuration\studio\assets\assets.manifest due to exception java.nio.file.FileSystemException: E:\Application\SiliconLabs\SimplicityStudio\v5\configuration\studio\assets\assets.manifest: The process cannot access the file because it is being used by another process
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:29:00.001
+!MESSAGE 11869 read from https://updates.silabs.com/studio/v5/assets/assets.manifest
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:09.142
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: false
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:09.867
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:10.000
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:10.294
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:10.300
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:10.899
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:12.128
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:29:19.798
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@5eaa6d73 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@7c0ee015 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@5187eb7d (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@3dfce414 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@3030c72d (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@3bb59776 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@55874f7e (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-02-17 17:29:30.110
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-02-17 17:29:30.117
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:37.460
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:38.017
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:38.024
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:39.464
+!MESSAGE OAuthJxBrowserFactory SALESFORCE_REFRESH_TOKEN detected
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2026-02-17 17:29:39.467
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:29:40.962
+!MESSAGE Failed to rename temp file from E:\Application\SiliconLabs\SimplicityStudio\v5\configuration\studio\assets\assets.manifest.tmp to E:\Application\SiliconLabs\SimplicityStudio\v5\configuration\studio\assets\assets.manifest due to exception java.nio.file.FileSystemException: E:\Application\SiliconLabs\SimplicityStudio\v5\configuration\studio\assets\assets.manifest: The process cannot access the file because it is being used by another process
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:29:40.962
+!MESSAGE 11869 read from https://updates.silabs.com/studio/v5/assets/assets.manifest
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:29:48.771
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@48005b (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@6197416a (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@2495b292 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@7906a8c9 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@398c256a (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@624baf20 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@6b4380d9 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.platform.useraccounts.core 4 0 2026-02-17 17:30:11.706
+!MESSAGE Error in connection authentication or validation
+!STACK 0
+com.sforce.ws.ConnectionException: Failed to send request to https://community.silabs.com/services/Soap/class/StudioService
+	at com.sforce.ws.transport.SoapConnection.send(SoapConnection.java:121)
+	at com.sforce.soap.StudioService.SoapConnection.isValidated(SoapConnection.java:177)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.isValidated(SilabsSFAuthService.java:1019)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.createConnection(SilabsSFAuthService.java:257)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.getSecuredUpdateRepos(SilabsSFAuthService.java:358)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SecureSFContentLocator.getAssetManifests(SecureSFContentLocator.java:38)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SecureSFContentLocator.getAvailableSecuredContent(SecureSFContentLocator.java:28)
+	at com.silabs.ss.platform.api.security.core.SecurityHelper.lambda$0(SecurityHelper.java:35)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.silabs.ss.platform.api.security.core.SecurityHelper.getAvailableSecuredContent(SecurityHelper.java:37)
+	at com.silabs.ss.platform.internal.api.content.core.asset.AssetService.getAvailableSecuredContent(AssetService.java:1158)
+	at com.silabs.ss.platform.internal.api.content.core.asset.AssetService.getSecuredAssetManifestNames(AssetService.java:1162)
+	at com.silabs.ss.platform.internal.api.content.core.asset.AssetService.fetchAssetsFiles(AssetService.java:1143)
+	at com.silabs.ss.platform.internal.api.content.core.asset.AssetService.checkForUpdates(AssetService.java:540)
+	at com.silabs.ss.platform.api.content.core.metadata.MetadataUtils$1.run(MetadataUtils.java:72)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1297)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1461)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1432)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:219)
+	at com.sforce.ws.transport.JdkHttpTransport.connectRaw(JdkHttpTransport.java:136)
+	at com.sforce.ws.transport.JdkHttpTransport.connectLocal(JdkHttpTransport.java:100)
+	at com.sforce.ws.transport.JdkHttpTransport.connectLocal(JdkHttpTransport.java:95)
+	at com.sforce.ws.transport.JdkHttpTransport.connect(JdkHttpTransport.java:91)
+	at com.sforce.ws.transport.SoapConnection.send(SoapConnection.java:95)
+	... 21 more
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:30:11.884
+!MESSAGE Failed to rename temp file from E:\Application\SiliconLabs\SimplicityStudio\v5\configuration\studio\assets\assets.manifest.tmp to E:\Application\SiliconLabs\SimplicityStudio\v5\configuration\studio\assets\assets.manifest due to exception java.nio.file.FileSystemException: E:\Application\SiliconLabs\SimplicityStudio\v5\configuration\studio\assets\assets.manifest: The process cannot access the file because it is being used by another process
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:30:11.884
+!MESSAGE 11869 read from https://updates.silabs.com/studio/v5/assets/assets.manifest
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-02-17 17:30:22.858
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:30:27.433
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@32ae9d8e (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@72440555 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@2c5514 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@75993e9c (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@331d9f4c (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@61214ad7 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@3c72712 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-02-17 17:31:15.504
+!MESSAGE Warning: C:\Users\sucut\SimplicityStudio\SDKs\simplicity_sdk\extension\matter_extension\matter.slce
+  - vendor: junk key
+
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-02-17 17:31:24.378
+!MESSAGE selectedProfileId: null; defaultProfileId: GNU with spaces
+
+!ENTRY com.silabs.ss.platform.jetty.server 4 0 2026-02-17 17:31:30.398
+!MESSAGE Failed to find resource in bundle
+!STACK 0
+java.io.FileNotFoundException: could not find /btconf in com.ember.ble_gatt_configurator
+	at com.silabs.ss.platform.api.rcp.core.BundleUtils.getBundleContentURL(BundleUtils.java:89)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.getFullPath(BundleResource.java:56)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:43)
+	at com.silabs.ss.platform.jetty.server.WebappManager.registerLazyResource(WebappManager.java:243)
+	at com.silabs.ss.platform.jetty.server.WebappManager.registerResource(WebappManager.java:233)
+	at com.silabs.ss.platform.jetty.server.WebappManager.registerResource(WebappManager.java:229)
+	at com.ember.workbench.ble_gatt_configurator.Activator.start(Activator.java:47)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:520)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:643)
+	at com.silabs.ss.platform.internal.api.rcp.core.extensions.OSGiExtensionInformation.loadClass(OSGiExtensionInformation.java:85)
+	at com.silabs.java.utils.extension.IExtensionInformation.instantiateClass(IExtensionInformation.java:133)
+	at com.silabs.ss.framework.uc.core.api.setup.SetupParser.lambda$0(UcSetupModel.java:399)
+	at com.silabs.ss.framework.uc.core.api.setup.ManagedSetup.setup(UcSetupModel.java:345)
+	at com.silabs.ss.framework.uc.core.api.setup.UcSetupModel.findSetup(UcSetupModel.java:174)
+	at com.silabs.ss.framework.uc.core.api.setup.UcSetupModel.saveType(UcSetupModel.java:182)
+	at com.silabs.ss.framework.uc.core.internal.context.UcContext.file(UcContext.java:492)
+	at com.silabs.ss.tool.uc.api.core.UcIProjectRenaming.renameSetup(UcIProjectRenaming.java:314)
+	at com.silabs.ss.tool.uc.api.core.UcIProjectRenaming.renameUcProject(UcIProjectRenaming.java:225)
+	at com.silabs.ss.tool.uc.internal.core.UcProjectListener.importUcProjects(UcProjectListener.java:139)
+	at com.silabs.ss.tool.uc.internal.core.UcProjectListener.resourceChanged(UcProjectListener.java:60)
+	at com.silabs.ss.tool.uc.internal.core.UcProjectListener.resourceChanged(UcProjectListener.java:54)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.silabs.ss.platform.jetty.server 4 0 2026-02-17 17:31:30.398
+!MESSAGE Bundle entry not found
+!STACK 0
+java.io.FileNotFoundException: could not find /btconf in com.ember.ble_gatt_configurator
+	at com.silabs.ss.platform.api.rcp.core.BundleUtils.getBundleContentURL(BundleUtils.java:89)
+	at com.silabs.ss.platform.jetty.server.impl.JettyServer.bundleEntryPath(JettyServer.java:209)
+	at com.silabs.ss.platform.jetty.server.impl.JettyServer.registerResource(JettyServer.java:221)
+	at com.silabs.ss.platform.jetty.server.WebappManager.registerLazyResource(WebappManager.java:243)
+	at com.silabs.ss.platform.jetty.server.WebappManager.registerResource(WebappManager.java:233)
+	at com.silabs.ss.platform.jetty.server.WebappManager.registerResource(WebappManager.java:229)
+	at com.ember.workbench.ble_gatt_configurator.Activator.start(Activator.java:47)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:520)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:643)
+	at com.silabs.ss.platform.internal.api.rcp.core.extensions.OSGiExtensionInformation.loadClass(OSGiExtensionInformation.java:85)
+	at com.silabs.java.utils.extension.IExtensionInformation.instantiateClass(IExtensionInformation.java:133)
+	at com.silabs.ss.framework.uc.core.api.setup.SetupParser.lambda$0(UcSetupModel.java:399)
+	at com.silabs.ss.framework.uc.core.api.setup.ManagedSetup.setup(UcSetupModel.java:345)
+	at com.silabs.ss.framework.uc.core.api.setup.UcSetupModel.findSetup(UcSetupModel.java:174)
+	at com.silabs.ss.framework.uc.core.api.setup.UcSetupModel.saveType(UcSetupModel.java:182)
+	at com.silabs.ss.framework.uc.core.internal.context.UcContext.file(UcContext.java:492)
+	at com.silabs.ss.tool.uc.api.core.UcIProjectRenaming.renameSetup(UcIProjectRenaming.java:314)
+	at com.silabs.ss.tool.uc.api.core.UcIProjectRenaming.renameUcProject(UcIProjectRenaming.java:225)
+	at com.silabs.ss.tool.uc.internal.core.UcProjectListener.importUcProjects(UcProjectListener.java:139)
+	at com.silabs.ss.tool.uc.internal.core.UcProjectListener.resourceChanged(UcProjectListener.java:60)
+	at com.silabs.ss.tool.uc.internal.core.UcProjectListener.resourceChanged(UcProjectListener.java:54)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:465)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1593)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2026-02-17 17:31:31.896
+!MESSAGE Ignored reentrant call while viewer is busy. This is only logged once per viewer instance, but similar calls will still be ignored.
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.jface.viewers.ColumnViewer.checkBusy(ColumnViewer.java:762)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:526)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:352)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:492)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1417)
+	at org.eclipse.ui.internal.navigator.resources.actions.WorkingSetActionProvider.setWorkingSet(WorkingSetActionProvider.java:314)
+	at org.eclipse.ui.internal.navigator.resources.actions.WorkingSetActionProvider.lambda$1(WorkingSetActionProvider.java:223)
+	at org.eclipse.ui.internal.navigator.extensions.ExtensionStateModel.firePropertyChangeEvent(ExtensionStateModel.java:150)
+	at org.eclipse.ui.internal.navigator.extensions.ExtensionStateModel.setBooleanProperty(ExtensionStateModel.java:100)
+	at com.silabs.ss.framework.ide.internal.project.ui.solution.SlsSolutionFilterOverride.ensureWSPreference(SlsSolutionFilterOverride.java:73)
+	at com.silabs.ss.framework.ide.internal.project.ui.solution.SlsSolutionFilterOverride.lambda$0(SlsSolutionFilterOverride.java:57)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:124)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:98)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:154)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:286)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:214)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:343)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.runWspModification(CProjectDescriptionManager.java:470)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.runWspModification(CProjectDescriptionManager.java:443)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.updateProjectDescriptions(CProjectDescriptionManager.java:535)
+	at org.eclipse.cdt.core.model.CoreModel.updateProjectDescriptions(CoreModel.java:1449)
+	at org.eclipse.cdt.internal.core.model.CModelManager.handleEvent(CModelManager.java:1035)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.notifyLanguageSettingsChangeListeners(LanguageSettingsProvidersSerializer.java:1453)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettingsWorkspace(LanguageSettingsProvidersSerializer.java:599)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettingsWorkspace(LanguageSettingsManager.java:367)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:276)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:623)
+	at com.silabs.ss.tool.ide.arm.internal.toolchain.gnu.cdt.support.GNUARMBuiltinSpecsDetector.run(GNUARMBuiltinSpecsDetector.java:34)
+	at com.silabs.ss.tool.ide.arm.internal.toolchain.gnu.cdt.support.GNUARMCdtToolchain.fillLanguageSettings(GNUARMCdtToolchain.java:501)
+	at com.silabs.ss.framework.ide.api.project.core.cpp.CdtToolchain.getLanguageSettings(CdtToolchain.java:161)
+	at com.silabs.ss.framework.ide.api.project.core.cpp.CdtToolchain.getLanguageSettingEntries(CdtToolchain.java:58)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.SLSLanguageSettingsProvider.getToolchainLanguageSettings(SLSLanguageSettingsProvider.java:93)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.SLSLanguageSettingsProvider.getSettingEntries(SLSLanguageSettingsProvider.java:72)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:192)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1463)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1493)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1557)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1601)
+	at org.eclipse.cdt.core.settings.model.util.PathEntryTranslator.collectResourceDataEntries(PathEntryTranslator.java:2070)
+	at org.eclipse.cdt.core.settings.model.util.PathEntryTranslator$1.visit(PathEntryTranslator.java:2030)
+	at org.eclipse.cdt.core.settings.model.util.PathSettingsContainer.doAccept(PathSettingsContainer.java:522)
+	at org.eclipse.cdt.core.settings.model.util.PathSettingsContainer.accept(PathSettingsContainer.java:518)
+	at org.eclipse.cdt.core.settings.model.util.PathEntryTranslator.collectEntries(PathEntryTranslator.java:2022)
+	at org.eclipse.cdt.internal.core.settings.model.ConfigBasedPathEntryStore.getEntries(ConfigBasedPathEntryStore.java:232)
+	at org.eclipse.cdt.internal.core.settings.model.ConfigBasedPathEntryStore.getRawPathEntries(ConfigBasedPathEntryStore.java:113)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.getRawPathEntries(PathEntryStoreProxy.java:102)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getRawPathEntries(PathEntryManager.java:666)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:557)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:530)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:514)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreChangedOperation.executeOperation(PathEntryStoreChangedOperation.java:39)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.pathEntryStoreChanged(PathEntryManager.java:1344)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.notifyListeners(PathEntryStoreProxy.java:67)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.fireContentChangedEvent(PathEntryStoreProxy.java:60)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.postProcessProviderChange(PathEntryStoreProxy.java:146)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.checkUpdateProvider(AbstractCExtensionProxy.java:126)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.providerRequested(AbstractCExtensionProxy.java:42)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.getRawPathEntries(PathEntryStoreProxy.java:101)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getRawPathEntries(PathEntryManager.java:666)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:557)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:530)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:514)
+	at org.eclipse.cdt.core.model.CoreModel.getResolvedPathEntries(CoreModel.java:955)
+	at org.eclipse.cdt.internal.core.model.CProject.getResolvedPathEntries(CProject.java:404)
+	at org.eclipse.cdt.internal.core.model.CProject.getOutputEntries(CProject.java:513)
+	at org.eclipse.cdt.internal.core.model.CProject.isOnOutputEntry(CProject.java:568)
+	at org.eclipse.cdt.internal.core.model.CContainer.computeChild(CContainer.java:218)
+	at org.eclipse.cdt.internal.core.model.CContainer.computeChildren(CContainer.java:185)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:157)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:276)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getSourceRoots(BaseCElementContentProvider.java:470)
+	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getChildren(BaseCElementContentProvider.java:261)
+	at org.eclipse.cdt.internal.ui.cview.CViewContentProvider.getChildren(CViewContentProvider.java:92)
+	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getChildren(CNavigatorContentProvider.java:231)
+	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getPipelinedChildren(CNavigatorContentProvider.java:256)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getPipelinedChildren(SafeDelegateTreeContentProvider.java:170)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.pipelineChildren(NavigatorContentServiceContentProvider.java:212)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:168)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:145)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:131)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1470)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:352)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:849)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:673)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:866)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:819)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1603)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:904)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$3.treeExpanded(AbstractTreeViewer.java:1615)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:149)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Tree.wmNotifyChild(Tree.java:7717)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5802)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1972)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5369)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4788)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5177)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Tree.callWindowProc(Tree.java:1575)
+	at org.eclipse.swt.widgets.Tree.WM_LBUTTONDOWN(Tree.java:6618)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4768)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:6150)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5177)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3788)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-17 17:31:57.064
+!MESSAGE Indexed 'bt_ncp_2' (180 sources, 478 headers) in 14,3 sec: 44.465 declarations; 123.052 references; 0 unresolved inclusions; 54 syntax errors; 641 unresolved names (0,38%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-17 17:33:07.301
+!MESSAGE Indexed 'bootloader-uart-bgapi' (103 sources, 299 headers) in 4,58 sec: 20.810 declarations; 65.113 references; 0 unresolved inclusions; 32 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 4 1 2026-02-17 17:33:21.376
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/bt_ncp_2/.project)[368]: org.eclipse.core.runtime.CoreException: File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_ncp_2\.project.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:534)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.readAllBytes(FileSystemResourceManager.java:911)
+	at org.eclipse.core.internal.resources.File.readAllBytes(File.java:363)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.descriptionChanged(FileSystemResourceManager.java:429)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:710)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1466)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1447)
+	at org.eclipse.core.internal.resources.Resource.deleteResource(Resource.java:882)
+	at org.eclipse.core.internal.resources.ResourceTree.deletedFolder(ResourceTree.java:155)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:357)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:398)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.NoSuchFileException: E:\CODE\Silicon_Labs\Bluetooth\bt_ncp_2\.project
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:532)
+	... 27 more
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2026-02-17 17:33:21.378
+!MESSAGE File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_ncp_2\.project.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_ncp_2\.project.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:534)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.readAllBytes(FileSystemResourceManager.java:911)
+	at org.eclipse.core.internal.resources.File.readAllBytes(File.java:363)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.descriptionChanged(FileSystemResourceManager.java:429)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:710)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1466)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1447)
+	at org.eclipse.core.internal.resources.Resource.deleteResource(Resource.java:882)
+	at org.eclipse.core.internal.resources.ResourceTree.deletedFolder(ResourceTree.java:155)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:357)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:398)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.NoSuchFileException: E:\CODE\Silicon_Labs\Bluetooth\bt_ncp_2\.project
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:532)
+	... 27 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 269 2026-02-17 17:33:21.378
+!MESSAGE File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_ncp_2\.project.
+!STACK 0
+java.nio.file.NoSuchFileException: E:\CODE\Silicon_Labs\Bluetooth\bt_ncp_2\.project
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.readAllBytes(LocalFile.java:532)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.readAllBytes(FileSystemResourceManager.java:911)
+	at org.eclipse.core.internal.resources.File.readAllBytes(File.java:363)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.descriptionChanged(FileSystemResourceManager.java:429)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:710)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1466)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1447)
+	at org.eclipse.core.internal.resources.Resource.deleteResource(Resource.java:882)
+	at org.eclipse.core.internal.resources.ResourceTree.deletedFolder(ResourceTree.java:155)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:357)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:398)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:855)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1834)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:359)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-17 17:34:04.637
+!MESSAGE Indexed 'bt_ncp' (180 sources, 478 headers) in 4,76 sec: 44.465 declarations; 123.052 references; 0 unresolved inclusions; 54 syntax errors; 641 unresolved names (0,38%)

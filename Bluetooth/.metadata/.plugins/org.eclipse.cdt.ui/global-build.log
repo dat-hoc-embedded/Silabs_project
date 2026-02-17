@@ -1,0 +1,8 @@
+17:35:10 **** Incremental Build of configuration GNU ARM v12.2.1 - Default for project bt_ncp ****
+make -j20 all 
+make[1]: Nothing to be done for 'main-build'.
+"E:\Application\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\commander.exe" postbuild "E:\CODE\Silicon_Labs\Bluetooth\bt_ncp/bt_ncp.slpb" --parameter build_dir:"E:\CODE\Silicon_Labs\Bluetooth\bt_ncp\GNU ARM v12.2.1 - Default"
+Parsing file E:\CODE\Silicon_Labs\Bluetooth\bt_ncp/bt_ncp.slpb...
+Running task GBL3 create...
+DONE
+ 

@@ -1,0 +1,1396 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/app/common/util/app_log/app_log.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/board/src/sl_board_control_gpio.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/board/src/sl_board_init.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/driver/configuration_over_swo/src/sl_cos.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/3ce5c783f191b50c37533891ff59884b/mx25_flash_shutdown/src/sl_mx25_flash_shutdown_eusart/sl_mx25_flash_shutdown.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/src/sl_assert.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/src/sl_core_cortexm.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/src/sl_slist.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/src/sl_string.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/src/sl_syscalls.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/Device/SiliconLabs/EFR32MG24/Source/startup_efr32mg24.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/a046823c0096e77a854dfb5ad6ce9b7f/simplicity_sdk/platform/Device/SiliconLabs/EFR32MG24/Source/system_efr32mg24.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/debug/src/sl_debug_swo.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/gpio/src/sl_gpio.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/leddrv/src/sl_led.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/leddrv/src/sl_simple_led.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/dmadrv/src/dmadrv.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/uartdrv/src/uartdrv.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_burtc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_cmu.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_emu.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_eusart.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_gpio.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_ldma.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_msc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_prs.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_system.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_timer.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_usart.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/peripheral/src/sl_hal_gpio.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/peripheral/src/sl_hal_sysrtc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/src/sl_clock_manager.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/a046823c0096e77a854dfb5ad6ce9b7f/simplicity_sdk/platform/service/clock_manager/src/sl_clock_manager_hal_s2.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/src/sl_clock_manager_init.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/clock_manager/src/sl_clock_manager_init_hal_s2.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_init/src/sl_device_init_dcdc_s2.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_init/src/sl_device_init_emu_s2.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/device_manager/clocks/sl_device_clock_efr32xg24.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/device_manager/devices/sl_device_peripheral_hal_efr32xg24.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_manager/src/sl_device_clock.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_manager/src/sl_device_gpio.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_manager/src/sl_device_peripheral.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/interrupt_manager/src/sl_interrupt_manager_cortexm.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/src/sl_iostream.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/src/sl_iostream_retarget_stdio.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/src/sl_iostream_stdlib_config.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/src/sl_iostream_uart.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/src/sl_iostream_usart.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/a046823c0096e77a854dfb5ad6ce9b7f/simplicity_sdk/platform/service/memory_manager/src/sl_memory_manager_region.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/src/sl_main_init.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/src/sl_main_init_memory.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/src/sl_main_process_action.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/src/sl_sleeptimer.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_burtc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_sysrtc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/udelay/src/sl_udelay.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/udelay/src/sl_udelay_armv6m_gcc.S.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/E_/CODE/Silicon_Labs/blink_baremetal_20dbm/app.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/E_/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_board_default_init.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/E_/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_event_handler.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/E_/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_iostream_handles.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/E_/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_iostream_init_usart_instances.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/E_/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_simple_led_instances.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/E_/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_uartdrv_init.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/E_/CODE/Silicon_Labs/blink_baremetal_20dbm/blink.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_blink_baremetal_20dbm.dir/default_config/E_/CODE/Silicon_Labs/blink_baremetal_20dbm/main.c.obj"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"set_property"
+		],
+		"files" : 
+		[
+			"blink_baremetal_20dbm.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 144,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 183,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c17"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcpu=cortex-m33"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfpu=fpv5-sp-d16"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcmse"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fomit-frame-pointer"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-lto"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "--specs=nano.specs"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CMSIS_NVIC_VIRTUAL=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CMSIS_NVIC_VIRTUAL_HEADER_FILE=\"cmsis_nvic_virtual.h\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG_EFM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "EFR32MG24B220F1536IM48=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HARDWARE_BOARD_DEFAULT_RF_BAND_2400=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HARDWARE_BOARD_SUPPORTS_1_RF_BAND=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HARDWARE_BOARD_SUPPORTS_RF_BAND_2400=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HFXO_FREQ=39000000"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_BOARD_NAME=\"BRD4187C\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_BOARD_REV=\"A01\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_CLOCK_MANAGER=clock_manager"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_CORE=core"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_DEVICE_PERIPHERAL=device_peripheral"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_DMADRV=dmadrv"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_GPIO=gpio"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_HAL_COMMON=hal_common"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_HAL_GPIO=hal_gpio"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_HAL_SYSRTC=hal_sysrtc"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_INTERRUPT_MANAGER=interrupt_manager"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_SLEEPTIMER=sleeptimer"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_SYSTEM=system"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_UARTDRV=uartdrv"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_COMPONENT_CATALOG_PRESENT=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/blink_baremetal_20dbm_cmake/../config"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/blink_baremetal_20dbm_cmake/../autogen"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/blink_baremetal_20dbm_cmake/../."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/Device/SiliconLabs/EFR32MG24/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/app/common/util/app_log"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/board/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/driver/configuration_over_swo/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/debug/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_manager/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_init/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/dmadrv/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/dmadrv/inc/s2_signals"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/common/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/gpio/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/peripheral/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/interrupt_manager/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/interrupt_manager/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/interrupt_manager/inc/arm"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/leddrv/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/memory_manager/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/uartdrv/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/udelay/inc"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcpu=cortex-m33"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfpu=fpv5-sp-d16"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-x"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "assembler-with-cpp"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CMSIS_NVIC_VIRTUAL=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CMSIS_NVIC_VIRTUAL_HEADER_FILE=\"cmsis_nvic_virtual.h\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG_EFM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "EFR32MG24B220F1536IM48=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HARDWARE_BOARD_DEFAULT_RF_BAND_2400=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HARDWARE_BOARD_SUPPORTS_1_RF_BAND=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HARDWARE_BOARD_SUPPORTS_RF_BAND_2400=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HFXO_FREQ=39000000"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_BOARD_NAME=\"BRD4187C\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_BOARD_REV=\"A01\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_CLOCK_MANAGER=clock_manager"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_CORE=core"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_DEVICE_PERIPHERAL=device_peripheral"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_DMADRV=dmadrv"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_GPIO=gpio"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_HAL_COMMON=hal_common"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_HAL_GPIO=hal_gpio"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_HAL_SYSRTC=hal_sysrtc"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_INTERRUPT_MANAGER=interrupt_manager"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_SLEEPTIMER=sleeptimer"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_SYSTEM=system"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_CODE_COMPONENT_UARTDRV=uartdrv"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_COMPONENT_CATALOG_PRESENT=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/blink_baremetal_20dbm_cmake/../config"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/blink_baremetal_20dbm_cmake/../autogen"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/blink_baremetal_20dbm_cmake/../."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/Device/SiliconLabs/EFR32MG24/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/app/common/util/app_log"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/board/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/driver/configuration_over_swo/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/debug/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_manager/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_init/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/dmadrv/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/dmadrv/inc/s2_signals"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/common/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/gpio/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/peripheral/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/interrupt_manager/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/interrupt_manager/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/interrupt_manager/inc/arm"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/leddrv/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/memory_manager/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/uartdrv/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/udelay/inc"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				57
+			]
+		}
+	],
+	"id" : "slc_blink_baremetal_20dbm::@6890427a1f51a3e7e1df",
+	"name" : "slc_blink_baremetal_20dbm",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				57
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/app/common/util/app_log/app_log.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/board/src/sl_board_control_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/board/src/sl_board_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/driver/configuration_over_swo/src/sl_cos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/driver/mx25_flash_shutdown/src/sl_mx25_flash_shutdown_eusart/sl_mx25_flash_shutdown.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/src/sl_assert.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/src/sl_core_cortexm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/src/sl_slist.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/src/sl_string.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/common/src/sl_syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/Device/SiliconLabs/EFR32MG24/Source/startup_efr32mg24.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/Device/SiliconLabs/EFR32MG24/Source/system_efr32mg24.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/debug/src/sl_debug_swo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/gpio/src/sl_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/leddrv/src/sl_led.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/leddrv/src/sl_simple_led.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/dmadrv/src/dmadrv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emdrv/uartdrv/src/uartdrv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_burtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_cmu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_emu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_eusart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_ldma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_msc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_prs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_system.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/emlib/src/em_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/peripheral/src/sl_hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/peripheral/src/sl_hal_sysrtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/src/sl_clock_manager.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/src/sl_clock_manager_hal_s2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/src/sl_clock_manager_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/src/sl_clock_manager_init_hal_s2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_init/src/sl_device_init_dcdc_s2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_init/src/sl_device_init_emu_s2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_manager/clocks/sl_device_clock_efr32xg24.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_manager/devices/sl_device_peripheral_hal_efr32xg24.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_manager/src/sl_device_clock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_manager/src/sl_device_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/device_manager/src/sl_device_peripheral.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/interrupt_manager/src/sl_interrupt_manager_cortexm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/src/sl_iostream.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/src/sl_iostream_retarget_stdio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/src/sl_iostream_stdlib_config.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/src/sl_iostream_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/iostream/src/sl_iostream_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/memory_manager/src/sl_memory_manager_region.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/src/sl_main_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/src/sl_main_init_memory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/src/sl_main_process_action.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/src/sl_sleeptimer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_burtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_sysrtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/udelay/src/sl_udelay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/service/udelay/src/sl_udelay_armv6m_gcc.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/app.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_board_default_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_event_handler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_iostream_handles.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_iostream_init_usart_instances.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_simple_led_instances.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/autogen/sl_uartdrv_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/blink.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "E:/CODE/Silicon_Labs/blink_baremetal_20dbm/main.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
