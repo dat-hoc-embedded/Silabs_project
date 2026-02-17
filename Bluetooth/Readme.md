@@ -7,7 +7,7 @@ origin  git@github.com:dat-hoc-embedded/Silabs_project-.git (fetch)
 origin  git@github.com:dat-hoc-embedded/Silabs_project-.git (push)
 
 $ git add .
-$ git commmit -m 'message'
+$ git commit -m 'message'
 $ git push origin master
 
 ```
