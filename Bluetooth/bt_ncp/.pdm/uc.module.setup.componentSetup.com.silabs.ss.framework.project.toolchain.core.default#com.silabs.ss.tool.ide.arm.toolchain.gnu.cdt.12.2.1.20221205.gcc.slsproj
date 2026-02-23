@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="uc.module.setup.componentSetup.com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205.gcc" propertyScope="project">
   <folder name="image">
-    <file name="readme_img0.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_ncp/image/readme_img0.png"/>
-    <file name="readme_img1.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_ncp/image/readme_img1.png"/>
-    <file name="readme_img2.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_ncp/image/readme_img2.png"/>
-    <file name="readme_img3.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_ncp/image/readme_img3.png"/>
-    <file name="readme_img4.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_ncp/image/readme_img4.png"/>
-    <file name="readme_img5.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_ncp/image/readme_img5.png"/>
-    <file name="readme_img7.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_ncp/image/readme_img7.png"/>
+    <file name="readme_img0.png" linked="false" uri="studio:/project/image/readme_img0.png"/>
+    <file name="readme_img1.png" linked="false" uri="studio:/project/image/readme_img1.png"/>
+    <file name="readme_img2.png" linked="false" uri="studio:/project/image/readme_img2.png"/>
+    <file name="readme_img3.png" linked="false" uri="studio:/project/image/readme_img3.png"/>
+    <file name="readme_img4.png" linked="false" uri="studio:/project/image/readme_img4.png"/>
+    <file name="readme_img5.png" linked="false" uri="studio:/project/image/readme_img5.png"/>
+    <file name="readme_img7.png" linked="false" uri="studio:/project/image/readme_img7.png"/>
   </folder>
   <folder name="simplicity_sdk_2025.6.2">
     <folder name="platform">
@@ -1074,9 +1074,9 @@
       </folder>
     </folder>
   </folder>
-  <file name="app.c" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_ncp/app.c"/>
-  <file name="app.h" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_ncp/app.h"/>
-  <file name="readme.md" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_ncp/readme.md"/>
+  <file name="app.c" linked="false" uri="studio:/project/app.c"/>
+  <file name="app.h" linked="false" uri="studio:/project/app.h"/>
+  <file name="readme.md" linked="false" uri="studio:/project/readme.md"/>
   <file name="app_bm.c" generated="true" linked="false"/>
   <file name="ncp_user_cmd.c" generated="true" linked="false"/>
   <file name="ncp_user_cmd.h" generated="true" linked="false"/>

@@ -1,0 +1,4 @@
+E:/CODE/Silicon_Labs/Bluetooth/bt_ncp/bt_ncp_cmake/build/CMakeFiles/slc_bt_ncp.dir
+E:/CODE/Silicon_Labs/Bluetooth/bt_ncp/bt_ncp_cmake/build/CMakeFiles/bt_ncp.dir
+E:/CODE/Silicon_Labs/Bluetooth/bt_ncp/bt_ncp_cmake/build/CMakeFiles/edit_cache.dir
+E:/CODE/Silicon_Labs/Bluetooth/bt_ncp/bt_ncp_cmake/build/CMakeFiles/rebuild_cache.dir
