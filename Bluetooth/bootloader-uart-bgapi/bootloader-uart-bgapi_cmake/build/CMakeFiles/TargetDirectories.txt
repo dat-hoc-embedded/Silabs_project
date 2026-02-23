@@ -1,0 +1,4 @@
+E:/CODE/Silicon_Labs/Bluetooth/bootloader-uart-bgapi/bootloader-uart-bgapi_cmake/build/CMakeFiles/slc_bootloader-uart-bgapi.dir
+E:/CODE/Silicon_Labs/Bluetooth/bootloader-uart-bgapi/bootloader-uart-bgapi_cmake/build/CMakeFiles/bootloader-uart-bgapi.dir
+E:/CODE/Silicon_Labs/Bluetooth/bootloader-uart-bgapi/bootloader-uart-bgapi_cmake/build/CMakeFiles/edit_cache.dir
+E:/CODE/Silicon_Labs/Bluetooth/bootloader-uart-bgapi/bootloader-uart-bgapi_cmake/build/CMakeFiles/rebuild_cache.dir

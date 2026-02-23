@@ -606,3 +606,153 @@ java.nio.file.NoSuchFileException: E:\CODE\Silicon_Labs\Bluetooth\bt_ncp_2\.proj
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-02-17 17:34:04.637
 !MESSAGE Indexed 'bt_ncp' (180 sources, 478 headers) in 4,76 sec: 44.465 declarations; 123.052 references; 0 unresolved inclusions; 54 syntax errors; 641 unresolved names (0,38%)
+!SESSION 2026-02-17 17:53:36.704 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-02-17 17:53:38.909
+!MESSAGE Logging bundle not found: com.silabs.ss.logger, logging not initialized.
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-02-17 17:53:43.388
+!MESSAGE Jetty listening on: http://127.0.0.1:61803/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-02-17 17:53:44.788
+!MESSAGE ContentServer started at: 127.0.0.1, 61803
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-02-17 17:53:44.966
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.descriptor.core 2 0 2026-02-17 17:53:50.939
+!MESSAGE re-registering property: com.silabs.ss.platform.api.descriptor.core.model.impl.MPropertyImpl@d6a929b (id: universalConfig.compSelProjInstanceId, name: compSelProjInstanceId, label: null, description: specific id for this instance of a project) (propertyScope: ) (id: universalConfig.compSelProjInstanceId, type: String, defaultValueLiteral: null)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:53:52.155
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@483f20d2 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@583e0339 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@456c3f78 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@67940a20 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@569c9fb0 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@7e136991 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@5a200ed4 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 1 0 2026-02-17 17:54:04.044
+!MESSAGE isInternalNetwork: false
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-02-17 17:54:04.478
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2026-02-17 17:54:08.018
+!MESSAGE AdapterPack USB adapter pack has setupcheck function type 
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-02-17 17:54:25.816
+!MESSAGE Warning: C:\Users\sucut\SimplicityStudio\SDKs\simplicity_sdk\extension\matter_extension\matter.slce
+  - vendor: junk key
+
+
+!ENTRY com.silabs.ss.platform.descriptor.core 4 0 2026-02-17 17:54:28.480
+!MESSAGE could not resolve type String
+
+!ENTRY com.silabs.ss.platform.jetty.server 4 0 2026-02-17 17:54:33.591
+!MESSAGE Failed to find resource in bundle
+!STACK 0
+java.io.FileNotFoundException: could not find /resources/clic/statics/part.png in com.silabs.ss.tool.uc.editor
+	at com.silabs.ss.platform.api.rcp.core.BundleUtils.getBundleContentURL(BundleUtils.java:89)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.getFullPath(BundleResource.java:56)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:43)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:35)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.addPath(BundleResource.java:182)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.resolve(BundleResource.java:95)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.resolve(ResourceHttpContentFactory.java:69)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.getContent(ResourceHttpContentFactory.java:47)
+	at org.eclipse.jetty.http.content.VirtualHttpContentFactory.getContent(VirtualHttpContentFactory.java:57)
+	at org.eclipse.jetty.http.content.PreCompressedHttpContentFactory.getContent(PreCompressedHttpContentFactory.java:48)
+	at org.eclipse.jetty.server.ResourceService.getContent(ResourceService.java:81)
+	at org.eclipse.jetty.ee10.servlet.ResourceServlet.doGet(ResourceServlet.java:466)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:633)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.eclipse.jetty.ee10.servlet.ServletHolder.handle(ServletHolder.java:736)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1614)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1547)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.dispatch(ServletChannel.java:819)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.handle(ServletChannel.java:436)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.handle(ServletHandler.java:464)
+	at org.eclipse.jetty.ee10.servlet.SessionHandler.handle(SessionHandler.java:717)
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:151)
+	at org.eclipse.jetty.server.Server.handle(Server.java:182)
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:662)
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:418)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-17 17:54:38.864
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@528a0602 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1fb9265a (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@12ee320a (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@48a51450 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@4a1da150 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1c40c5bf (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@7f5dda5f (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-02-17 17:54:51.223
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-02-17 17:54:51.230
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.platform.jetty.server 4 0 2026-02-17 17:55:05.595
+!MESSAGE Failed to find resource in bundle
+!STACK 0
+java.io.FileNotFoundException: could not find /resources/clic/statics/part.png in com.silabs.ss.tool.uc.editor
+	at com.silabs.ss.platform.api.rcp.core.BundleUtils.getBundleContentURL(BundleUtils.java:89)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.getFullPath(BundleResource.java:56)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:43)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:35)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.addPath(BundleResource.java:182)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.resolve(BundleResource.java:95)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.resolve(ResourceHttpContentFactory.java:69)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.getContent(ResourceHttpContentFactory.java:47)
+	at org.eclipse.jetty.http.content.VirtualHttpContentFactory.getContent(VirtualHttpContentFactory.java:57)
+	at org.eclipse.jetty.http.content.PreCompressedHttpContentFactory.getContent(PreCompressedHttpContentFactory.java:48)
+	at org.eclipse.jetty.server.ResourceService.getContent(ResourceService.java:81)
+	at org.eclipse.jetty.ee10.servlet.ResourceServlet.doGet(ResourceServlet.java:466)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:633)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.eclipse.jetty.ee10.servlet.ServletHolder.handle(ServletHolder.java:736)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1614)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1547)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.dispatch(ServletChannel.java:819)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.handle(ServletChannel.java:436)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.handle(ServletHandler.java:464)
+	at org.eclipse.jetty.ee10.servlet.SessionHandler.handle(SessionHandler.java:717)
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:151)
+	at org.eclipse.jetty.server.Server.handle(Server.java:182)
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:662)
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:418)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:478)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:441)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.silabs.ss.platform.apack.ip 2 0 2026-02-18 07:15:05.208
+!MESSAGE No network interfaces found.

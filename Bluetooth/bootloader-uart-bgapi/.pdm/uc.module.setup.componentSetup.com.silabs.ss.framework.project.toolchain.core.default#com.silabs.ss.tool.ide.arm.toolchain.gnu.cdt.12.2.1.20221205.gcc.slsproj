@@ -569,7 +569,7 @@
       </folder>
     </folder>
   </folder>
-  <file name="readme.md" linked="false" uri="studio:/sdk/platform/bootloader/sample-apps/bootloader-uart-bgapi/readme.md"/>
+  <file name="readme.md" linked="false" uri="studio:/project/readme.md"/>
   <includePath uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include"/>
   <includePath uri="studio:/sdk/platform/common/inc"/>
   <includePath uri="studio:/sdk/platform/bootloader"/>

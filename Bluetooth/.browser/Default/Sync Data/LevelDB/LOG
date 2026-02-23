@@ -1,2 +1,3 @@
-2026/02/17-17:28:33.307 8578 Creating DB E:\CODE\Silicon_Labs\Bluetooth\.browser\Default\Sync Data\LevelDB since it was missing.
-2026/02/17-17:28:33.330 8578 Reusing MANIFEST E:\CODE\Silicon_Labs\Bluetooth\.browser\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/02/17-17:54:30.452 58f0 Reusing MANIFEST E:\CODE\Silicon_Labs\Bluetooth\.browser\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/02/17-17:54:30.454 58f0 Recovering log #3
+2026/02/17-17:54:30.455 58f0 Reusing old log E:\CODE\Silicon_Labs\Bluetooth\.browser\Default\Sync Data\LevelDB/000003.log 
