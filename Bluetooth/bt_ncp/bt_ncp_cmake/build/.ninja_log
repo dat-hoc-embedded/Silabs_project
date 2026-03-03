@@ -155,7 +155,7 @@
 8197	9567	7930290021781917	CMakeFiles/slc_bt_ncp.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/protocol/bluetooth/src/sli_bt_host_adaptation.c.obj	c0d25041b40408be
 8426	10071	7930290026860023	CMakeFiles/slc_bt_ncp.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/platform.c.obj	ab22ec479199071
 8437	10155	7930290027673974	CMakeFiles/slc_bt_ncp.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/platform_util.c.obj	168dc4f89a3bd979
-9801	10281	7930290028955601	CMakeFiles/slc_bt_ncp.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_ncp/app_bm.c.obj	45bac906d232e19e
+131	818	7938785762408967	CMakeFiles/slc_bt_ncp.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_ncp/app_bm.c.obj	45bac906d232e19e
 8863	10289	7930290028943645	CMakeFiles/slc_bt_ncp.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/psa_crypto_se.c.obj	a55bc252737da711
 9263	10554	7930290031682287	CMakeFiles/slc_bt_ncp.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/threading.c.obj	7167311fde568d0
 9055	11489	7930290041099680	CMakeFiles/slc_bt_ncp.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/psa_crypto_storage.c.obj	c4f8c286740ded8
@@ -180,4 +180,4 @@
 10983	11569	7930290041929510	CMakeFiles/slc_bt_ncp.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_ncp/ncp_user_cmd.c.obj	83dbfe2b4137b01c
 10555	11609	7930290042317113	CMakeFiles/slc_bt_ncp.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_ncp/autogen/sl_power_manager_handler.c.obj	1a596d0cceee55a4
 8585	12462	7930290050853605	CMakeFiles/slc_bt_ncp.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/psa_crypto.c.obj	39844f38c2e15c1c
-151	953	7930290391300857	default_config/bt_ncp.out	cb9a9e454a2d6145
+819	4774	7938785799581824	default_config/bt_ncp.out	cb9a9e454a2d6145

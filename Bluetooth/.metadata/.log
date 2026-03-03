@@ -2274,3 +2274,391 @@ Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Conten
 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
 	at com.thoughtworks.xstream.io.xml.DomDriver.createReader(DomDriver.java:108)
 	... 27 more
+!SESSION 2026-02-27 14:40:49.086 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-02-27 14:40:57.667
+!MESSAGE Logging bundle not found: com.silabs.ss.logger, logging not initialized.
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-02-27 14:42:04.602
+!MESSAGE Jetty listening on: http://127.0.0.1:62172/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-02-27 14:42:06.521
+!MESSAGE ContentServer started at: 127.0.0.1, 62172
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-02-27 14:42:06.733
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.descriptor.core 2 0 2026-02-27 14:42:20.328
+!MESSAGE re-registering property: com.silabs.ss.platform.api.descriptor.core.model.impl.MPropertyImpl@d6a929b (id: universalConfig.compSelProjInstanceId, name: compSelProjInstanceId, label: null, description: specific id for this instance of a project) (propertyScope: ) (id: universalConfig.compSelProjInstanceId, type: String, defaultValueLiteral: null)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-27 14:42:21.852
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@f8a0ea9 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@6d9feb54 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@45004712 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@452b78a4 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1a8bc9ee (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@85c44a0 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@4f23aa6e (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 1 0 2026-02-27 14:42:47.210
+!MESSAGE isInternalNetwork: false
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2026-02-27 14:42:47.608
+!MESSAGE Environment modified for executable inspect_usbxpress:
+{USERDOMAIN_ROAMINGPROFILE=EMBEDDAT-LENOVO, PROCESSOR_LEVEL=6, ANS_OLD_ATTACH=1, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, INTEL_DEV_REDIST=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\, PROCESSOR_ARCHITECTURE=AMD64, INTEL_LICENSE_FILE=C:\Program Files (x86)\Common Files\Intel\Licenses, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, USERNAME=sucut, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, SoS_debug_exe=C:\Software\Ansys\ANSYS Inc\v212\optiSLang\sos\sos_console.exe, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\sucut\OneDrive, IFORT_COMPILER20=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\, SW_SIM_TEMP=C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\, LSTC_LICENSE=ANSYS, NIEXTCCOMPILERSUPP=C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\, CADOE_LIBDIR212=C:\Software\Ansys\ANSYS Inc\v212\CommonFiles\Language\en-us, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, AWP_LOCALE212=en-us, ICEMCFD_SYSDIR=win64_amd, HOMEPATH=\Users\sucut, STM32_PRG_PATH=C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin, EFC_14372_3789132940=1, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 183 Stepping 1, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, ZES_ENABLE_SYSMAN=1, OneDriveCommercial=C:\Users\sucut\OneDrive - FPT Corporation, LOCALAPPDATA=C:\Users\sucut\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, CLANG_GCC_CMSIS_COMPILER=C:\ST\STM32CubeCLT_1.19.0\st-arm-clang, ANSYS212_DIR=C:\Software\Ansys\ANSYS Inc\v212\ANSYS, USERDOMAIN=EMBEDDAT-LENOVO, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, I_MPI_ROOT=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\mpi, LOGONSERVER=\\EMBEDDAT-LENOVO, STM32CLT_PATH=C:\ST\STM32CubeCLT_1.19.0, AWP_ROOT212=C:\Software\Ansys\ANSYS Inc\v212, OneDrive=C:\Users\sucut\OneDrive - FPT Corporation, APPDATA=C:\Users\sucut\AppData\Roaming, EFC_14372_1592913036=1, NOLICENSECHECK=true, ANSYS_SYSDIR=winx64, VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\, CommonProgramFiles=C:\Program Files\Common Files, Path=E:\Application\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\inspect_usbxpress;E:\Application\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java21.windows.x86_64.feature_21.0.5\jre\bin\server;E:\Application\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java21.windows.x86_64.feature_21.0.5\jre\bin;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\14.3 rel1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\STMicroelectronics\stlink_server;C:\ST\STM32CubeCLT_1.19.0;C:\ST\STM32CubeCLT_1.19.0\CMake\bin;C:\ST\STM32CubeCLT_1.19.0\st-arm-clang\bin;C:\ST\STM32CubeCLT_1.19.0\Ninja\bin;C:\ST\STM32CubeCLT_1.19.0\GNU-tools-for-STM32\bin;C:\ST\STM32CubeCLT_1.19.0\STLink-gdb-server\bin;C:\ST\STM32CubeCLT_1.19.0\STM32CubeProgrammer\bin;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\mpi\intel64\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler;C:\Program Files\Microsoft MPI\Bin;C:\SIMULIA\Commands;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\MATLAB\R2024a\runtime\win64;C:\Program Files\MATLAB\R2024a\bin;C:\MinGW\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Users\sucut\AppData\Local\Programs\MiKTeX;C:\Program Files (x86)\PICC;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Program Files\Vim\vim91;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\14.3 rel1\arm-none-eabi\bin;C:\Users\sucut\anaconda3\condabin;C:\Users\sucut\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\MATLAB\R2019a\runtime\win64;C:\Program Files\MATLAB\R2019a\bin;C:\Program Files\MATLAB\R2019a\polyspace\bin;C:\Users\sucut\.platformio\penv\Scripts;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\dotnet;C:\Program Files\Oracle\VirtualBox;C:\ProgramData\MATLAB\SupportPackages\R2024a\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\bin;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\14.3 rel1\bin;C:\Users\sucut\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sucut\anaconda3\condabin;C:\Users\sucut\AppData\Local\Programs\Microsoft VS Code;C:\Users\sucut\.platformio\penv\Scripts;E:\Application\SiliconLabs\SimplicityStudio\v5;E:\Application\SiliconLabs\SimplicityStudio\v5, EFC_14372_2283032206=1, EFC_14372_2775293581=1, ANSYS_SYSDIR32=win32, OS=Windows_NT, COMPUTERNAME=EMBEDDAT-LENOVO, SoS_exe=C:\Software\Ansys\ANSYS Inc\v212\optiSLang\sos\sos.exe, SW_SIM_HYDRA=C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\, PROCESSOR_REVISION=b701, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, EFC_14372_1262719628=1, STM32CubeMX_PATH=C:\Users\sucut\AppData\Local\Programs\STM32CubeMX, SystemRoot=C:\WINDOWS, TEMP=C:\Users\sucut\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\sucut, TMP=C:\Users\sucut\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=20, SoS_install_dir=C:\Software\Ansys\ANSYS Inc\v212\optiSLang\sos, SW_SIM_MPIT=INTELMPI, VS2019INSTALLDIR=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional, HOME=C:\Users\sucut}
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2026-02-27 14:42:51.527
+!MESSAGE AdapterPack USB adapter pack has setupcheck function type 
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-02-27 14:43:06.993
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@19b51beb (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@5fdd528e (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@46a2f996 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@5d65cf53 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@6cbefd57 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@59429b6c (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@8fda79b (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.platform.device.core 4 0 2026-02-27 14:43:08.363
+!MESSAGE Inspector installation request exception 
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.Map.put(Object, Object)" because "this.allAvailablePackages" is null
+	at com.silabs.ss.tool.internal.installer.core.PackageService.lambda$6(PackageService.java:848)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at com.silabs.ss.tool.internal.installer.core.PackageService.loadRemotePackages(PackageService.java:846)
+	at com.silabs.ss.tool.internal.installer.core.PackageService.getAllAvailablePackages(PackageService.java:151)
+	at com.silabs.ss.tool.internal.installer.core.PackageService.getAvailablePackages(PackageService.java:186)
+	at com.silabs.ss.tool.internal.installer.core.PackageService.requestPackageTypeInstalled(PackageService.java:688)
+	at com.silabs.ss.tool.internal.api.installer.core.ui.InstallerService.requestPackageTypeInstalled(InstallerService.java:61)
+	at com.silabs.ss.platform.api.device.core.DeviceManager.triggerInspectors(DeviceManager.java:358)
+	at com.silabs.ss.platform.api.device.core.DeviceManager.addDevice(DeviceManager.java:317)
+	at com.silabs.ss.platform.api.device.core.detection.DeviceDetectionManager.processDetectionInfo(DeviceDetectionManager.java:206)
+	at com.silabs.ss.platform.api.device.core.detection.DeviceDetectionManager.list(DeviceDetectionManager.java:399)
+	at com.silabs.ss.platform.internal.apack.device.UsbDeviceBridgeListener.list(UsbHotplugNotifier.java:130)
+	at com.silabs.ss.platform.api.apack.usb.UsbManager.lambda$7(UsbManager.java:226)
+	at com.silabs.java.utils.ListenerList.fire(ListenerList.java:127)
+	at com.silabs.ss.platform.api.apack.usb.UsbManager.parseAction(UsbManager.java:226)
+	at com.silabs.ss.platform.api.apack.usb.UsbManager.parseAction(UsbManager.java:1)
+	at com.silabs.java.utils.LineParser$InternalActionListener.parseAction(LineParser.java:94)
+	at com.silabs.ss.platform.internal.apack.usb.UsbDetectorLineHandler.handle(UsbDetectorLineHandler.java:65)
+	at com.silabs.ss.platform.internal.apack.usb.UsbDetectorLineHandler.handle(UsbDetectorLineHandler.java:1)
+	at com.silabs.ss.platform.api.apack.core.execution.ErrorLoggerLineHandler.handle(Executioner.java:377)
+	at com.silabs.ss.platform.api.apack.core.execution.ErrorLoggerLineHandler.handle(Executioner.java:1)
+	at com.silabs.java.utils.LineParser.parse(LineParser.java:76)
+	at com.silabs.java.utils.LineParser.parse(LineParser.java:62)
+	at com.silabs.ss.platform.api.apack.core.execution.ParserRunnable.run(Executioner.java:339)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-02-27 14:43:23.794
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-02-27 14:43:23.811
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2026-02-27 14:44:39.964
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.apack.commander.feature.metadata.resource,4.0.81.202602241818-101 from repository https://updates.silabs.com/studio/v5/updates/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2026-02-27 14:44:40.407
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.ss.tool.launcher.product.id.metadata.resource,5.7.5.202602261554-1211 from repository https://updates.silabs.com/studio/v5/updates/.
+!SESSION 2026-03-02 13:31:37.160 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-02 13:31:41.023
+!MESSAGE Logging bundle not found: com.silabs.ss.logger, logging not initialized.
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-03-02 13:31:58.667
+!MESSAGE Jetty listening on: http://127.0.0.1:60859/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-03-02 13:31:59.194
+!MESSAGE ContentServer started at: 127.0.0.1, 60859
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-02 13:31:59.270
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.descriptor.core 2 0 2026-03-02 13:32:03.990
+!MESSAGE re-registering property: com.silabs.ss.platform.api.descriptor.core.model.impl.MPropertyImpl@d6a929b (id: universalConfig.compSelProjInstanceId, name: compSelProjInstanceId, label: null, description: specific id for this instance of a project) (propertyScope: ) (id: universalConfig.compSelProjInstanceId, type: String, defaultValueLiteral: null)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-03-02 13:32:04.555
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@50a3fb27 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@7b264486 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@7a74f366 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@40a82315 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@f9d92e4 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@4656e5e5 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1be4d18a (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+!SESSION 2026-03-02 13:32:37.077 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-02 13:32:38.297
+!MESSAGE Logging bundle not found: com.silabs.ss.logger, logging not initialized.
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-03-02 13:32:39.472
+!MESSAGE Jetty listening on: http://127.0.0.1:51828/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-03-02 13:32:39.956
+!MESSAGE ContentServer started at: 127.0.0.1, 51828
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-02 13:32:40.023
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.descriptor.core 2 0 2026-03-02 13:32:41.805
+!MESSAGE re-registering property: com.silabs.ss.platform.api.descriptor.core.model.impl.MPropertyImpl@d6a929b (id: universalConfig.compSelProjInstanceId, name: compSelProjInstanceId, label: null, description: specific id for this instance of a project) (propertyScope: ) (id: universalConfig.compSelProjInstanceId, type: String, defaultValueLiteral: null)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-03-02 13:32:42.215
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@74c52eae (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@5053b9bd (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@66359a39 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@2fd1399c (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@723cc296 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@3fef133d (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@75c1b2ab (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2026-03-02 13:32:52.540
+!MESSAGE Environment modified for executable inspect_usbxpress:
+{USERDOMAIN_ROAMINGPROFILE=EMBEDDAT-LENOVO, PROCESSOR_LEVEL=6, ANS_OLD_ATTACH=1, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, INTEL_DEV_REDIST=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\, EFC_11612_3789132940=1, PROCESSOR_ARCHITECTURE=AMD64, INTEL_LICENSE_FILE=C:\Program Files (x86)\Common Files\Intel\Licenses, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, USERNAME=sucut, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, SoS_debug_exe=C:\Software\Ansys\ANSYS Inc\v212\optiSLang\sos\sos_console.exe, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\sucut\OneDrive, IFORT_COMPILER20=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\, SW_SIM_TEMP=C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\, LSTC_LICENSE=ANSYS, NIEXTCCOMPILERSUPP=C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\, CADOE_LIBDIR212=C:\Software\Ansys\ANSYS Inc\v212\CommonFiles\Language\en-us, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, AWP_LOCALE212=en-us, ICEMCFD_SYSDIR=win64_amd, HOMEPATH=\Users\sucut, STM32_PRG_PATH=C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 183 Stepping 1, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, ZES_ENABLE_SYSMAN=1, EFC_11612_2283032206=1, OneDriveCommercial=C:\Users\sucut\OneDrive - FPT Corporation, LOCALAPPDATA=C:\Users\sucut\AppData\Local, EFC_11612_2775293581=1, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, CLANG_GCC_CMSIS_COMPILER=C:\ST\STM32CubeCLT_1.19.0\st-arm-clang, ANSYS212_DIR=C:\Software\Ansys\ANSYS Inc\v212\ANSYS, USERDOMAIN=EMBEDDAT-LENOVO, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, I_MPI_ROOT=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\mpi, LOGONSERVER=\\EMBEDDAT-LENOVO, STM32CLT_PATH=C:\ST\STM32CubeCLT_1.19.0, AWP_ROOT212=C:\Software\Ansys\ANSYS Inc\v212, EFC_11612_1592913036=1, OneDrive=C:\Users\sucut\OneDrive - FPT Corporation, APPDATA=C:\Users\sucut\AppData\Roaming, NOLICENSECHECK=true, ANSYS_SYSDIR=winx64, VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\, CommonProgramFiles=C:\Program Files\Common Files, Path=E:\Application\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\inspect_usbxpress;E:\Application\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java21.windows.x86_64.feature_21.0.5\jre\bin\server;E:\Application\SiliconLabs\SimplicityStudio\v5\features\com.silabs.external.java21.windows.x86_64.feature_21.0.5\jre\bin;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\14.3 rel1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\STMicroelectronics\stlink_server;C:\ST\STM32CubeCLT_1.19.0;C:\ST\STM32CubeCLT_1.19.0\CMake\bin;C:\ST\STM32CubeCLT_1.19.0\st-arm-clang\bin;C:\ST\STM32CubeCLT_1.19.0\Ninja\bin;C:\ST\STM32CubeCLT_1.19.0\GNU-tools-for-STM32\bin;C:\ST\STM32CubeCLT_1.19.0\STLink-gdb-server\bin;C:\ST\STM32CubeCLT_1.19.0\STM32CubeProgrammer\bin;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.0.166\windows\mpi\intel64\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler;C:\Program Files\Microsoft MPI\Bin;C:\SIMULIA\Commands;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\MATLAB\R2024a\runtime\win64;C:\Program Files\MATLAB\R2024a\bin;C:\MinGW\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Users\sucut\AppData\Local\Programs\MiKTeX;C:\Program Files (x86)\PICC;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Program Files\Vim\vim91;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\14.3 rel1\arm-none-eabi\bin;C:\Users\sucut\anaconda3\condabin;C:\Users\sucut\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\MATLAB\R2019a\runtime\win64;C:\Program Files\MATLAB\R2019a\bin;C:\Program Files\MATLAB\R2019a\polyspace\bin;C:\Users\sucut\.platformio\penv\Scripts;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\dotnet;C:\Program Files\Oracle\VirtualBox;C:\ProgramData\MATLAB\SupportPackages\R2024a\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\bin;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\14.3 rel1\bin;C:\Users\sucut\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sucut\anaconda3\condabin;C:\Users\sucut\AppData\Local\Programs\Microsoft VS Code;C:\Users\sucut\.platformio\penv\Scripts;E:\Application\SiliconLabs\SimplicityStudio\v5;E:\Application\SiliconLabs\SimplicityStudio\v5, ANSYS_SYSDIR32=win32, OS=Windows_NT, COMPUTERNAME=EMBEDDAT-LENOVO, SoS_exe=C:\Software\Ansys\ANSYS Inc\v212\optiSLang\sos\sos.exe, SW_SIM_HYDRA=C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\, PROCESSOR_REVISION=b701, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, EFC_11612_1262719628=1, STM32CubeMX_PATH=C:\Users\sucut\AppData\Local\Programs\STM32CubeMX, SystemRoot=C:\WINDOWS, TEMP=C:\Users\sucut\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\sucut, TMP=C:\Users\sucut\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=20, SoS_install_dir=C:\Software\Ansys\ANSYS Inc\v212\optiSLang\sos, SW_SIM_MPIT=INTELMPI, VS2019INSTALLDIR=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional, HOME=C:\Users\sucut}
+
+!ENTRY com.silabs.ss.tool.installer.core 1 0 2026-03-02 13:32:53.007
+!MESSAGE isInternalNetwork: false
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2026-03-02 13:33:04.010
+!MESSAGE AdapterPack USB adapter pack has setupcheck function type 
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-03-02 13:33:23.068
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@f75fb6 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@11d2243f (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@7b62771d (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@4d45c8d8 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@77f52429 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@77861534 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1f345e46 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-03-02 13:33:35.165
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-03-02 13:33:35.180
+!MESSAGE Problem getting package resources: changelog
+!SESSION 2026-03-03 09:18:34.606 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-03 09:18:39.289
+!MESSAGE Logging bundle not found: com.silabs.ss.logger, logging not initialized.
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-03-03 09:19:40.896
+!MESSAGE Jetty listening on: http://127.0.0.1:56792/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-03-03 09:19:42.826
+!MESSAGE ContentServer started at: 127.0.0.1, 56792
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-03 09:19:43.095
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.descriptor.core 2 0 2026-03-03 09:19:57.590
+!MESSAGE re-registering property: com.silabs.ss.platform.api.descriptor.core.model.impl.MPropertyImpl@d6a929b (id: universalConfig.compSelProjInstanceId, name: compSelProjInstanceId, label: null, description: specific id for this instance of a project) (propertyScope: ) (id: universalConfig.compSelProjInstanceId, type: String, defaultValueLiteral: null)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-03-03 09:19:59.387
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@10fa2984 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@63bbe59f (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@4aa5d1d5 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@6b8fe29f (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@2a785063 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1653dfae (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@721c9fc8 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 1 0 2026-03-03 09:20:23.333
+!MESSAGE isInternalNetwork: false
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2026-03-03 09:20:26.006
+!MESSAGE AdapterPack USB adapter pack has setupcheck function type 
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-03-03 09:20:45.258
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@77665cb4 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@36f0783c (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1382eb50 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@5ab9c6bf (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1f7fa2a0 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@2a7b18eb (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@2ea7be9f (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-03-03 09:21:10.897
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-03-03 09:21:10.941
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-03 10:01:36.801
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-03 10:03:31.940
+!MESSAGE Browse selectedDirectory: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-03 10:03:35.159
+!MESSAGE Browse selectedDirectory: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-03 10:03:53.513
+!MESSAGE Browse selectedDirectory: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-03 10:04:30.048
+!MESSAGE Browse selectedDirectory: E:\CODE\Silicon_Labs\Bluetooth
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-03 10:04:38.063
+!MESSAGE Warning: C:\Users\sucut\SimplicityStudio\SDKs\simplicity_sdk\extension\matter_extension\matter.slce
+  - vendor: junk key
+
+
+!ENTRY com.silabs.ss.platform.descriptor.core 4 0 2026-03-03 10:04:52.444
+!MESSAGE could not resolve type String
+
+!ENTRY com.silabs.ss.platform.jetty.server 4 0 2026-03-03 10:04:52.809
+!MESSAGE Failed to find resource in bundle
+!STACK 0
+java.io.FileNotFoundException: could not find /resources/clic/statics/part.png in com.silabs.ss.tool.uc.editor
+	at com.silabs.ss.platform.api.rcp.core.BundleUtils.getBundleContentURL(BundleUtils.java:89)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.getFullPath(BundleResource.java:56)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:43)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:35)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.addPath(BundleResource.java:182)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.resolve(BundleResource.java:95)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.resolve(ResourceHttpContentFactory.java:69)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.getContent(ResourceHttpContentFactory.java:47)
+	at org.eclipse.jetty.http.content.VirtualHttpContentFactory.getContent(VirtualHttpContentFactory.java:57)
+	at org.eclipse.jetty.http.content.PreCompressedHttpContentFactory.getContent(PreCompressedHttpContentFactory.java:48)
+	at org.eclipse.jetty.server.ResourceService.getContent(ResourceService.java:81)
+	at org.eclipse.jetty.ee10.servlet.ResourceServlet.doGet(ResourceServlet.java:466)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:633)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.eclipse.jetty.ee10.servlet.ServletHolder.handle(ServletHolder.java:736)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1614)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1547)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.dispatch(ServletChannel.java:819)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.handle(ServletChannel.java:436)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.handle(ServletHandler.java:464)
+	at org.eclipse.jetty.ee10.servlet.SessionHandler.handle(SessionHandler.java:717)
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:151)
+	at org.eclipse.jetty.server.Server.handle(Server.java:182)
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:662)
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:418)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:478)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:441)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-03 10:05:01.786
+!MESSAGE Indexed 'bt_soc_empty' (171 sources, 464 headers) in 9,79 sec: 43.044 declarations; 114.485 references; 0 unresolved inclusions; 66 syntax errors; 625 unresolved names (0,4%)
+
+!ENTRY com.silabs.ss.platform.rcp.core 4 0 2026-03-03 11:03:00.399
+!MESSAGE ClosedChannelException
+!STACK 0
+java.nio.channels.ClosedChannelException
+	at org.eclipse.jetty.websocket.core.internal.WebSocketSessionState.onEof(WebSocketSessionState.java:168)
+	at org.eclipse.jetty.websocket.core.WebSocketCoreSession.onEof(WebSocketCoreSession.java:229)
+	at org.eclipse.jetty.websocket.core.WebSocketConnection.fillAndParse(WebSocketConnection.java:474)
+	at org.eclipse.jetty.websocket.core.WebSocketConnection.onFillable(WebSocketConnection.java:332)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:478)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:441)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-03 16:48:36.529
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 4 0 2026-03-03 16:48:39.550
+!MESSAGE Cannot invoke "com.silabs.pti.adapter.IConnection.send(byte[])" because "this.connection" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "com.silabs.pti.adapter.IConnection.send(byte[])" because "this.connection" is null
+	at com.silabs.ss.framework_wasp_web.AcDeviceManager.sendCommand(AcDeviceManager.java:168)
+	at com.silabs.ss.bluetooth.bgapi.raweditor.AbstractBgApiEditor.sendCommand(AbstractBgApiEditor.java:178)
+	at com.silabs.ss.bluetooth.bgapi.raweditor.AbstractBgApiEditor.lambda$4(AbstractBgApiEditor.java:83)
+	at com.silabs.ss.framework_wasp_web.AbstractAcEditor$WaspWebSocketAdapter.lambda$0(AbstractAcEditor.java:354)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.silabs.ss.framework_wasp_web.AbstractAcEditor$WaspWebSocketAdapter.onWebSocketBinary(AbstractAcEditor.java:354)
+	at com.silabs.ss.platform.jersey.StudioWebSocketAdapter.onWebSocketBinary(StudioWebSocketAdapter.java:67)
+	at org.eclipse.jetty.websocket.common.internal.ByteBufferMessageSink.invoke(ByteBufferMessageSink.java:38)
+	at org.eclipse.jetty.websocket.core.messages.ByteBufferMessageSink.accept(ByteBufferMessageSink.java:79)
+	at org.eclipse.jetty.websocket.common.JettyWebSocketFrameHandler.acceptFrame(JettyWebSocketFrameHandler.java:397)
+	at org.eclipse.jetty.websocket.common.JettyWebSocketFrameHandler.onBinaryFrame(JettyWebSocketFrameHandler.java:375)
+	at org.eclipse.jetty.websocket.common.JettyWebSocketFrameHandler.onFrame(JettyWebSocketFrameHandler.java:217)
+	at org.eclipse.jetty.websocket.core.WebSocketCoreSession$IncomingAdaptor.lambda$onFrame$0(WebSocketCoreSession.java:647)
+	at org.eclipse.jetty.server.handler.ContextHandler$ScopedContext.run(ContextHandler.java:1513)
+	at org.eclipse.jetty.server.handler.ContextHandler$ScopedContext.run(ContextHandler.java:1500)
+	at org.eclipse.jetty.websocket.core.server.internal.AbstractHandshaker$1.handle(AbstractHandshaker.java:179)
+	at org.eclipse.jetty.websocket.core.WebSocketCoreSession$IncomingAdaptor.onFrame(WebSocketCoreSession.java:647)
+	at org.eclipse.jetty.websocket.core.AbstractExtension.nextIncomingFrame(AbstractExtension.java:145)
+	at org.eclipse.jetty.websocket.core.internal.PerMessageDeflateExtension.nextIncomingFrame(PerMessageDeflateExtension.java:239)
+	at org.eclipse.jetty.websocket.core.util.DemandingFlusher.emitFrame(DemandingFlusher.java:143)
+	at org.eclipse.jetty.websocket.core.internal.PerMessageDeflateExtension$IncomingFlusher.inflate(PerMessageDeflateExtension.java:492)
+	at org.eclipse.jetty.websocket.core.internal.PerMessageDeflateExtension$IncomingFlusher.handle(PerMessageDeflateExtension.java:417)
+	at org.eclipse.jetty.websocket.core.util.DemandingFlusher.process(DemandingFlusher.java:167)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:262)
+	at org.eclipse.jetty.util.IteratingCallback.succeeded(IteratingCallback.java:403)
+	at org.eclipse.jetty.websocket.core.util.DemandingFlusher.onFrame(DemandingFlusher.java:105)
+	at org.eclipse.jetty.websocket.core.internal.PerMessageDeflateExtension.onFrame(PerMessageDeflateExtension.java:96)
+	at org.eclipse.jetty.websocket.core.ExtensionStack.onFrame(ExtensionStack.java:113)
+	at org.eclipse.jetty.websocket.core.WebSocketCoreSession.onFrame(WebSocketCoreSession.java:463)
+	at org.eclipse.jetty.websocket.core.WebSocketConnection.onFrame(WebSocketConnection.java:254)
+	at org.eclipse.jetty.websocket.core.WebSocketConnection.fillAndParse(WebSocketConnection.java:447)
+	at org.eclipse.jetty.websocket.core.WebSocketConnection.onFillable(WebSocketConnection.java:332)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:478)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:441)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

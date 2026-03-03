@@ -97,7 +97,7 @@ void sl_ncp_user_cmd_message_to_target_cb(void *data)
 
       // Allocate memory for test array
       if (test_data != NULL) {
-        sl_free(test_data);
+        sl_free(test_data);API 
         test_data = NULL;
       }
 
