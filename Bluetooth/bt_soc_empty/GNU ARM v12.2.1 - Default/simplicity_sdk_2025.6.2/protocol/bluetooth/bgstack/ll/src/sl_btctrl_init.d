@@ -14,6 +14,7 @@ simplicity_sdk_2025.6.2/protocol/bluetooth/bgstack/ll/src/sl_btctrl_init.o: \
  E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen/sl_component_catalog.h \
  E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_bluetooth_connection_config.h \
  E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_bluetooth_advertiser_config.h \
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_bt_accept_list_config.h \
  E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen/sl_bluetooth.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\power_manager\inc\sl_power_manager.h \
  E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_power_manager_config.h \
@@ -49,6 +50,7 @@ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\protocol\bluetooth\inc\sl_bt
 E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen/sl_component_catalog.h:
 E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_bluetooth_connection_config.h:
 E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_bluetooth_advertiser_config.h:
+E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_bt_accept_list_config.h:
 E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen/sl_bluetooth.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\power_manager\inc\sl_power_manager.h:
 E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_power_manager_config.h:

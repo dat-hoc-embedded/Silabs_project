@@ -35,6 +35,7 @@ SUBDIRS := \
 . \
 autogen \
 simplicity_sdk_2025.6.2/app/bluetooth/common/in_place_ota_dfu \
+simplicity_sdk_2025.6.2/app/common/util/app_log \
 simplicity_sdk_2025.6.2/app/common/util/app_timer/bm \
 simplicity_sdk_2025.6.2/hardware/board/src \
 simplicity_sdk_2025.6.2/hardware/driver/configuration_over_swo/src \
@@ -46,6 +47,7 @@ simplicity_sdk_2025.6.2/platform/bootloader/core/flash \
 simplicity_sdk_2025.6.2/platform/common/src \
 simplicity_sdk_2025.6.2/platform/driver/debug/src \
 simplicity_sdk_2025.6.2/platform/driver/gpio/src \
+simplicity_sdk_2025.6.2/platform/emdrv/dmadrv/src \
 simplicity_sdk_2025.6.2/platform/emdrv/nvm3/src \
 simplicity_sdk_2025.6.2/platform/emlib/src \
 simplicity_sdk_2025.6.2/platform/peripheral/src \
@@ -67,6 +69,7 @@ simplicity_sdk_2025.6.2/platform/service/device_manager/devices \
 simplicity_sdk_2025.6.2/platform/service/device_manager/src \
 simplicity_sdk_2025.6.2/platform/service/hfxo_manager/src \
 simplicity_sdk_2025.6.2/platform/service/interrupt_manager/src \
+simplicity_sdk_2025.6.2/platform/service/iostream/src \
 simplicity_sdk_2025.6.2/platform/service/memory_manager/profiler/src \
 simplicity_sdk_2025.6.2/platform/service/memory_manager/src \
 simplicity_sdk_2025.6.2/platform/service/mpu/src \

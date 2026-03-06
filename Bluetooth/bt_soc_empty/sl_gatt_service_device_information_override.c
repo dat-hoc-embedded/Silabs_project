@@ -147,6 +147,7 @@ void sl_gatt_service_device_information_override_on_event(sl_bt_msg_t *evt)
       // Extract unique ID from BT Address.
       sc = sl_bt_gap_get_identity_address(&address, &address_type);
       app_assert_status(sc);
+      
 
       // Pad and reverse unique ID to get System ID.
       system_id[0] = address.addr[5];

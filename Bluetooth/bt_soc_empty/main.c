@@ -27,7 +27,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  *
  ******************************************************************************/
-#include "sl_component_catalog.h"
+#include "sl_component_catalog.h"`r`n#include <stdint.h>
 #include "sl_main_init.h"
 #if defined(SL_CATALOG_POWER_MANAGER_PRESENT)
 #include "sl_power_manager.h"
@@ -38,12 +38,14 @@
 #include "sl_main_process_action.h"
 #endif // SL_CATALOG_KERNEL_PRESENT
 
+#include "app_log.h"
+
 int main(void)
 {
   // Initialize Silicon Labs device, system, service(s) and protocol stack(s).
   // Note that if the kernel is present, the start task will be started and software
   // component initialization will take place there.
-  sl_main_init();
+  sl_main_init(); 
 
 #if defined(SL_CATALOG_KERNEL_PRESENT)
   // Start the kernel. The start task will be executed (Highest priority) to complete
@@ -55,6 +57,8 @@ int main(void)
   app_init();
 
   while (1) {
+      app_log_info("App started \n");
+
     // Silicon Labs components process action routine
     // must be called from the super loop.
     sl_main_process_action();
@@ -69,3 +73,4 @@ int main(void)
   }
 #endif // SL_CATALOG_KERNEL_PRESENT
 }
+

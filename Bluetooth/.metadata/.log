@@ -2662,3 +2662,983 @@ java.lang.NullPointerException: Cannot invoke "com.silabs.pti.adapter.IConnectio
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SESSION 2026-03-05 15:50:38.883 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 15:50:45.109
+!MESSAGE Logging bundle not found: com.silabs.ss.logger, logging not initialized.
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-03-05 15:51:23.459
+!MESSAGE Jetty listening on: http://127.0.0.1:56319/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-03-05 15:51:24.324
+!MESSAGE ContentServer started at: 127.0.0.1, 56319
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:51:24.426
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.descriptor.core 2 0 2026-03-05 15:51:31.745
+!MESSAGE re-registering property: com.silabs.ss.platform.api.descriptor.core.model.impl.MPropertyImpl@d6a929b (id: universalConfig.compSelProjInstanceId, name: compSelProjInstanceId, label: null, description: specific id for this instance of a project) (propertyScope: ) (id: universalConfig.compSelProjInstanceId, type: String, defaultValueLiteral: null)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-03-05 15:51:32.528
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@4a042b39 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@48608e43 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@60072d8e (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@6c6c0c45 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@7dabf12 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@4b042b3c (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1236148f (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 15:51:51.452
+!MESSAGE Warning: C:\Users\sucut\SimplicityStudio\SDKs\simplicity_sdk\extension\matter_extension\matter.slce
+  - vendor: junk key
+
+
+!ENTRY com.silabs.ss.tool.installer.core 1 0 2026-03-05 15:51:56.460
+!MESSAGE isInternalNetwork: false
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-03-05 15:52:14.159
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@77ea6ce9 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@6c633bc8 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@54709958 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@d1c6dc7 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@29b5c5a9 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@5c7d062c (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@c97eea2 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-03-05 15:52:32.378
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-03-05 15:52:32.392
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2026-03-05 15:52:44.362
+!MESSAGE AdapterPack USB adapter pack has setupcheck function type 
+
+!ENTRY com.silabs.ss.platform.descriptor.core 4 0 2026-03-05 15:53:15.554
+!MESSAGE could not resolve type String
+
+!ENTRY com.silabs.ss.platform.jetty.server 4 0 2026-03-05 15:53:15.803
+!MESSAGE Failed to find resource in bundle
+!STACK 0
+java.io.FileNotFoundException: could not find /resources/clic/statics/part.png in com.silabs.ss.tool.uc.editor
+	at com.silabs.ss.platform.api.rcp.core.BundleUtils.getBundleContentURL(BundleUtils.java:89)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.getFullPath(BundleResource.java:56)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:43)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:35)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.addPath(BundleResource.java:182)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.resolve(BundleResource.java:95)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.resolve(ResourceHttpContentFactory.java:69)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.getContent(ResourceHttpContentFactory.java:47)
+	at org.eclipse.jetty.http.content.VirtualHttpContentFactory.getContent(VirtualHttpContentFactory.java:57)
+	at org.eclipse.jetty.http.content.PreCompressedHttpContentFactory.getContent(PreCompressedHttpContentFactory.java:48)
+	at org.eclipse.jetty.server.ResourceService.getContent(ResourceService.java:81)
+	at org.eclipse.jetty.ee10.servlet.ResourceServlet.doGet(ResourceServlet.java:466)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:633)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.eclipse.jetty.ee10.servlet.ServletHolder.handle(ServletHolder.java:736)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1614)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1547)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.dispatch(ServletChannel.java:819)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.handle(ServletChannel.java:436)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.handle(ServletHandler.java:464)
+	at org.eclipse.jetty.ee10.servlet.SessionHandler.handle(SessionHandler.java:717)
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:151)
+	at org.eclipse.jetty.server.Server.handle(Server.java:182)
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:662)
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:418)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:478)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:441)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:45.833
+!MESSAGE editor file home calculation for Studio resulted in E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\.uceditor for bt_soc_empty with component Device filtering with Bluetooth controller's Filter Accept List
+
+!ENTRY com.silabs.ss.tool.uc.editor 1 0 2026-03-05 15:53:46.136
+!MESSAGE Inside PrimaryWebsocketCommunicator constructor
+
+!ENTRY com.silabs.ss.tool.uc.editor 1 0 2026-03-05 15:53:46.138
+!MESSAGE Websocket on server side linked to /ws/ucedit/filechanges
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.155
+!MESSAGE Servlet registered: /rest/ucedit/metadata
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.161
+!MESSAGE Servlet registered: /rest/ucedit/action/opensource
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.167
+!MESSAGE Servlet registered: /rest/ucedit/action/cmsisedit
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.167
+!MESSAGE sockets ready servlet being set up
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.169
+!MESSAGE Servlet registered: /rest/ucedit/action/socketsready
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.170
+!MESSAGE sockets ready servlet is ready
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.171
+!MESSAGE Servlet registered: /rest/ucedit/action/configsready
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.186
+!MESSAGE editor file home calculation for Studio resulted in E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\.uceditor for bt_soc_empty with component Device filtering with Bluetooth controller's Filter Accept List
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.408
+!MESSAGE Initial cmsis parsing: {sl_bt_accept_list_config.h=Start Parse Offset: 2035
+End Parse Offset: 2035
+Parsing Error: null
+Parsing Error offset: -1
+fContainWizard: true
+}
+
+!ENTRY com.silabs.ss.tool.uc.editor 4 0 2026-03-05 15:53:46.415
+!MESSAGE Could not load pintool device data within 30 second timeframe. Marker manager not connected to component editor -- device errors will not show up.
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.428
+!MESSAGE CMSIS Parse success for sl_bt_accept_list_config.h
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.500
+!MESSAGE preparing cmsis websocket update: {"configurables":{"removed":[],"updated":[{"parent_category_id":"CMSIS_$sl_bt_accept_list_config.h$_Bluetooth Controller Configuration","conf_type":"spinner","min":0,"max":127,"initial":"2","header":"sl_bt_accept_list_config.h","step":1,"label":"Bluetooth Controller Filter Accept List Size","id":"CMSIS_$sl_bt_accept_list_config.h$_SL_BT_CONFIG_ACCEPT_LIST_SIZE","type":"conf","desc":"Default: 2\r\nDefine the number of Filter Accept List entries to be used in doing device address filtering when scanning"},{"header":"sl_bt_accept_list_config.h","label":"Bluetooth Controller Configuration","id":"CMSIS_$sl_bt_accept_list_config.h$_Bluetooth Controller Configuration","type":"cat","conf_class":"cmsis"}]},"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fbt_soc_empty_2Fbt_soc_empty.slcp/component/bluetooth_feature_accept_list","header":"sl_bt_accept_list_config.h","wsType":"config_update","conf_class":"cmsis"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.700
+!MESSAGE Client mentioned sockets are all ready: counting down latch
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.701
+!MESSAGE latch unlocked: cmsis socket response sending
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 15:53:46.864
+!MESSAGE Clear CMSIS Issues WS call: {"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fbt_soc_empty_2Fbt_soc_empty.slcp/component/bluetooth_feature_accept_list","ids":[],"wsType":"clear_issues"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 16:23:32.514
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:04:41.150
+!MESSAGE Clear CMSIS Issues WS call: {"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fbt_soc_empty_2Fbt_soc_empty.slcp/component/bluetooth_feature_accept_list","ids":[],"wsType":"clear_issues"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:04:41.355
+!MESSAGE Clear CMSIS Issues WS call: {"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fbt_soc_empty_2Fbt_soc_empty.slcp/component/bluetooth_feature_accept_list","ids":[],"wsType":"clear_issues"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:04:47.404
+!MESSAGE editor file home calculation for Studio resulted in E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\.uceditor for bt_soc_empty with component Log
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:04:47.425
+!MESSAGE editor file home calculation for Studio resulted in E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\.uceditor for bt_soc_empty with component Log
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:04:47.443
+!MESSAGE Initial cmsis parsing: {app_log_config.h=Start Parse Offset: 18357
+End Parse Offset: 18357
+Parsing Error: null
+Parsing Error offset: -1
+fContainWizard: true
+}
+
+!ENTRY com.silabs.ss.tool.uc.editor 4 0 2026-03-05 17:04:47.445
+!MESSAGE Could not load pintool device data within 30 second timeframe. Marker manager not connected to component editor -- device errors will not show up.
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:04:47.457
+!MESSAGE CMSIS Parse success for app_log_config.h
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:04:47.459
+!MESSAGE preparing cmsis websocket update: {"configurables":{"removed":[],"updated":[{"parent_category_id":"CMSIS_$app_log_config.h$_General","conf_type":"check","initial":false,"header":"app_log_config.h","label":"Trace","id":"CMSIS_$app_log_config.h$_APP_LOG_TRACE_ENABLE","type":"conf","desc":"Enables printing file, line and function information."},{"parent_category_id":"CMSIS_$app_log_config.h$_General","conf_type":"check","initial":false,"header":"app_log_config.h","label":"Timestamp","id":"CMSIS_$app_log_config.h$_APP_LOG_TIME_ENABLE","type":"conf","desc":"Enables printing timestamp"},{"parent_category_id":"CMSIS_$app_log_config.h$_General","conf_type":"check","initial":false,"header":"app_log_config.h","label":"Counter","id":"CMSIS_$app_log_config.h$_APP_LOG_COUNTER_ENABLE","type":"conf","desc":"Enables printing counter"},{"parent_category_id":"CMSIS_$app_log_config.h$_General","conf_type":"combo","initial":"\"\\n\"","header":"app_log_config.h","label":"Line ending","id":"CMSIS_$app_log_config.h$_APP_LOG_NEW_LINE","type":"conf","combo_options":["\"\\n\"","\"\\r\"","\"\\r\\n\""],"desc":"Default: APP_LOG_NEW_LINE_N"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","label":"General","id":"CMSIS_$app_log_config.h$_General","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_FILTER_ENABLE","conf_type":"combo","initial":"DEBUG","header":"app_log_config.h","label":"Threshold","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_FILTER_THRESHOLD","type":"conf","combo_options":["DEBUG","INFO","WARNING","ERROR","CRITICAL"],"desc":"Default: DEBUG"},{"parent_category_id":"CMSIS_$app_log_config.h$_Log level filtering","header":"app_log_config.h","toggle":true,"label":"Threshold filter","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_FILTER_ENABLE","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","conf_type":"check","initial":true,"header":"app_log_config.h","label":"DEBUG","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_DEBUG","type":"conf","desc":"Enable mask entry for log DEBUG"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","conf_type":"check","initial":true,"header":"app_log_config.h","label":"INFO","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_INFO","type":"conf","desc":"Enable mask entry for log INFO"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","conf_type":"check","initial":true,"header":"app_log_config.h","label":"WARNING","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_WARNING","type":"conf","desc":"Enable mask entry for log WARNING"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","conf_type":"check","initial":true,"header":"app_log_config.h","label":"ERROR","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ERROR","type":"conf","desc":"Enable mask entry for log ERROR"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","conf_type":"check","initial":true,"header":"app_log_config.h","label":"CRITICAL","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_CRITICAL","type":"conf","desc":"Enable mask entry for log CRITICAL"},{"parent_category_id":"CMSIS_$app_log_config.h$_Log level filtering","header":"app_log_config.h","toggle":false,"label":"Mask filter","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","label":"Log level filtering","id":"CMSIS_$app_log_config.h$_Log level filtering","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_OVERRIDE_DEFAULT_STREAM","conf_type":"combo","initial":"UART","header":"app_log_config.h","label":"Stream type","id":"CMSIS_$app_log_config.h$_APP_LOG_STREAM_TYPE","type":"conf","combo_options":["SWO","RTT","UART","VUART"],"desc":"Default: UART"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_OVERRIDE_DEFAULT_STREAM","conf_type":"string","initial":"vcom","header":"app_log_config.h","label":"Preferred instance","id":"CMSIS_$app_log_config.h$_APP_LOG_STREAM_INSTANCE","type":"conf","desc":"Preferred IOStream instance name"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","toggle":false,"label":"Override default stream","id":"CMSIS_$app_log_config.h$_APP_LOG_OVERRIDE_DEFAULT_STREAM","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_Dump settings","conf_type":"combo","initial":"None","header":"app_log_config.h","label":"Prefix","id":"CMSIS_$app_log_config.h$_APP_LOG_HEXDUMP_PREFIX","type":"conf","combo_options":["None","0X","0x","X","x"],"desc":"Default: None\r\nFormat string for hexdump"},{"parent_category_id":"CMSIS_$app_log_config.h$_Dump settings","conf_type":"combo","initial":"Uppercase with 0 padding (0F)","header":"app_log_config.h","label":"Format","id":"CMSIS_$app_log_config.h$_APP_LOG_HEXDUMP_FORMAT","type":"conf","combo_options":["Uppercase with 0 padding (0F)","Lowercase with 0 padding (0f)","Uppercase with padding ( F)","Lowercase with padding ( f)","Lowercase without padding (F)","Lowercase without padding (f)"],"desc":"Default: %02X\r\nFormat string for hexdump"},{"parent_category_id":"CMSIS_$app_log_config.h$_Dump settings","conf_type":"combo","initial":"Space ( )","header":"app_log_config.h","label":"Hexdump separator","id":"CMSIS_$app_log_config.h$_APP_LOG_HEXDUMP_SEPARATOR","type":"conf","combo_options":["None","Space ( )","Comma(,)","Tab (\\t)","Dash (-)","Underscore (_)","Colon(:)","Semicolon(;)"],"desc":"Default: \" \"\r\nSeparator for hexdump"},{"parent_category_id":"CMSIS_$app_log_config.h$_Dump settings","conf_type":"combo","initial":"Space ( )","header":"app_log_config.h","label":"Array Dump Separator","id":"CMSIS_$app_log_config.h$_APP_LOG_ARRAY_DUMP_SEPARATOR","type":"conf","combo_options":["None","Space ( )","Comma(,)","Tab (\\t)","Dash (-)","Underscore (_)","Colon(:)","Semicolon(;)"],"desc":"Default: \" \"\r\nSeparator for array dump"},{"parent_category_id":"CMSIS_$app_log_config.h$_Dump settings","conf_type":"combo","initial":"Space ( )","header":"app_log_config.h","label":"Custom Array Dump Separator","id":"CMSIS_$app_log_config.h$_APP_LOG_CUSTOM_ARRAY_DUMP_SEPARATOR","type":"conf","combo_options":["None","Space ( )","Comma(,)","Tab (\\t)","Dash (-)","Underscore (_)","Colon(:)","Semicolon(;)"],"desc":"Default: \" \"\r\nSeparator for custom array dump"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","label":"Dump settings","id":"CMSIS_$app_log_config.h$_Dump settings","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","conf_type":"string","initial":"[D]","header":"app_log_config.h","label":"Prefix for DEBUG","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_DEBUG_PREFIX","type":"conf","desc":"Log prefix for DEBUG"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","conf_type":"string","initial":"[I]","header":"app_log_config.h","label":"Prefix for INFO","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_INFO_PREFIX","type":"conf","desc":"Log prefix for INFO"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","conf_type":"string","initial":"[W]","header":"app_log_config.h","label":"Prefix for WARNING","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_WARNING_PREFIX","type":"conf","desc":"Log prefix for WARNING"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","conf_type":"string","initial":"[E]","header":"app_log_config.h","label":"Prefix for ERROR","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_ERROR_PREFIX","type":"conf","desc":"Log prefix for ERROR"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","conf_type":"string","initial":"[C]","header":"app_log_config.h","label":"Prefix for CRITICAL","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_CRITICAL_PREFIX","type":"conf","desc":"Log prefix for CRITICAL"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","toggle":true,"label":"Log level prefixes","id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_Text color","conf_type":"combo","initial":"BRIGHT_WHITE","header":"app_log_config.h","label":"Color for DEBUG","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_DEBUG_COLOR","type":"conf","combo_options":["BLACK","RED","GREEN","BLUE","YELLOW","BRIGHT_MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_WHITE"},{"parent_category_id":"CMSIS_$app_log_config.h$_Text color","conf_type":"combo","initial":"BRIGHT_CYAN","header":"app_log_config.h","label":"Color for INFO","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_INFO_COLOR","type":"conf","combo_options":["BLACK","RED","GREEN","BLUE","YELLOW","BRIGHT_MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_CYAN"},{"parent_category_id":"CMSIS_$app_log_config.h$_Text color","conf_type":"combo","initial":"BRIGHT_YELLOW","header":"app_log_config.h","label":"Color for WARNING","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_WARNING_COLOR","type":"conf","combo_options":["BLACK","RED","GREEN","BLUE","YELLOW","BRIGHT_MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_YELLOW"},{"parent_category_id":"CMSIS_$app_log_config.h$_Text color","conf_type":"combo","initial":"BRIGHT_RED","header":"app_log_config.h","label":"Color for ERROR","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_ERROR_COLOR","type":"conf","combo_options":["BLACK","RED","GREEN","BLUE","YELLOW","BRIGHT_MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_RED"},{"parent_category_id":"CMSIS_$app_log_config.h$_Text color","conf_type":"combo","initial":"BRIGHT_WHITE","header":"app_log_config.h","label":"Color for CRITICAL","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_CRITICAL_COLOR","type":"conf","combo_options":["BLACK","RED","GREEN","BLUE","YELLOW","BRIGHT_MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_WHITE"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_COLOR_ENABLE","header":"app_log_config.h","label":"Text color","id":"CMSIS_$app_log_config.h$_Text color","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_Background color","conf_type":"combo","initial":"NONE","header":"app_log_config.h","label":"Background color for DEBUG","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_DEBUG_BACKGROUND_COLOR","type":"conf","combo_options":["NONE","BLACK","RED","GREEN","BLUE","YELLOW","MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_MAGENTA","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: NONE"},{"parent_category_id":"CMSIS_$app_log_config.h$_Background color","conf_type":"combo","initial":"NONE","header":"app_log_config.h","label":"Background color for INFO","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_INFO_BACKGROUND_COLOR","type":"conf","combo_options":["NONE","BLACK","RED","GREEN","BLUE","YELLOW","MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_MAGENTA","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: NONE"},{"parent_category_id":"CMSIS_$app_log_config.h$_Background color","conf_type":"combo","initial":"NONE","header":"app_log_config.h","label":"Background color for WARNING","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_WARNING_BACKGROUND_COLOR","type":"conf","combo_options":["NONE","BLACK","RED","GREEN","BLUE","YELLOW","MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_MAGENTA","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: NONE"},{"parent_category_id":"CMSIS_$app_log_config.h$_Background color","conf_type":"combo","initial":"NONE","header":"app_log_config.h","label":"Background color for ERROR","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_ERROR_BACKGROUND_COLOR","type":"conf","combo_options":["NONE","BLACK","RED","GREEN","BLUE","YELLOW","MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_MAGENTA","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: NONE"},{"parent_category_id":"CMSIS_$app_log_config.h$_Background color","conf_type":"combo","initial":"BRIGHT_RED","header":"app_log_config.h","label":"Background color for CRITICAL","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_CRITICAL_BACKGROUND_COLOR","type":"conf","combo_options":["NONE","BLACK","RED","GREEN","BLUE","YELLOW","MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_MAGENTA","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_RED"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_COLOR_ENABLE","header":"app_log_config.h","label":"Background color","id":"CMSIS_$app_log_config.h$_Background color","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","toggle":false,"label":"Colors for terminal logging","id":"CMSIS_$app_log_config.h$_APP_LOG_COLOR_ENABLE","type":"cat","conf_class":"cmsis"},{"header":"app_log_config.h","toggle":true,"label":"Application Logging","id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","type":"cat","conf_class":"cmsis"}]},"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fbt_soc_empty_2Fbt_soc_empty.slcp/component/app_log","header":"app_log_config.h","wsType":"config_update","conf_class":"cmsis"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:04:47.887
+!MESSAGE Client mentioned sockets are all ready: counting down latch
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:04:47.888
+!MESSAGE latch unlocked: cmsis socket response sending
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:04:48.041
+!MESSAGE Clear CMSIS Issues WS call: {"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fbt_soc_empty_2Fbt_soc_empty.slcp/component/bluetooth_feature_accept_list","ids":[],"wsType":"clear_issues"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:04:48.042
+!MESSAGE Clear CMSIS Issues WS call: {"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fbt_soc_empty_2Fbt_soc_empty.slcp/component/app_log","ids":[],"wsType":"clear_issues"}
+
+!ENTRY com.silabs.ss.tool.uc.editor 1 0 2026-03-05 17:07:37.640
+!MESSAGE UcEditorController: onWebSocketClose CALLED statusCode=1001 reason=null
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.659
+!MESSAGE editor file home calculation for Studio resulted in E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\.uceditor for bt_soc_empty with component IO Stream: EUSART (vcom)
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.688
+!MESSAGE editor file home calculation for Studio resulted in E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\.uceditor for bt_soc_empty with component IO Stream: EUSART (vcom)
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.708
+!MESSAGE Initial cmsis parsing: {sl_iostream_eusart_vcom_config.h=Start Parse Offset: 5462
+End Parse Offset: 5462
+Parsing Error: null
+Parsing Error offset: -1
+fContainWizard: true
+}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.710
+!MESSAGE PinTool annotations detected. Loading ABDevice
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.717
+!MESSAGE CMSIS Parse success for sl_iostream_eusart_vcom_config.h
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.718
+!MESSAGE preparing cmsis websocket update: {"configurables":{"removed":[],"updated":[{"parent_category_id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_EUART settings","conf_type":"check","initial":true,"header":"sl_iostream_eusart_vcom_config.h","label":"Enable High frequency mode","id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_SL_IOSTREAM_EUSART_VCOM_ENABLE_HIGH_FREQUENCY","type":"conf","desc":"Default: 1"},{"parent_category_id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_EUART settings","conf_type":"spinner","initial":"115200","header":"sl_iostream_eusart_vcom_config.h","label":"Baud rate","id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_SL_IOSTREAM_EUSART_VCOM_BAUDRATE","type":"conf","desc":"Default: 115200"},{"parent_category_id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_EUART settings","conf_type":"combo","initial":"No Parity","header":"sl_iostream_eusart_vcom_config.h","label":"Parity mode to use","id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_SL_IOSTREAM_EUSART_VCOM_PARITY","type":"conf","combo_options":["No Parity","Even parity","Odd parity"],"desc":"Default: SL_IOSTREAM_EUSART_UART_NO_PARITY"},{"parent_category_id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_EUART settings","conf_type":"combo","initial":"1 stop bits","header":"sl_iostream_eusart_vcom_config.h","label":"Number of stop bits to use.","id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_SL_IOSTREAM_EUSART_VCOM_STOP_BITS","type":"conf","combo_options":["0.5 stop bits","1 stop bits","1.5 stop bits","2 stop bits"],"desc":"Default: SL_IOSTREAM_EUSART_UART_STOP_BITS_1"},{"parent_category_id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_EUART settings","conf_type":"combo","initial":"CTS/RTS","header":"sl_iostream_eusart_vcom_config.h","label":"Flow control","id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_SL_IOSTREAM_EUSART_VCOM_FLOW_CONTROL_TYPE","type":"conf","combo_options":["None","CTS","RTS","CTS/RTS","Software Flow control (XON/XOFF)"],"desc":"Default: SL_IOSTREAM_EUSART_UART_FLOW_CTRL_NONE"},{"parent_category_id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_EUART settings","conf_type":"spinner","initial":"32","header":"sl_iostream_eusart_vcom_config.h","label":"Receive buffer size","id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_SL_IOSTREAM_EUSART_VCOM_RX_BUFFER_SIZE","type":"conf","desc":"Default: 32"},{"parent_category_id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_EUART settings","conf_type":"check","initial":false,"header":"sl_iostream_eusart_vcom_config.h","label":"Convert \\n to \\r\\n","id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_SL_IOSTREAM_EUSART_VCOM_CONVERT_BY_DEFAULT_LF_TO_CRLF","type":"conf","desc":"It can be changed at runtime using the C API.\r\nDefault: 0"},{"parent_category_id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_EUART settings","conf_type":"check","initial":true,"header":"sl_iostream_eusart_vcom_config.h","label":"Restrict the energy mode to allow the reception.","id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_SL_IOSTREAM_EUSART_VCOM_RESTRICT_ENERGY_MODE_TO_ALLOW_RECEPTION","type":"conf","desc":"Default: 1\r\nLimits the lowest energy mode the system can sleep to in order to keep the reception on. May cause higher power consumption."},{"header":"sl_iostream_eusart_vcom_config.h","label":"EUART settings","id":"CMSIS_$sl_iostream_eusart_vcom_config.h$_EUART settings","type":"cat","conf_class":"cmsis"}]},"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fbt_soc_empty_2Fbt_soc_empty.slcp/component/iostream_eusart_vcom","header":"sl_iostream_eusart_vcom_config.h","wsType":"config_update","conf_class":"cmsis"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.720
+!MESSAGE Selected peripheral modification -- listeners updating
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.738
+!MESSAGE registering configuration tool pintool editor listeners for SL_IOSTREAM_EUSART_VCOM on module EUSART0
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.761
+!MESSAGE Preparing Websocket Pintool Update: {"configurables":{"removed":[],"updated":[{"label":"SL_IOSTREAM_EUSART_VCOM","id":"SL_IOSTREAM_EUSART_VCOM_REQUIREMENT","type":"cat","conf_class":"pintool"},{"parent_category_id":"SL_IOSTREAM_EUSART_VCOM_REQUIREMENT","conf_type":"combo","initial":"EUSART0","label":"Selected Module","id":"SL_IOSTREAM_EUSART_VCOM","type":"conf","combo_options":[{"label":"None","value":"None"},{"label":"EUSART1","value":"EUSART1"},{"label":"EUSART0","value":"EUSART0"}]},{"parent_category_id":"SL_IOSTREAM_EUSART_VCOM_REQUIREMENT","label":"EUSART","id":"PINTOOL_CATEGORY_EUSART0_EUSART","type":"cat"},{"parent_category_id":"SL_IOSTREAM_EUSART_VCOM_REQUIREMENT","conf_type":"combo","visible":"portio.eusart0.enable.cts","rawprop":"portio.eusart0.location.cts","initial":{"label":"PB05","value":21},"label":"CTS","id":"EUSART0.$PIN.portio.eusart0.location.cts.$ROUTE.CTS","type":"conf","combo_options":[{"label":"None","value":-1},{"label":"PA00","value":0},{"label":"PA01","value":1},{"label":"PA02","value":2},{"label":"PA03","value":3},{"label":"PA04","value":4},{"label":"PA05","value":5},{"label":"PA06","value":6},{"label":"PA07","value":7},{"label":"PA08","value":8},{"label":"PA09","value":9},{"label":"PB00","value":16},{"label":"PB01","value":17},{"label":"PB02","value":18},{"label":"PB03","value":19},{"label":"PB04","value":20},{"label":"PB05","value":21}]},{"parent_category_id":"PINTOOL_CATEGORY_EUSART0_EUSART","conf_type":"string","readonly":false,"rawprop":"peripheral.name","initial":"","label":"Custom Peripheral Name","id":"EUSART0.$PROP.peripheral.name","type":"conf"},{"parent_category_id":"SL_IOSTREAM_EUSART_VCOM_REQUIREMENT","conf_type":"combo","visible":"portio.eusart0.enable.rts","rawprop":"portio.eusart0.location.rts","initial":{"label":"PA00","value":0},"label":"RTS","id":"EUSART0.$PIN.portio.eusart0.location.rts.$ROUTE.RTS","type":"conf","combo_options":[{"label":"None","value":-1},{"label":"PA00","value":0},{"label":"PA01","value":1},{"label":"PA02","value":2},{"label":"PA03","value":3},{"label":"PA04","value":4},{"label":"PA05","value":5},{"label":"PA06","value":6},{"label":"PA07","value":7},{"label":"PA08","value":8},{"label":"PA09","value":9},{"label":"PB00","value":16},{"label":"PB01","value":17},{"label":"PB02","value":18},{"label":"PB03","value":19},{"label":"PB04","value":20},{"label":"PB05","value":21}]},{"parent_category_id":"SL_IOSTREAM_EUSART_VCOM_REQUIREMENT","conf_type":"combo","visible":"portio.eusart0.enable.rx","rawprop":"portio.eusart0.location.rx","initial":{"label":"PA09","value":9},"label":"RX","id":"EUSART0.$PIN.portio.eusart0.location.rx.$ROUTE.RX","type":"conf","combo_options":[{"label":"None","value":-1},{"label":"PA00","value":0},{"label":"PA01","value":1},{"label":"PA02","value":2},{"label":"PA03","value":3},{"label":"PA04","value":4},{"label":"PA05","value":5},{"label":"PA06","value":6},{"label":"PA07","value":7},{"label":"PA08","value":8},{"label":"PA09","value":9},{"label":"PB00","value":16},{"label":"PB01","value":17},{"label":"PB02","value":18},{"label":"PB03","value":19},{"label":"PB04","value":20},{"label":"PB05","value":21}]},{"parent_category_id":"SL_IOSTREAM_EUSART_VCOM_REQUIREMENT","conf_type":"combo","visible":"portio.eusart0.enable.tx","rawprop":"portio.eusart0.location.tx","initial":{"label":"PA08","value":8},"label":"TX","id":"EUSART0.$PIN.portio.eusart0.location.tx.$ROUTE.TX","type":"conf","combo_options":[{"label":"None","value":-1},{"label":"PA00","value":0},{"label":"PA01","value":1},{"label":"PA02","value":2},{"label":"PA03","value":3},{"label":"PA04","value":4},{"label":"PA05","value":5},{"label":"PA06","value":6},{"label":"PA07","value":7},{"label":"PA08","value":8},{"label":"PA09","value":9},{"label":"PB00","value":16},{"label":"PB01","value":17},{"label":"PB02","value":18},{"label":"PB03","value":19},{"label":"PB04","value":20},{"label":"PB05","value":21}]}]},"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fbt_soc_empty_2Fbt_soc_empty.slcp/component/iostream_eusart_vcom","wsType":"config_update","conf_class":"pintool"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.848
+!MESSAGE Client mentioned sockets are all ready: counting down latch
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.849
+!MESSAGE latch unlocked: pintool socket response sending
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.850
+!MESSAGE latch unlocked: cmsis socket response sending
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:50.853
+!MESSAGE New pintool options detected -- resending existing problem markers for handling.
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:51.060
+!MESSAGE Clear CMSIS Issues WS call: {"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fbt_soc_empty_2Fbt_soc_empty.slcp/component/bluetooth_feature_accept_list","ids":[],"wsType":"clear_issues"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:15:51.062
+!MESSAGE Clear CMSIS Issues WS call: {"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fbt_soc_empty_2Fbt_soc_empty.slcp/component/iostream_eusart_vcom","ids":[],"wsType":"clear_issues"}
+
+!ENTRY com.silabs.ss.tool.uc.editor 1 0 2026-03-05 17:21:00.137
+!MESSAGE UcEditorController: onWebSocketClose CALLED statusCode=1001 reason=null
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:38:50.211
+!MESSAGE editor file home calculation for Studio resulted in E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\.uceditor for bt_soc_empty with component IO Stream: EUSART (vcom)
+
+!ENTRY com.silabs.ss.tool.uc.editor 1 0 2026-03-05 17:38:51.815
+!MESSAGE UcEditorController: onWebSocketClose CALLED statusCode=1001 reason=null
+
+!ENTRY com.silabs.ss.framework.ide.project.sls.core 4 0 2026-03-05 17:43:21.533
+!MESSAGE Failed to trash file autogen/sl_iostream_init_eusart_instances.c
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/bt_soc_empty/autogen/sl_iostream_init_eusart_instances.c)[368]: org.eclipse.core.runtime.CoreException: File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.c.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:523)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:352)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:342)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.canRemoveFile(BaseSLSIDEProjectEngineOperationHandler.java:188)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.handleRemoveProjectFileOperation(BaseSLSIDEProjectEngineOperationHandler.java:140)
+	at com.silabs.ss.framework.project.api.core.engine.operations.RemoveProjectFileOperation.executeProcess(RemoveProjectFileOperation.java:30)
+	at com.silabs.ss.framework.project.internal.core.engine.ProjectModelEngine.queueProjectOperations(ProjectModelEngine.java:810)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateBuildConfigFromModel(ProjectUpdateUtils.java:480)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateProjectFromModel(ProjectUpdateUtils.java:402)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModelLocked(ProjectUpdateUtils.java:363)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.lambda$8(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$2(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$4(WorkspaceUtils.java:439)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:385)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.BaseCppProjectType.runProjectOperation(BaseCppProjectType.java:219)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModel(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProject(UcGenerator.java:437)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.lambda$3(UcGenerator.java:219)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.lambda$8(UcThreadedGenerationUtils.java:105)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.runThreadedGeneration(UcThreadedGenerationUtils.java:112)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.generate(UcThreadedGenerationUtils.java:55)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.doGenerateProjects(UcGenerator.java:218)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProjects(UcGenerator.java:181)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadingGenerator$UcProjectGenerationTask.run(UcThreadingGenerator.java:672)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.c (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
+	... 34 more
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2026-03-05 17:43:21.545
+!MESSAGE File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.c.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.c.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:523)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:352)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:342)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.canRemoveFile(BaseSLSIDEProjectEngineOperationHandler.java:188)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.handleRemoveProjectFileOperation(BaseSLSIDEProjectEngineOperationHandler.java:140)
+	at com.silabs.ss.framework.project.api.core.engine.operations.RemoveProjectFileOperation.executeProcess(RemoveProjectFileOperation.java:30)
+	at com.silabs.ss.framework.project.internal.core.engine.ProjectModelEngine.queueProjectOperations(ProjectModelEngine.java:810)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateBuildConfigFromModel(ProjectUpdateUtils.java:480)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateProjectFromModel(ProjectUpdateUtils.java:402)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModelLocked(ProjectUpdateUtils.java:363)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.lambda$8(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$2(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$4(WorkspaceUtils.java:439)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:385)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.BaseCppProjectType.runProjectOperation(BaseCppProjectType.java:219)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModel(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProject(UcGenerator.java:437)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.lambda$3(UcGenerator.java:219)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.lambda$8(UcThreadedGenerationUtils.java:105)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.runThreadedGeneration(UcThreadedGenerationUtils.java:112)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.generate(UcThreadedGenerationUtils.java:55)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.doGenerateProjects(UcGenerator.java:218)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProjects(UcGenerator.java:181)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadingGenerator$UcProjectGenerationTask.run(UcThreadingGenerator.java:672)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.c (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
+	... 34 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 269 2026-03-05 17:43:21.546
+!MESSAGE File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.c.
+!STACK 0
+java.io.FileNotFoundException: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.c (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:352)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:342)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.canRemoveFile(BaseSLSIDEProjectEngineOperationHandler.java:188)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.handleRemoveProjectFileOperation(BaseSLSIDEProjectEngineOperationHandler.java:140)
+	at com.silabs.ss.framework.project.api.core.engine.operations.RemoveProjectFileOperation.executeProcess(RemoveProjectFileOperation.java:30)
+	at com.silabs.ss.framework.project.internal.core.engine.ProjectModelEngine.queueProjectOperations(ProjectModelEngine.java:810)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateBuildConfigFromModel(ProjectUpdateUtils.java:480)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateProjectFromModel(ProjectUpdateUtils.java:402)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModelLocked(ProjectUpdateUtils.java:363)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.lambda$8(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$2(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$4(WorkspaceUtils.java:439)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:385)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.BaseCppProjectType.runProjectOperation(BaseCppProjectType.java:219)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModel(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProject(UcGenerator.java:437)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.lambda$3(UcGenerator.java:219)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.lambda$8(UcThreadedGenerationUtils.java:105)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.runThreadedGeneration(UcThreadedGenerationUtils.java:112)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.generate(UcThreadedGenerationUtils.java:55)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.doGenerateProjects(UcGenerator.java:218)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProjects(UcGenerator.java:181)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadingGenerator$UcProjectGenerationTask.run(UcThreadingGenerator.java:672)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.silabs.ss.framework.ide.project.sls.core 4 0 2026-03-05 17:43:21.547
+!MESSAGE Failed to trash file autogen/sl_iostream_init_eusart_instances.h
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/bt_soc_empty/autogen/sl_iostream_init_eusart_instances.h)[368]: org.eclipse.core.runtime.CoreException: File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.h.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:523)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:352)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:342)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.canRemoveFile(BaseSLSIDEProjectEngineOperationHandler.java:188)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.handleRemoveProjectFileOperation(BaseSLSIDEProjectEngineOperationHandler.java:140)
+	at com.silabs.ss.framework.project.api.core.engine.operations.RemoveProjectFileOperation.executeProcess(RemoveProjectFileOperation.java:30)
+	at com.silabs.ss.framework.project.internal.core.engine.ProjectModelEngine.queueProjectOperations(ProjectModelEngine.java:810)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateBuildConfigFromModel(ProjectUpdateUtils.java:480)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateProjectFromModel(ProjectUpdateUtils.java:402)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModelLocked(ProjectUpdateUtils.java:363)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.lambda$8(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$2(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$4(WorkspaceUtils.java:439)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:385)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.BaseCppProjectType.runProjectOperation(BaseCppProjectType.java:219)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModel(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProject(UcGenerator.java:437)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.lambda$3(UcGenerator.java:219)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.lambda$8(UcThreadedGenerationUtils.java:105)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.runThreadedGeneration(UcThreadedGenerationUtils.java:112)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.generate(UcThreadedGenerationUtils.java:55)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.doGenerateProjects(UcGenerator.java:218)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProjects(UcGenerator.java:181)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadingGenerator$UcProjectGenerationTask.run(UcThreadingGenerator.java:672)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.h (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
+	... 34 more
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2026-03-05 17:43:21.548
+!MESSAGE File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.h.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.h.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:523)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:352)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:342)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.canRemoveFile(BaseSLSIDEProjectEngineOperationHandler.java:188)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.handleRemoveProjectFileOperation(BaseSLSIDEProjectEngineOperationHandler.java:140)
+	at com.silabs.ss.framework.project.api.core.engine.operations.RemoveProjectFileOperation.executeProcess(RemoveProjectFileOperation.java:30)
+	at com.silabs.ss.framework.project.internal.core.engine.ProjectModelEngine.queueProjectOperations(ProjectModelEngine.java:810)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateBuildConfigFromModel(ProjectUpdateUtils.java:480)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateProjectFromModel(ProjectUpdateUtils.java:402)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModelLocked(ProjectUpdateUtils.java:363)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.lambda$8(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$2(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$4(WorkspaceUtils.java:439)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:385)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.BaseCppProjectType.runProjectOperation(BaseCppProjectType.java:219)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModel(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProject(UcGenerator.java:437)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.lambda$3(UcGenerator.java:219)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.lambda$8(UcThreadedGenerationUtils.java:105)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.runThreadedGeneration(UcThreadedGenerationUtils.java:112)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.generate(UcThreadedGenerationUtils.java:55)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.doGenerateProjects(UcGenerator.java:218)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProjects(UcGenerator.java:181)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadingGenerator$UcProjectGenerationTask.run(UcThreadingGenerator.java:672)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.h (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
+	... 34 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 269 2026-03-05 17:43:21.548
+!MESSAGE File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.h.
+!STACK 0
+java.io.FileNotFoundException: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen\sl_iostream_init_eusart_instances.h (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:352)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:342)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.canRemoveFile(BaseSLSIDEProjectEngineOperationHandler.java:188)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.handleRemoveProjectFileOperation(BaseSLSIDEProjectEngineOperationHandler.java:140)
+	at com.silabs.ss.framework.project.api.core.engine.operations.RemoveProjectFileOperation.executeProcess(RemoveProjectFileOperation.java:30)
+	at com.silabs.ss.framework.project.internal.core.engine.ProjectModelEngine.queueProjectOperations(ProjectModelEngine.java:810)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateBuildConfigFromModel(ProjectUpdateUtils.java:480)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateProjectFromModel(ProjectUpdateUtils.java:402)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModelLocked(ProjectUpdateUtils.java:363)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.lambda$8(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$2(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$4(WorkspaceUtils.java:439)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:385)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.BaseCppProjectType.runProjectOperation(BaseCppProjectType.java:219)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModel(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProject(UcGenerator.java:437)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.lambda$3(UcGenerator.java:219)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.lambda$8(UcThreadedGenerationUtils.java:105)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.runThreadedGeneration(UcThreadedGenerationUtils.java:112)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.generate(UcThreadedGenerationUtils.java:55)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.doGenerateProjects(UcGenerator.java:218)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProjects(UcGenerator.java:181)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadingGenerator$UcProjectGenerationTask.run(UcThreadingGenerator.java:672)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.silabs.ss.framework.ide.project.sls.core 4 0 2026-03-05 17:43:21.551
+!MESSAGE Failed to trash file config/sl_iostream_eusart_vcom_config.h
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/bt_soc_empty/config/sl_iostream_eusart_vcom_config.h)[368]: org.eclipse.core.runtime.CoreException: File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config\sl_iostream_eusart_vcom_config.h.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:523)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:352)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:342)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.canRemoveFile(BaseSLSIDEProjectEngineOperationHandler.java:188)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.handleRemoveProjectFileOperation(BaseSLSIDEProjectEngineOperationHandler.java:140)
+	at com.silabs.ss.framework.project.api.core.engine.operations.RemoveProjectFileOperation.executeProcess(RemoveProjectFileOperation.java:30)
+	at com.silabs.ss.framework.project.internal.core.engine.ProjectModelEngine.queueProjectOperations(ProjectModelEngine.java:810)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateBuildConfigFromModel(ProjectUpdateUtils.java:480)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateProjectFromModel(ProjectUpdateUtils.java:402)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModelLocked(ProjectUpdateUtils.java:363)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.lambda$8(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$2(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$4(WorkspaceUtils.java:439)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:385)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.BaseCppProjectType.runProjectOperation(BaseCppProjectType.java:219)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModel(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProject(UcGenerator.java:437)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.lambda$3(UcGenerator.java:219)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.lambda$8(UcThreadedGenerationUtils.java:105)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.runThreadedGeneration(UcThreadedGenerationUtils.java:112)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.generate(UcThreadedGenerationUtils.java:55)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.doGenerateProjects(UcGenerator.java:218)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProjects(UcGenerator.java:181)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadingGenerator$UcProjectGenerationTask.run(UcThreadingGenerator.java:672)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config\sl_iostream_eusart_vcom_config.h (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
+	... 34 more
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2026-03-05 17:43:21.552
+!MESSAGE File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config\sl_iostream_eusart_vcom_config.h.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config\sl_iostream_eusart_vcom_config.h.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:523)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:352)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:342)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.canRemoveFile(BaseSLSIDEProjectEngineOperationHandler.java:188)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.handleRemoveProjectFileOperation(BaseSLSIDEProjectEngineOperationHandler.java:140)
+	at com.silabs.ss.framework.project.api.core.engine.operations.RemoveProjectFileOperation.executeProcess(RemoveProjectFileOperation.java:30)
+	at com.silabs.ss.framework.project.internal.core.engine.ProjectModelEngine.queueProjectOperations(ProjectModelEngine.java:810)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateBuildConfigFromModel(ProjectUpdateUtils.java:480)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateProjectFromModel(ProjectUpdateUtils.java:402)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModelLocked(ProjectUpdateUtils.java:363)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.lambda$8(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$2(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$4(WorkspaceUtils.java:439)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:385)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.BaseCppProjectType.runProjectOperation(BaseCppProjectType.java:219)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModel(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProject(UcGenerator.java:437)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.lambda$3(UcGenerator.java:219)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.lambda$8(UcThreadedGenerationUtils.java:105)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.runThreadedGeneration(UcThreadedGenerationUtils.java:112)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.generate(UcThreadedGenerationUtils.java:55)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.doGenerateProjects(UcGenerator.java:218)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProjects(UcGenerator.java:181)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadingGenerator$UcProjectGenerationTask.run(UcThreadingGenerator.java:672)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config\sl_iostream_eusart_vcom_config.h (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
+	... 34 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 269 2026-03-05 17:43:21.552
+!MESSAGE File not found: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config\sl_iostream_eusart_vcom_config.h.
+!STACK 0
+java.io.FileNotFoundException: E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config\sl_iostream_eusart_vcom_config.h (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:881)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:352)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:342)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.canRemoveFile(BaseSLSIDEProjectEngineOperationHandler.java:188)
+	at com.silabs.ss.framework.ide.api.project.sls.core.creator.BaseSLSIDEProjectEngineOperationHandler.handleRemoveProjectFileOperation(BaseSLSIDEProjectEngineOperationHandler.java:140)
+	at com.silabs.ss.framework.project.api.core.engine.operations.RemoveProjectFileOperation.executeProcess(RemoveProjectFileOperation.java:30)
+	at com.silabs.ss.framework.project.internal.core.engine.ProjectModelEngine.queueProjectOperations(ProjectModelEngine.java:810)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateBuildConfigFromModel(ProjectUpdateUtils.java:480)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.doUpdateProjectFromModel(ProjectUpdateUtils.java:402)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModelLocked(ProjectUpdateUtils.java:363)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.lambda$8(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$2(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.lambda$4(WorkspaceUtils.java:439)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:385)
+	at com.silabs.ss.framework.ide.api.core.WorkspaceUtils.runProjectOperation(WorkspaceUtils.java:354)
+	at com.silabs.ss.framework.ide.internal.project.core.cpp.BaseCppProjectType.runProjectOperation(BaseCppProjectType.java:219)
+	at com.silabs.ss.framework.project.api.core.utils.ProjectUpdateUtils.updateProjectFromModel(ProjectUpdateUtils.java:355)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProject(UcGenerator.java:437)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.lambda$3(UcGenerator.java:219)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.lambda$8(UcThreadedGenerationUtils.java:105)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.runThreadedGeneration(UcThreadedGenerationUtils.java:112)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadedGenerationUtils.generate(UcThreadedGenerationUtils.java:55)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.doGenerateProjects(UcGenerator.java:218)
+	at com.silabs.ss.framework.uc.internal.generation.UcGenerator.generateProjects(UcGenerator.java:181)
+	at com.silabs.ss.framework.uc.internal.generation.UcThreadingGenerator$UcProjectGenerationTask.run(UcThreadingGenerator.java:672)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 17:44:22.113
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:46:23.568
+!MESSAGE Browse selectedDirectory: E:\CODE\Silicon_Labs\Bluetooth
+
+!ENTRY com.silabs.ss.platform.jetty.server 4 0 2026-03-05 17:46:28.670
+!MESSAGE Failed to find resource in bundle
+!STACK 0
+java.io.FileNotFoundException: could not find /resources/clic/statics/part.png in com.silabs.ss.tool.uc.editor
+	at com.silabs.ss.platform.api.rcp.core.BundleUtils.getBundleContentURL(BundleUtils.java:89)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.getFullPath(BundleResource.java:56)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:43)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:35)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.addPath(BundleResource.java:182)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.resolve(BundleResource.java:95)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.resolve(ResourceHttpContentFactory.java:69)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.getContent(ResourceHttpContentFactory.java:47)
+	at org.eclipse.jetty.http.content.VirtualHttpContentFactory.getContent(VirtualHttpContentFactory.java:57)
+	at org.eclipse.jetty.http.content.PreCompressedHttpContentFactory.getContent(PreCompressedHttpContentFactory.java:48)
+	at org.eclipse.jetty.server.ResourceService.getContent(ResourceService.java:81)
+	at org.eclipse.jetty.ee10.servlet.ResourceServlet.doGet(ResourceServlet.java:466)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:633)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.eclipse.jetty.ee10.servlet.ServletHolder.handle(ServletHolder.java:736)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1614)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1547)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.dispatch(ServletChannel.java:819)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.handle(ServletChannel.java:436)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.handle(ServletHandler.java:464)
+	at org.eclipse.jetty.ee10.servlet.SessionHandler.handle(SessionHandler.java:717)
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:151)
+	at org.eclipse.jetty.server.Server.handle(Server.java:182)
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:662)
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:418)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:478)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:441)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-05 17:46:29.785
+!MESSAGE Indexed 'empty' (37 sources, 146 headers) in 1,71 sec: 10.371 declarations; 31.860 references; 0 unresolved inclusions; 33 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 17:52:54.548
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 17:53:26.901
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 17:53:42.353
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 17:55:37.295
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 17:56:02.805
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 17:57:12.114
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 17:57:44.874
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 17:58:06.688
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.jetty.server 4 0 2026-03-05 17:58:13.352
+!MESSAGE Failed to find resource in bundle
+!STACK 0
+java.io.FileNotFoundException: could not find /resources/clic/statics/part.png in com.silabs.ss.tool.uc.editor
+	at com.silabs.ss.platform.api.rcp.core.BundleUtils.getBundleContentURL(BundleUtils.java:89)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.getFullPath(BundleResource.java:56)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:43)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.<init>(BundleResource.java:35)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.addPath(BundleResource.java:182)
+	at com.silabs.ss.platform.jetty.server.impl.BundleResource.resolve(BundleResource.java:95)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.resolve(ResourceHttpContentFactory.java:69)
+	at org.eclipse.jetty.http.content.ResourceHttpContentFactory.getContent(ResourceHttpContentFactory.java:47)
+	at org.eclipse.jetty.http.content.VirtualHttpContentFactory.getContent(VirtualHttpContentFactory.java:57)
+	at org.eclipse.jetty.http.content.PreCompressedHttpContentFactory.getContent(PreCompressedHttpContentFactory.java:48)
+	at org.eclipse.jetty.server.ResourceService.getContent(ResourceService.java:81)
+	at org.eclipse.jetty.ee10.servlet.ResourceServlet.doGet(ResourceServlet.java:466)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:633)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.eclipse.jetty.ee10.servlet.ServletHolder.handle(ServletHolder.java:736)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1614)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1547)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.dispatch(ServletChannel.java:819)
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.handle(ServletChannel.java:436)
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.handle(ServletHandler.java:464)
+	at org.eclipse.jetty.ee10.servlet.SessionHandler.handle(SessionHandler.java:717)
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:151)
+	at org.eclipse.jetty.server.Server.handle(Server.java:182)
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:662)
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:418)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:478)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:441)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:41.336
+!MESSAGE editor file home calculation for Studio resulted in E:\CODE\Silicon_Labs\Bluetooth\empty\.uceditor for empty with component Log
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:41.353
+!MESSAGE editor file home calculation for Studio resulted in E:\CODE\Silicon_Labs\Bluetooth\empty\.uceditor for empty with component Log
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:41.363
+!MESSAGE Initial cmsis parsing: {app_log_config.h=Start Parse Offset: 18357
+End Parse Offset: 18357
+Parsing Error: null
+Parsing Error offset: -1
+fContainWizard: true
+}
+
+!ENTRY com.silabs.ss.tool.uc.editor 4 0 2026-03-05 17:58:41.367
+!MESSAGE Could not load pintool device data within 30 second timeframe. Marker manager not connected to component editor -- device errors will not show up.
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:41.403
+!MESSAGE CMSIS Parse success for app_log_config.h
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:41.404
+!MESSAGE preparing cmsis websocket update: {"configurables":{"removed":[],"updated":[{"parent_category_id":"CMSIS_$app_log_config.h$_General","conf_type":"check","initial":false,"header":"app_log_config.h","label":"Trace","id":"CMSIS_$app_log_config.h$_APP_LOG_TRACE_ENABLE","type":"conf","desc":"Enables printing file, line and function information."},{"parent_category_id":"CMSIS_$app_log_config.h$_General","conf_type":"check","initial":false,"header":"app_log_config.h","label":"Timestamp","id":"CMSIS_$app_log_config.h$_APP_LOG_TIME_ENABLE","type":"conf","desc":"Enables printing timestamp"},{"parent_category_id":"CMSIS_$app_log_config.h$_General","conf_type":"check","initial":false,"header":"app_log_config.h","label":"Counter","id":"CMSIS_$app_log_config.h$_APP_LOG_COUNTER_ENABLE","type":"conf","desc":"Enables printing counter"},{"parent_category_id":"CMSIS_$app_log_config.h$_General","conf_type":"combo","initial":"\"\\n\"","header":"app_log_config.h","label":"Line ending","id":"CMSIS_$app_log_config.h$_APP_LOG_NEW_LINE","type":"conf","combo_options":["\"\\n\"","\"\\r\"","\"\\r\\n\""],"desc":"Default: APP_LOG_NEW_LINE_N"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","label":"General","id":"CMSIS_$app_log_config.h$_General","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_FILTER_ENABLE","conf_type":"combo","initial":"DEBUG","header":"app_log_config.h","label":"Threshold","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_FILTER_THRESHOLD","type":"conf","combo_options":["DEBUG","INFO","WARNING","ERROR","CRITICAL"],"desc":"Default: DEBUG"},{"parent_category_id":"CMSIS_$app_log_config.h$_Log level filtering","header":"app_log_config.h","toggle":true,"label":"Threshold filter","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_FILTER_ENABLE","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","conf_type":"check","initial":true,"header":"app_log_config.h","label":"DEBUG","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_DEBUG","type":"conf","desc":"Enable mask entry for log DEBUG"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","conf_type":"check","initial":true,"header":"app_log_config.h","label":"INFO","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_INFO","type":"conf","desc":"Enable mask entry for log INFO"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","conf_type":"check","initial":true,"header":"app_log_config.h","label":"WARNING","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_WARNING","type":"conf","desc":"Enable mask entry for log WARNING"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","conf_type":"check","initial":true,"header":"app_log_config.h","label":"ERROR","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ERROR","type":"conf","desc":"Enable mask entry for log ERROR"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","conf_type":"check","initial":true,"header":"app_log_config.h","label":"CRITICAL","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_CRITICAL","type":"conf","desc":"Enable mask entry for log CRITICAL"},{"parent_category_id":"CMSIS_$app_log_config.h$_Log level filtering","header":"app_log_config.h","toggle":false,"label":"Mask filter","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_MASK_ENABLE","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","label":"Log level filtering","id":"CMSIS_$app_log_config.h$_Log level filtering","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_OVERRIDE_DEFAULT_STREAM","conf_type":"combo","initial":"UART","header":"app_log_config.h","label":"Stream type","id":"CMSIS_$app_log_config.h$_APP_LOG_STREAM_TYPE","type":"conf","combo_options":["SWO","RTT","UART","VUART"],"desc":"Default: UART"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_OVERRIDE_DEFAULT_STREAM","conf_type":"string","initial":"vcom","header":"app_log_config.h","label":"Preferred instance","id":"CMSIS_$app_log_config.h$_APP_LOG_STREAM_INSTANCE","type":"conf","desc":"Preferred IOStream instance name"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","toggle":false,"label":"Override default stream","id":"CMSIS_$app_log_config.h$_APP_LOG_OVERRIDE_DEFAULT_STREAM","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_Dump settings","conf_type":"combo","initial":"None","header":"app_log_config.h","label":"Prefix","id":"CMSIS_$app_log_config.h$_APP_LOG_HEXDUMP_PREFIX","type":"conf","combo_options":["None","0X","0x","X","x"],"desc":"Default: None\r\nFormat string for hexdump"},{"parent_category_id":"CMSIS_$app_log_config.h$_Dump settings","conf_type":"combo","initial":"Uppercase with 0 padding (0F)","header":"app_log_config.h","label":"Format","id":"CMSIS_$app_log_config.h$_APP_LOG_HEXDUMP_FORMAT","type":"conf","combo_options":["Uppercase with 0 padding (0F)","Lowercase with 0 padding (0f)","Uppercase with padding ( F)","Lowercase with padding ( f)","Lowercase without padding (F)","Lowercase without padding (f)"],"desc":"Default: %02X\r\nFormat string for hexdump"},{"parent_category_id":"CMSIS_$app_log_config.h$_Dump settings","conf_type":"combo","initial":"Space ( )","header":"app_log_config.h","label":"Hexdump separator","id":"CMSIS_$app_log_config.h$_APP_LOG_HEXDUMP_SEPARATOR","type":"conf","combo_options":["None","Space ( )","Comma(,)","Tab (\\t)","Dash (-)","Underscore (_)","Colon(:)","Semicolon(;)"],"desc":"Default: \" \"\r\nSeparator for hexdump"},{"parent_category_id":"CMSIS_$app_log_config.h$_Dump settings","conf_type":"combo","initial":"Space ( )","header":"app_log_config.h","label":"Array Dump Separator","id":"CMSIS_$app_log_config.h$_APP_LOG_ARRAY_DUMP_SEPARATOR","type":"conf","combo_options":["None","Space ( )","Comma(,)","Tab (\\t)","Dash (-)","Underscore (_)","Colon(:)","Semicolon(;)"],"desc":"Default: \" \"\r\nSeparator for array dump"},{"parent_category_id":"CMSIS_$app_log_config.h$_Dump settings","conf_type":"combo","initial":"Space ( )","header":"app_log_config.h","label":"Custom Array Dump Separator","id":"CMSIS_$app_log_config.h$_APP_LOG_CUSTOM_ARRAY_DUMP_SEPARATOR","type":"conf","combo_options":["None","Space ( )","Comma(,)","Tab (\\t)","Dash (-)","Underscore (_)","Colon(:)","Semicolon(;)"],"desc":"Default: \" \"\r\nSeparator for custom array dump"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","label":"Dump settings","id":"CMSIS_$app_log_config.h$_Dump settings","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","conf_type":"string","initial":"[D]","header":"app_log_config.h","label":"Prefix for DEBUG","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_DEBUG_PREFIX","type":"conf","desc":"Log prefix for DEBUG"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","conf_type":"string","initial":"[I]","header":"app_log_config.h","label":"Prefix for INFO","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_INFO_PREFIX","type":"conf","desc":"Log prefix for INFO"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","conf_type":"string","initial":"[W]","header":"app_log_config.h","label":"Prefix for WARNING","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_WARNING_PREFIX","type":"conf","desc":"Log prefix for WARNING"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","conf_type":"string","initial":"[E]","header":"app_log_config.h","label":"Prefix for ERROR","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_ERROR_PREFIX","type":"conf","desc":"Log prefix for ERROR"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","conf_type":"string","initial":"[C]","header":"app_log_config.h","label":"Prefix for CRITICAL","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_CRITICAL_PREFIX","type":"conf","desc":"Log prefix for CRITICAL"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","toggle":true,"label":"Log level prefixes","id":"CMSIS_$app_log_config.h$_APP_LOG_PREFIX_ENABLE","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_Text color","conf_type":"combo","initial":"BRIGHT_WHITE","header":"app_log_config.h","label":"Color for DEBUG","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_DEBUG_COLOR","type":"conf","combo_options":["BLACK","RED","GREEN","BLUE","YELLOW","BRIGHT_MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_WHITE"},{"parent_category_id":"CMSIS_$app_log_config.h$_Text color","conf_type":"combo","initial":"BRIGHT_CYAN","header":"app_log_config.h","label":"Color for INFO","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_INFO_COLOR","type":"conf","combo_options":["BLACK","RED","GREEN","BLUE","YELLOW","BRIGHT_MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_CYAN"},{"parent_category_id":"CMSIS_$app_log_config.h$_Text color","conf_type":"combo","initial":"BRIGHT_YELLOW","header":"app_log_config.h","label":"Color for WARNING","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_WARNING_COLOR","type":"conf","combo_options":["BLACK","RED","GREEN","BLUE","YELLOW","BRIGHT_MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_YELLOW"},{"parent_category_id":"CMSIS_$app_log_config.h$_Text color","conf_type":"combo","initial":"BRIGHT_RED","header":"app_log_config.h","label":"Color for ERROR","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_ERROR_COLOR","type":"conf","combo_options":["BLACK","RED","GREEN","BLUE","YELLOW","BRIGHT_MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_RED"},{"parent_category_id":"CMSIS_$app_log_config.h$_Text color","conf_type":"combo","initial":"BRIGHT_WHITE","header":"app_log_config.h","label":"Color for CRITICAL","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_CRITICAL_COLOR","type":"conf","combo_options":["BLACK","RED","GREEN","BLUE","YELLOW","BRIGHT_MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_WHITE"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_COLOR_ENABLE","header":"app_log_config.h","label":"Text color","id":"CMSIS_$app_log_config.h$_Text color","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_Background color","conf_type":"combo","initial":"NONE","header":"app_log_config.h","label":"Background color for DEBUG","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_DEBUG_BACKGROUND_COLOR","type":"conf","combo_options":["NONE","BLACK","RED","GREEN","BLUE","YELLOW","MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_MAGENTA","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: NONE"},{"parent_category_id":"CMSIS_$app_log_config.h$_Background color","conf_type":"combo","initial":"NONE","header":"app_log_config.h","label":"Background color for INFO","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_INFO_BACKGROUND_COLOR","type":"conf","combo_options":["NONE","BLACK","RED","GREEN","BLUE","YELLOW","MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_MAGENTA","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: NONE"},{"parent_category_id":"CMSIS_$app_log_config.h$_Background color","conf_type":"combo","initial":"NONE","header":"app_log_config.h","label":"Background color for WARNING","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_WARNING_BACKGROUND_COLOR","type":"conf","combo_options":["NONE","BLACK","RED","GREEN","BLUE","YELLOW","MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_MAGENTA","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: NONE"},{"parent_category_id":"CMSIS_$app_log_config.h$_Background color","conf_type":"combo","initial":"NONE","header":"app_log_config.h","label":"Background color for ERROR","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_ERROR_BACKGROUND_COLOR","type":"conf","combo_options":["NONE","BLACK","RED","GREEN","BLUE","YELLOW","MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_MAGENTA","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: NONE"},{"parent_category_id":"CMSIS_$app_log_config.h$_Background color","conf_type":"combo","initial":"BRIGHT_RED","header":"app_log_config.h","label":"Background color for CRITICAL","id":"CMSIS_$app_log_config.h$_APP_LOG_LEVEL_CRITICAL_BACKGROUND_COLOR","type":"conf","combo_options":["NONE","BLACK","RED","GREEN","BLUE","YELLOW","MAGENTA","CYAN","WHITE","BRIGHT_RED","BRIGHT_GREEN","BRIGHT_BLUE","BRIGHT_YELLOW","BRIGHT_MAGENTA","BRIGHT_CYAN","BRIGHT_WHITE"],"desc":"Default: BRIGHT_RED"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_COLOR_ENABLE","header":"app_log_config.h","label":"Background color","id":"CMSIS_$app_log_config.h$_Background color","type":"cat","conf_class":"cmsis"},{"parent_category_id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","header":"app_log_config.h","toggle":false,"label":"Colors for terminal logging","id":"CMSIS_$app_log_config.h$_APP_LOG_COLOR_ENABLE","type":"cat","conf_class":"cmsis"},{"header":"app_log_config.h","toggle":true,"label":"Application Logging","id":"CMSIS_$app_log_config.h$_APP_LOG_ENABLE","type":"cat","conf_class":"cmsis"}]},"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fempty_2Fempty.slcp/component/app_log","header":"app_log_config.h","wsType":"config_update","conf_class":"cmsis"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:41.497
+!MESSAGE Client mentioned sockets are all ready: counting down latch
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:41.497
+!MESSAGE latch unlocked: cmsis socket response sending
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:41.577
+!MESSAGE Clear CMSIS Issues WS call: {"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fempty_2Fempty.slcp/component/app_log","ids":[],"wsType":"clear_issues"}
+
+!ENTRY com.silabs.ss.tool.uc.editor 1 0 2026-03-05 17:58:46.220
+!MESSAGE UcEditorController: onWebSocketClose CALLED statusCode=1001 reason=null
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.420
+!MESSAGE editor file home calculation for Studio resulted in E:\CODE\Silicon_Labs\Bluetooth\empty\.uceditor for empty with component Board Control
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.433
+!MESSAGE editor file home calculation for Studio resulted in E:\CODE\Silicon_Labs\Bluetooth\empty\.uceditor for empty with component Board Control
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.439
+!MESSAGE Initial cmsis parsing: {sl_board_control_config.h=Start Parse Offset: 3255
+End Parse Offset: 3255
+Parsing Error: null
+Parsing Error offset: -1
+fContainWizard: true
+}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.439
+!MESSAGE PinTool annotations detected. Loading ABDevice
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.440
+!MESSAGE Selected peripheral modification -- listeners updating
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.440
+!MESSAGE registering configuration tool pintool editor listeners for SL_BOARD_ENABLE_VCOM on module PB00
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.440
+!MESSAGE Selected peripheral modification -- listeners updating
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.441
+!MESSAGE CMSIS Parse success for sl_board_control_config.h
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.441
+!MESSAGE registering configuration tool pintool editor listeners for SL_BOARD_ENABLE_DISPLAY on module PC09
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.442
+!MESSAGE preparing cmsis websocket update: {"configurables":{"removed":[],"updated":[{"conf_type":"check","initial":true,"header":"sl_board_control_config.h","label":"Enable Virtual COM UART","id":"CMSIS_$sl_board_control_config.h$_SL_BOARD_ENABLE_VCOM","type":"conf","desc":"Default: 0"},{"conf_type":"check","initial":false,"header":"sl_board_control_config.h","label":"Enable Display","id":"CMSIS_$sl_board_control_config.h$_SL_BOARD_ENABLE_DISPLAY","type":"conf","desc":"Default: 0"},{"conf_type":"check","initial":false,"header":"sl_board_control_config.h","label":"Enable Relative Humidity and Temperature sensor","id":"CMSIS_$sl_board_control_config.h$_SL_BOARD_ENABLE_SENSOR_RHT","type":"conf","desc":"Default: 0"},{"conf_type":"check","initial":true,"header":"sl_board_control_config.h","label":"Disable SPI Flash","id":"CMSIS_$sl_board_control_config.h$_SL_BOARD_DISABLE_MEMORY_SPI","type":"conf","desc":"Default: 1"}]},"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fempty_2Fempty.slcp/component/board_control","header":"sl_board_control_config.h","wsType":"config_update","conf_class":"cmsis"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.443
+!MESSAGE Selected peripheral modification -- listeners updating
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.443
+!MESSAGE registering configuration tool pintool editor listeners for SL_BOARD_ENABLE_SENSOR_RHT on module PD03
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.445
+!MESSAGE Preparing Websocket Pintool Update: {"configurables":{"removed":[],"updated":[{"label":"SL_BOARD_ENABLE_DISPLAY","id":"SL_BOARD_ENABLE_DISPLAY_REQUIREMENT","type":"cat","conf_class":"pintool"},{"parent_category_id":"SL_BOARD_ENABLE_DISPLAY_REQUIREMENT","conf_type":"combo","initial":"PC09","label":"Selected Module","id":"SL_BOARD_ENABLE_DISPLAY","type":"conf","combo_options":[{"label":"None","value":"None"},{"label":"PA00","value":"PA00"},{"label":"PA01","value":"PA01"},{"label":"PA02","value":"PA02"},{"label":"PA03","value":"PA03"},{"label":"PA04","value":"PA04"},{"label":"PA05","value":"PA05"},{"label":"PA06","value":"PA06"},{"label":"PA07","value":"PA07"},{"label":"PA08","value":"PA08"},{"label":"PA09","value":"PA09"},{"label":"PB00","value":"PB00"},{"label":"PB01","value":"PB01"},{"label":"PB02","value":"PB02"},{"label":"PB03","value":"PB03"},{"label":"PB04","value":"PB04"},{"label":"PB05","value":"PB05"},{"label":"PC00","value":"PC00"},{"label":"PC01","value":"PC01"},{"label":"PC02","value":"PC02"},{"label":"PC03","value":"PC03"},{"label":"PC04","value":"PC04"},{"label":"PC05","value":"PC05"},{"label":"PC06","value":"PC06"},{"label":"PC07","value":"PC07"},{"label":"PC08","value":"PC08"},{"label":"PC09","value":"PC09"},{"label":"PD00","value":"PD00"},{"label":"PD01","value":"PD01"},{"label":"PD02","value":"PD02"},{"label":"PD03","value":"PD03"},{"label":"PD04","value":"PD04"},{"label":"PD05","value":"PD05"}]},{"parent_category_id":"SL_BOARD_ENABLE_DISPLAY_REQUIREMENT","label":"Port Pin","id":"PINTOOL_CATEGORY_PC09_Port Pin","type":"cat"},{"parent_category_id":"PINTOOL_CATEGORY_PC09_Port Pin","conf_type":"string","readonly":false,"rawprop":"pin.name","initial":"","label":"Custom Pin Name","id":"PC09.$PROP.pin.name","type":"conf"},{"label":"SL_BOARD_ENABLE_SENSOR_RHT","id":"SL_BOARD_ENABLE_SENSOR_RHT_REQUIREMENT","type":"cat","conf_class":"pintool"},{"parent_category_id":"SL_BOARD_ENABLE_SENSOR_RHT_REQUIREMENT","conf_type":"combo","initial":"PD03","label":"Selected Module","id":"SL_BOARD_ENABLE_SENSOR_RHT","type":"conf","combo_options":[{"label":"None","value":"None"},{"label":"PA00","value":"PA00"},{"label":"PA01","value":"PA01"},{"label":"PA02","value":"PA02"},{"label":"PA03","value":"PA03"},{"label":"PA04","value":"PA04"},{"label":"PA05","value":"PA05"},{"label":"PA06","value":"PA06"},{"label":"PA07","value":"PA07"},{"label":"PA08","value":"PA08"},{"label":"PA09","value":"PA09"},{"label":"PB00","value":"PB00"},{"label":"PB01","value":"PB01"},{"label":"PB02","value":"PB02"},{"label":"PB03","value":"PB03"},{"label":"PB04","value":"PB04"},{"label":"PB05","value":"PB05"},{"label":"PC00","value":"PC00"},{"label":"PC01","value":"PC01"},{"label":"PC02","value":"PC02"},{"label":"PC03","value":"PC03"},{"label":"PC04","value":"PC04"},{"label":"PC05","value":"PC05"},{"label":"PC06","value":"PC06"},{"label":"PC07","value":"PC07"},{"label":"PC08","value":"PC08"},{"label":"PC09","value":"PC09"},{"label":"PD00","value":"PD00"},{"label":"PD01","value":"PD01"},{"label":"PD02","value":"PD02"},{"label":"PD03","value":"PD03"},{"label":"PD04","value":"PD04"},{"label":"PD05","value":"PD05"}]},{"parent_category_id":"SL_BOARD_ENABLE_SENSOR_RHT_REQUIREMENT","label":"Port Pin","id":"PINTOOL_CATEGORY_PD03_Port Pin","type":"cat"},{"parent_category_id":"PINTOOL_CATEGORY_PD03_Port Pin","conf_type":"string","readonly":false,"rawprop":"pin.name","initial":"","label":"Custom Pin Name","id":"PD03.$PROP.pin.name","type":"conf"},{"label":"SL_BOARD_ENABLE_VCOM","id":"SL_BOARD_ENABLE_VCOM_REQUIREMENT","type":"cat","conf_class":"pintool"},{"parent_category_id":"SL_BOARD_ENABLE_VCOM_REQUIREMENT","conf_type":"combo","initial":"PB00","label":"Selected Module","id":"SL_BOARD_ENABLE_VCOM","type":"conf","combo_options":[{"label":"None","value":"None"},{"label":"PA00","value":"PA00"},{"label":"PA01","value":"PA01"},{"label":"PA02","value":"PA02"},{"label":"PA03","value":"PA03"},{"label":"PA04","value":"PA04"},{"label":"PA05","value":"PA05"},{"label":"PA06","value":"PA06"},{"label":"PA07","value":"PA07"},{"label":"PA08","value":"PA08"},{"label":"PA09","value":"PA09"},{"label":"PB00","value":"PB00"},{"label":"PB01","value":"PB01"},{"label":"PB02","value":"PB02"},{"label":"PB03","value":"PB03"},{"label":"PB04","value":"PB04"},{"label":"PB05","value":"PB05"},{"label":"PC00","value":"PC00"},{"label":"PC01","value":"PC01"},{"label":"PC02","value":"PC02"},{"label":"PC03","value":"PC03"},{"label":"PC04","value":"PC04"},{"label":"PC05","value":"PC05"},{"label":"PC06","value":"PC06"},{"label":"PC07","value":"PC07"},{"label":"PC08","value":"PC08"},{"label":"PC09","value":"PC09"},{"label":"PD00","value":"PD00"},{"label":"PD01","value":"PD01"},{"label":"PD02","value":"PD02"},{"label":"PD03","value":"PD03"},{"label":"PD04","value":"PD04"},{"label":"PD05","value":"PD05"}]},{"parent_category_id":"SL_BOARD_ENABLE_VCOM_REQUIREMENT","label":"Port Pin","id":"PINTOOL_CATEGORY_PB00_Port Pin","type":"cat"},{"parent_category_id":"PINTOOL_CATEGORY_PB00_Port Pin","conf_type":"string","readonly":false,"rawprop":"pin.name","initial":"","label":"Custom Pin Name","id":"PB00.$PROP.pin.name","type":"conf"}]},"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fempty_2Fempty.slcp/component/board_control","wsType":"config_update","conf_class":"pintool"}
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.565
+!MESSAGE Client mentioned sockets are all ready: counting down latch
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.566
+!MESSAGE latch unlocked: pintool socket response sending
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.566
+!MESSAGE latch unlocked: cmsis socket response sending
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.567
+!MESSAGE New pintool options detected -- resending existing problem markers for handling.
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-05 17:58:55.648
+!MESSAGE Clear CMSIS Issues WS call: {"clientId":"project/file_3A_2FE_3A_2FCODE_2FSilicon_Labs_2FBluetooth_2Fempty_2Fempty.slcp/component/board_control","ids":[],"wsType":"clear_issues"}
+
+!ENTRY com.silabs.ss.tool.uc.editor 1 0 2026-03-05 17:59:00.950
+!MESSAGE UcEditorController: onWebSocketClose CALLED statusCode=1001 reason=null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 17:59:13.654
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 18:01:06.027
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 18:03:04.200
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 18:03:21.322
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 18:03:30.056
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 18:03:54.429
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 18:04:30.716
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-05 18:04:58.943
+!MESSAGE Invalid discovery key: null
+!SESSION 2026-03-06 13:39:21.491 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-06 13:39:25.419
+!MESSAGE Logging bundle not found: com.silabs.ss.logger, logging not initialized.
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-03-06 13:40:08.273
+!MESSAGE Jetty listening on: http://127.0.0.1:53913/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2026-03-06 13:40:09.712
+!MESSAGE ContentServer started at: 127.0.0.1, 53913
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2026-03-06 13:40:09.882
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.descriptor.core 2 0 2026-03-06 13:40:21.333
+!MESSAGE re-registering property: com.silabs.ss.platform.api.descriptor.core.model.impl.MPropertyImpl@d6a929b (id: universalConfig.compSelProjInstanceId, name: compSelProjInstanceId, label: null, description: specific id for this instance of a project) (propertyScope: ) (id: universalConfig.compSelProjInstanceId, type: String, defaultValueLiteral: null)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-03-06 13:40:21.922
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1818ba1b (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@34417df (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@6524d372 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@47c8182a (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1a5dbaaa (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@3984acd1 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@7af857d0 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2026-03-06 13:40:42.131
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.tool.installer.core 1 0 2026-03-06 13:40:44.154
+!MESSAGE isInternalNetwork: false
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2026-03-06 13:40:47.567
+!MESSAGE AdapterPack USB adapter pack has setupcheck function type 
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2026-03-06 13:41:03.037
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@5a463580 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/usb-audio-simplified.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@3470fd32 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/mpu_with_rtos.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@5882afe3 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/microcontroller-peripheral-innovation.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@6a45cc5f (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/rapid-32-bit-microcontroller-configuration.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1441ea2 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Precision32-32-bit-MCU-Family-WP.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@32eefad5 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/Using-Low-Cost-OTP-Microcontrollers-to-Simplify-Embedded-Applications.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@7fdea6dc (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/white-papers/using-direct-memory-access-for-data-transfers.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-03-06 13:41:25.818
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2026-03-06 13:41:25.840
+!MESSAGE Problem getting package resources: changelog

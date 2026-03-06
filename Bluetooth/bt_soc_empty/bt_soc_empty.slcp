@@ -28,7 +28,9 @@ toolchain_settings: []
 component:
 - {id: EFR32MG24B220F1536IM48}
 - {id: app_assert}
+- {id: app_log}
 - {id: app_os_helper}
+- {id: bluetooth_feature_accept_list}
 - {id: bluetooth_feature_connection_role_central}
 - {id: bluetooth_feature_connection_role_peripheral}
 - {id: bluetooth_feature_gatt}
@@ -45,6 +47,8 @@ component:
 - {id: gatt_configuration}
 - {id: gatt_service_device_information_override}
 - {id: in_place_ota_dfu}
+- instance: [vcom]
+  id: iostream_usart
 - {id: mpu}
 - {id: rail_util_pti}
 - {id: sl_main}

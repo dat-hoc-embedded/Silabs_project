@@ -88,14 +88,27 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\bootloader\api\btl_interface_parser.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\bootloader\api\btl_interface_storage.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\hardware\board\inc\sl_board_control.h \
- E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty/app.h \
- c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\app\common\util\app_timer\bm\app_timer_internal.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\app\common\util\app_log\app_log.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\iostream\inc\sl_iostream.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_slist.h \
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen/sl_iostream_handles.h \
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen/sl_iostream_init_usart_instances.h \
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen/sl_component_catalog.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\power_manager\inc\sl_power_manager.h \
  E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_power_manager_config.h \
- c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_slist.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_common.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_assert.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\iostream\inc\sl_iostream_uart.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\iostream\inc\sl_iostream.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\dmadrv\inc\dmadrv.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\common\inc\ecode.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\dmadrv\inc\s2_signals\dmadrv_signals.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emlib\inc\em_ldma.h \
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/dmadrv_config.h \
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/app_log_config.h \
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty/app.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\app\common\util\app_timer\bm\app_timer_internal.h \
  ../autogen/sl_bluetooth.h \
  E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_bluetooth_config.h \
  E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_bluetooth_connection_config.h \
@@ -112,6 +125,8 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\debug\inc\sl_debug_swo.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\gpio\inc\sl_gpio.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\device_manager\inc\sl_device_gpio.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\iostream\inc\sl_iostream_stdlib_config.h \
+ ../autogen/sl_iostream_init_usart_instances.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\security\sl_component\sl_mbedtls_support\inc\sl_mbedtls.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto_platform.h \
@@ -201,13 +216,14 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\security\sl_component\sl_protocol_crypto\src\sli_protocol_crypto.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\security\sl_component\sli_crypto\inc\sli_crypto.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\security\sl_component\sli_crypto\inc\sli_crypto_s2.h \
+ ../autogen/sl_iostream_init_instances.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\nvm3\inc\nvm3_default.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\nvm3\inc\nvm3_generic.h \
- c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\common\inc\ecode.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\nvm3\inc\nvm3_hal.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_assert.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\nvm3\inc\nvm3_default.h \
- c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\hardware\driver\configuration_over_swo\inc\sl_cos.h
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\hardware\driver\configuration_over_swo\inc\sl_cos.h \
+ ../autogen/sl_iostream_handles.h
 ../autogen/sl_event_handler.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\hardware\board\inc\sl_board_init.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\clock_manager\inc\sl_clock_manager.h:
@@ -297,14 +313,27 @@ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\bootloader\api\appl
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\bootloader\api\btl_interface_parser.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\bootloader\api\btl_interface_storage.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\hardware\board\inc\sl_board_control.h:
-E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty/app.h:
-c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\app\common\util\app_timer\bm\app_timer_internal.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\app\common\util\app_log\app_log.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\iostream\inc\sl_iostream.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_slist.h:
+E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen/sl_iostream_handles.h:
+E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen/sl_iostream_init_usart_instances.h:
+E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\autogen/sl_component_catalog.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\power_manager\inc\sl_power_manager.h:
 E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_power_manager_config.h:
-c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_slist.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_common.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_assert.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\iostream\inc\sl_iostream_uart.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\iostream\inc\sl_iostream.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\dmadrv\inc\dmadrv.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\common\inc\ecode.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\dmadrv\inc\s2_signals\dmadrv_signals.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emlib\inc\em_ldma.h:
+E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/dmadrv_config.h:
+E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/app_log_config.h:
+E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty/app.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\app\common\util\app_timer\bm\app_timer_internal.h:
 ../autogen/sl_bluetooth.h:
 E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_bluetooth_config.h:
 E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty\config/sl_bluetooth_connection_config.h:
@@ -321,6 +350,8 @@ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\protocol\bluetooth\inc\sl_bt
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\debug\inc\sl_debug_swo.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\gpio\inc\sl_gpio.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\device_manager\inc\sl_device_gpio.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\iostream\inc\sl_iostream_stdlib_config.h:
+../autogen/sl_iostream_init_usart_instances.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\security\sl_component\sl_mbedtls_support\inc\sl_mbedtls.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto_platform.h:
@@ -410,10 +441,11 @@ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\inc
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\security\sl_component\sl_protocol_crypto\src\sli_protocol_crypto.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\security\sl_component\sli_crypto\inc\sli_crypto.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\security\sl_component\sli_crypto\inc\sli_crypto_s2.h:
+../autogen/sl_iostream_init_instances.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\nvm3\inc\nvm3_default.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\nvm3\inc\nvm3_generic.h:
-c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\common\inc\ecode.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\nvm3\inc\nvm3_hal.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_assert.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emdrv\nvm3\inc\nvm3_default.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\hardware\driver\configuration_over_swo\inc\sl_cos.h:
+../autogen/sl_iostream_handles.h:

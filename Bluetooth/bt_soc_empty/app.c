@@ -42,6 +42,8 @@ void app_init(void)
   // Put your additional application init code here!                         //
   // This is called once during start-up.                                    //
   /////////////////////////////////////////////////////////////////////////////
+
+  app_log("App started \n");
 }
 
 // Application Process Action.
