@@ -33,11 +33,14 @@ component:
 - {id: bluetooth_feature_accept_list}
 - {id: bluetooth_feature_connection_role_central}
 - {id: bluetooth_feature_connection_role_peripheral}
+- {id: bluetooth_feature_extended_advertiser}
 - {id: bluetooth_feature_gatt}
 - {id: bluetooth_feature_gatt_server}
 - {id: bluetooth_feature_legacy_advertiser}
 - {id: bluetooth_feature_legacy_scanner}
+- {id: bluetooth_feature_periodic_advertiser}
 - {id: bluetooth_feature_sm}
+- {id: bluetooth_feature_sync}
 - {id: bluetooth_feature_system}
 - {id: bluetooth_stack}
 - {id: brd4001a}

@@ -57,8 +57,6 @@ int main(void)
   app_init();
 
   while (1) {
-      app_log_info("App started \n");
-
     // Silicon Labs components process action routine
     // must be called from the super loop.
     sl_main_process_action();
