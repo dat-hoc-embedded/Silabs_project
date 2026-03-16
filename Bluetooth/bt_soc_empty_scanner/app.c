@@ -50,7 +50,7 @@ typedef enum
 	ADV_LEGACY = 0,
 	ADV_PERIODIC
 } adv_type_t;
-adv_type_t type = ADV_LEGACY;
+adv_type_t type = ADV_LEGACY;    // Change the type of advertiser: LEGACY | PERIODIC 
 
 typedef enum
 {
@@ -58,6 +58,7 @@ typedef enum
 	STATE_CONNECTING,
 	STATE_CONNECTED,
 } app_state_t;
+
 static app_state_t app_state = STATE_SCANNING;
 static uint8_t conn_handle = SL_BT_INVALID_CONNECTION_HANDLE;
 
@@ -98,6 +99,8 @@ void app_process_action(void)
 		// This is will run each time app_proceed() is called.                     //
 		// Do not call blocking functions from here!                               //
 		/////////////////////////////////////////////////////////////////////////////
+		if (display_dirty == true) 
+			refresh_display();
 	}
 }
 /**
@@ -110,6 +113,7 @@ void app_process_action(void)
  * @retval true 
  * @retval false 
  */
+
 static bool parse_device_name(const uint8_t *data, uint8_t len, char *name_out, uint8_t name_max)
 {
 	const uint8_t *p = data;
@@ -140,6 +144,7 @@ static bool parse_device_name(const uint8_t *data, uint8_t len, char *name_out, 
 
 static void start_scanning(void)
 {
+	app_log_info("[SCAN] Started scanning for \"%s\"...\n ", TARGET_DEVICE_NAME);
 	sl_status_t sc;
 
 	// Passive scan - không gửi SCAN_REQ, tiết kiệm pin
@@ -151,7 +156,6 @@ static void start_scanning(void)
 	app_assert_status(sc);
 
 	app_state = STATE_SCANNING;
-	app_log_info("[SCAN] Started scanning for \"%s\"...\n ", TARGET_DEVICE_NAME);
 }
 
 /**************************************************************************//**
@@ -252,6 +256,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 
 	case sl_bt_evt_scanner_legacy_advertisement_report_id: // [LEGACY]
 	{
+		app_log_info(" \n\n ===================  evt_legacy_advertisement_report ============== \n ");
 		if (app_state != STATE_SCANNING)
 			break;
 
@@ -274,12 +279,16 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 						 r->rssi);
 		}
 
+		// Add device to device_list that is printed on the LCD 128x128
+		add_device(r, parse_device_name);
+
 		// So khớp tên với target
-		if (!has_name || strcmp(name, TARGET_DEVICE_NAME) != 0)
+		if (!has_name || strcmp(name, TARGET_DEVICE_NAME) != 0 || memcmp(r->address.addr, TARGET_ADDR.addr, 6) != 0)
 			break;
 
 		// Tìm thấy target -> dừng scan và connect
 		app_log_info("[SCAN] Target found! Connecting ... \n");
+
 
 		sc = sl_bt_scanner_stop();
 		app_assert_status(sc);
@@ -301,6 +310,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 	/* ========  Nhận thông số connection sau khi mở ========= */
 	case sl_bt_evt_connection_parameters_id: /* [LEGACY] - */
 	{
+		app_log_info("\n\n ===================  evt_connection_parameters_id ============== \n ");
 		sl_bt_evt_connection_parameters_t *p = &evt->data.evt_connection_parameters;
 		app_log_info("[CONN] Parameters: \n");
 		app_log_info(" 		 Interval: %d * 1.25ms = %d ms \n", p->interval, (p->interval * 5) / 4);
@@ -309,13 +319,14 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 		app_log_info("		 Timeout : %d ms \n", p->timeout * 10);
 		break;
 	}
-	// -------------------------------
+	// --------------- Note: Xảy ra trước event connection_parameters_id 
 	case sl_bt_evt_connection_opened_id: /* [LEGACY] This event indicates that a new connection was opened. */
+		app_log_info("\n\n ===================  evt_connection_opened_id ============== \n ");
 		sl_bt_evt_connection_opened_t *c = &evt->data.evt_connection_opened;
 		conn_handle = c->connection;
 		app_state = STATE_CONNECTED;
 
-		app_log_info("Connection opened (handle=0x%02x, addr=%02x:%02x:%02x:%02x:%02x:%02x)\n",
+		app_log_info("Connection opened (handle=0x%02x, addr=%02X:%02X:%02X:%02X:%02X:%02X)\n",
 					 conn_handle,
 					 c->address.addr[5], c->address.addr[4],
 					 c->address.addr[3], c->address.addr[2],
@@ -329,7 +340,8 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 		// This event indicates that a connection was closed.
 
 	case sl_bt_evt_connection_closed_id: /* [LEGACY] - Close connection */
-		app_log_info("Connection closed (handle=0x%02x, reason=0x%04x) \n",
+		app_log_info("\n\n ===================  evt_connection_closed_id ============== \n ");
+		app_log_info("Connection closed (handle=0x%02X, reason=0x%04X) \n",
 					 evt->data.evt_connection_closed.connection,
 					 evt->data.evt_connection_closed.reason);
 
@@ -339,7 +351,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 		break;
 
 	case sl_bt_evt_gatt_mtu_exchanged_id: // [MTU exchange]
-		app_log_info("MTU exchanged: %d \n", evt->data.evt_gatt_mtu_exchanged.mtu);
+		// app_log_info("MTU exchanged: %d \n", evt->data.evt_gatt_mtu_exchanged.mtu);
 
 	///////////////////////////////////////////////////////////////////////////
 	// Add additional event handlers here as your application requires!      //

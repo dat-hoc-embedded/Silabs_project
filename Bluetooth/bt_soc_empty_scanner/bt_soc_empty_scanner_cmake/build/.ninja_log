@@ -117,7 +117,7 @@
 4176	5463	7950940507933972	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/543f8cf68c1edcd6b73cb2430f4f94d0/sl_component/sl_psa_driver/src/sli_se_transparent_key_derivation.c.obj	b231e20269d15d11
 4647	5575	7950940509000148	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/clock_manager/src/sl_clock_manager_init_hal_s2.c.obj	48ab5f4a14e15d55
 4983	5583	7950940509035615	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/device_manager/src/sl_device_peripheral.c.obj	9dac14744a3e179
-387	903	7950954971763053	default_config/bt_soc_empty_scanner.out	43b1cda18de559bb
+339	878	7953572750875251	default_config/bt_soc_empty_scanner.out	43b1cda18de559bb
 4010	5623	7950940509472494	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/d598a3705e05bd75805a3085a3aa77ce/security/sl_component/sl_psa_driver/src/sli_se_transparent_driver_mac.c.obj	bdca458978c8e6cf
 5024	5639	7950940509645932	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/interrupt_manager/src/sl_interrupt_manager_cortexm.c.obj	fa2af1fe2d64b93c
 5016	5661	7950940509868598	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/hfxo_manager/src/sl_hfxo_manager_hal_s2.c.obj	e28f594ea04d08bc
@@ -172,7 +172,7 @@
 6729	8314	7950940536344229	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/psa_crypto_client.c.obj	7125ea4794246d55
 6502	8332	7950940536550999	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/cipher.c.obj	7f7917d83d79fd6f
 181	623	7950942847678761	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/middleware/glib/dmd/display/dmd_memlcd.c.obj	8d58d2783b863330
-88	387	7950954968281543	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/app.c.obj	ea253d12a937eeea
+90	379	7953561829076350	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/app.c.obj	ea253d12a937eeea
 6800	8302	7950940536274273	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/psa_crypto_hash.c.obj	e1c7cae4edbce159
 151	587	7950942847283904	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/driver/memlcd/src/sl_memlcd.c.obj	7d170768485039f0
 6810	8335	7950940536712323	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/psa_crypto_mac.c.obj	1f0e315edbd95bcb
@@ -199,4 +199,6 @@
 1549	2582	7950940479091324	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/middleware/glib/glib/glib.c.obj	16866dcb86d27bcb
 1735	2590	7950940479158659	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/middleware/glib/glib/glib_string.c.obj	b97e699d3840abff
 146	576	7950942847207554	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/a046823c0096e77a854dfb5ad6ce9b7f/simplicity_sdk/hardware/driver/memlcd/src/memlcd_eusart/sl_memlcd_spi.c.obj	3a6186cfe152791e
-96	340	7950954967873212	CMakeFiles/bt_soc_empty_scanner.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/z_LCD_onboard.c.obj	917d6dd1f8e895b4
+77	343	7953593294114368	CMakeFiles/bt_soc_empty_scanner.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/z_LCD_onboard.c.obj	917d6dd1f8e895b4
+77	364	7953593759904798	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/app.c.obj	ea253d12a937eeea
+364	1052	7953593764824364	default_config/bt_soc_empty_scanner.out	43b1cda18de559bb
