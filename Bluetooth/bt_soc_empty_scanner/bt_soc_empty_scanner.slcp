@@ -55,6 +55,10 @@ component:
 - {id: memlcd_eusart}
 - {id: mpu}
 - {id: rail_util_pti}
+- instance: [btn0, btn1]
+  id: simple_button
+- instance: [led0]
+  id: simple_led
 - {id: sl_main}
 other_file:
 - {path: image/readme_img0.png}

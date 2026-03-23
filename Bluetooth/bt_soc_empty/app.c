@@ -33,13 +33,27 @@
 #include "app.h"
 
 #include "app_log.h"
+#include "gatt_db.h"
+#include "sl_simple_led_instances.h"
+#include "sl_button.h"
+#include "sl_simple_button_instances.h"
+
+#define PA_UPDATE_TIMER_HANDLE 1
+
 
 // The advertising set handle allocated from Bluetooth stack.
 static uint8_t advertising_set_handle = 0xff;
 static sl_sleeptimer_timer_handle_t pa_timer;
 static uint32_t pa_counter = 0;
 
-#define PA_UPDATE_TIMER_HANDLE 1
+// Variable for notify & indicate
+static uint8_t notify_connection = SL_BT_INVALID_CONNECTION_HANDLE;
+static bool notify_enabled = false;
+static bool indicate_enabled = false;
+
+static uint8_t ble_conn_handle = SL_BT_INVALID_CONNECTION_HANDLE; // Connection handle for the current BLE connection 
+static volatile bool btn0_pressed = false;
+
 
 // PACKSTRUCT để không có padding bytes - quan trọng khi truyền qua mạng 
 PACKSTRUCT( typedef struct
@@ -48,6 +62,14 @@ PACKSTRUCT( typedef struct
     uint8_t counter;
     int16_t temperature_x10;
 }) pa_payload_t;
+
+void sl_button_on_change(const sl_button_t *handle){
+    if (handle == &sl_button_btn0 && sl_button_get_state(handle) == SL_SIMPLE_BUTTON_PRESSED)
+    {
+        btn0_pressed = true; 
+        app_proceed(); 
+    }
+}
 
 static void update_periodic_data(sl_sleeptimer_timer_handle_t *h, void *data)
 {
@@ -78,6 +100,7 @@ void app_init(void)
     /////////////////////////////////////////////////////////////////////////////
 
     app_log_info("========= bt_soc_empty ========== \n");
+
 }
 
 // Application Process Action.
@@ -90,6 +113,29 @@ void app_process_action(void)
         // This is will run each time app_proceed() is called.                     //
         // Do not call blocking functions from here!                               //
         /////////////////////////////////////////////////////////////////////////////
+        if  (btn0_pressed) {
+            btn0_pressed = false;
+            sl_led_toggle(&sl_led_led0);
+
+            uint8_t state = (uint8_t)sl_led_get_state(&sl_led_led0);
+            sl_bt_gatt_server_write_attribute_value(gattdb_Led_Control, 0, sizeof(state), &state);  // sync Database 
+            app_log_info("BTN0: LED toggled -> %d \n", state);
+
+            if (ble_conn_handle != SL_BT_INVALID_CONNECTION_HANDLE)
+            {
+                if (notify_enabled) {
+                    sl_bt_gatt_server_send_notification(ble_conn_handle,
+                                                        gattdb_Led_Control, sizeof(state),
+                                                        &state);
+                    app_log_info("BTN0: Notify sent -> %d \n", state);
+                } else if (indicate_enabled) {
+                    sl_bt_gatt_server_send_indication(ble_conn_handle,
+                                                      gattdb_Led_Control,
+                                                      sizeof(state), &state);
+                    app_log_info("BTN0: Indicate sent -> %d (waiting ACK) \n", state);
+                }
+            }
+        }
     }
 }
 
@@ -185,7 +231,6 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
             app_assert_status(sc);
 
             app_log_info("[PA] Started. interval = 100ms. Soft timer 1s set. \n");
-
         }
 
         break;
@@ -212,6 +257,9 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     // -------------------------------
     // This event indicates that a new connection was opened.
     case sl_bt_evt_connection_opened_id:   
+        ble_conn_handle = evt->data.evt_connection_opened.connection;
+        notify_enabled = false;
+        indicate_enabled = false;
         app_log_info("Connection opened (handle=0x%02x, addr=%02x:%02x:%02x:%02x:%02x:%02x)\n",
                      evt->data.evt_connection_opened.connection,
                      evt->data.evt_connection_opened.address.addr[5],
@@ -225,6 +273,11 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     // -------------------------------
     // This event indicates that a connection was closed.
     case sl_bt_evt_connection_closed_id:
+
+        ble_conn_handle = SL_BT_INVALID_CONNECTION_HANDLE;
+        notify_enabled = false;
+        indicate_enabled = false;
+
         app_log_info("Connection closed (handle=0x%02x, reason=0x%04x) \n",
                      evt->data.evt_connection_closed.connection,
                      evt->data.evt_connection_closed.reason);
@@ -240,7 +293,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
         app_log_info("Advertising restarted\n");
         break;
 
-    case sl_bt_evt_advertiser_scan_request_id: 
+    case sl_bt_evt_advertiser_scan_request_id:
         bd_addr scanner_addr = evt->data.evt_advertiser_scan_request.address;
         printf("Scan request from %02x:%02x:%02x:%02x:%02x:%02x \n", 
                 scanner_addr.addr[5],
@@ -250,12 +303,93 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
                 scanner_addr.addr[1],
                 scanner_addr.addr[0]
             );
+        break;
     case sl_bt_evt_gatt_mtu_exchanged_id:
 		printf("MTU exchanged: %d \n", evt->data.evt_gatt_mtu_exchanged.mtu);
+        break;
     ///////////////////////////////////////////////////////////////////////////
     // Add additional event handlers here as your application requires!      //
     ///////////////////////////////////////////////////////////////////////////
 
+    // This event is used when client send read request
+    // case sl_bt_evt_gatt_server_user_read_request_id: 
+    // {
+    //     sl_bt_evt_gatt_server_user_read_request_t *req = &evt->data.evt_gatt_server_user_read_request;
+    //     if (req->characteristic == gattdb_Led_Control) {
+    //         uint8_t led_value = (uint8_t)sl_led_get_state(&sl_led_led0);
+    //         sl_bt_gatt_server_send_user_read_response(
+    //             req->connection,
+    //             req->characteristic,
+    //             SL_STATUS_OK, 
+    //             sizeof(led_value),
+    //             &led_value,
+    //             NULL);
+    //     }
+    //     break;
+    // }
+
+    // case sl_bt_evt_gatt_server_user_write_request_id:
+    // {
+    //     sl_bt_evt_gatt_server_user_write_request_t *req = &evt->data.evt_gatt_server_user_write_request;
+    //     if (req->characteristic == gattdb_Led_Control) {
+    //         uint8_t value = req->value.data[0];
+    //         if (value) {
+    //             sl_led_turn_on(&sl_led_led0);
+    //         } else {
+    //             sl_led_turn_off(&sl_led_led0);
+    //         }
+    //         sl_bt_gatt_server_send_user_write_response(
+    //             req->connection,
+    //             req->characteristic,
+    //             SL_STATUS_OK
+    //         );
+
+    //         app_log_info("LED set to: %d \n", value);
+    //     }
+    //     break;
+    // }
+
+    // This event is riss when client write value to server with type value = hex
+
+    case sl_bt_evt_gatt_server_indication_timeout_id:
+        app_log_warning("Indication timeout (conn=0x%02x) - client did not ACK \n",
+                        evt->data.evt_gatt_server_indication_timeout.connection);
+        break;
+
+    // When the client use API sl_bt_gatt_write_characteristic_value(conn_handle, char_handle, sizeof(led_state), &led_state);
+	case sl_bt_evt_gatt_server_attribute_value_id: 
+	{
+		sl_bt_evt_gatt_server_attribute_value_t *att = &evt->data.evt_gatt_server_attribute_value;
+		if (att->attribute == gattdb_Led_Control)
+		{
+			uint8_t value = att->value.data[0];
+			if (value)
+			{
+				sl_led_turn_on(&sl_led_led0);
+			}
+			else
+			{
+				sl_led_turn_off(&sl_led_led0);
+			}
+			app_log_info("LED set to: %d \n", value);
+
+		break;
+	}
+
+	// Client Characteristic Configuration (CCC) được viết bởi client (mobile app) để enable/disable notify/indicate
+	case sl_bt_evt_gatt_server_characteristic_status_id: 
+    {
+        sl_bt_evt_gatt_server_characteristic_status_t *cs = &evt->data.evt_gatt_server_characteristic_status;
+        if (cs->characteristic == gattdb_Led_Control && cs->status_flags == sl_bt_gatt_server_client_config)
+        {
+            notify_enabled = (cs->client_config_flags & sl_bt_gatt_notification) != 0; // Kiểm tra notify có được bật hay không bằng cách kiểm tra bit sl_bt_gatt_notification trong client_config_flags
+            indicate_enabled = (cs->client_config_flags & sl_bt_gatt_indication) != 0; // 
+            app_log_info("CCCD Led_control: Notify = %s Indicate = %s \n",
+                         notify_enabled ? "ON" : "OFF",
+                         indicate_enabled ? "ON" : "OFF"); // 
+        }
+        break;
+    }
     // -------------------------------
     // Default event handler.
     default:

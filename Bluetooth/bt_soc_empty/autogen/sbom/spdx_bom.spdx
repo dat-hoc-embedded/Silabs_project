@@ -13,7 +13,7 @@ DocumentNamespace: https://silabs.com
 
 ## Creation Information
 Creator: Organization: Silicon Laboratories, Inc.
-Created: 2026-03-09T10:31:09Z
+Created: 2026-03-17T09:23:24Z
 ## Relationships
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-simplicity_sdk-2025.6.2
 
@@ -30,11 +30,14 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-app_log
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-app_os_helper
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_accept_list
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_extended_advertiser
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_gatt
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_gatt_server
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_legacy_advertiser
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_legacy_scanner
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_periodic_advertiser
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_sm
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_sync
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_system
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_stack
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-brd4001a
@@ -193,9 +196,12 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-sl_main_init
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-sl_main_process_action
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-gpio
-Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_periodic_advertiser
-Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_sync
-Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_extended_advertiser
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-simple_led
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-led
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-simple_led_core
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-simple_button
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-button
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-simple_button_core
 
 ## Package Information
 PackageName: EFR32MG24B220F1536IM48
@@ -253,6 +259,17 @@ PackageLicenseConcluded: Zlib AND MSLA
 Relationship: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_accept_list CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
 
 ## Package Information
+PackageName: Extended Advertising
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_extended_advertiser
+PackageVersion: 2025.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_extended_advertiser CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+
+## Package Information
 PackageName: GATT Client
 SPDXID: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_gatt
 PackageVersion: 2025.6.2
@@ -297,6 +314,17 @@ PackageLicenseConcluded: MSLA
 Relationship: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_legacy_scanner CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
 
 ## Package Information
+PackageName: Periodic Advertising
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_periodic_advertiser
+PackageVersion: 2025.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_periodic_advertiser CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+
+## Package Information
 PackageName: Security Manager
 SPDXID: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_sm
 PackageVersion: 2025.6.2
@@ -306,6 +334,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_sm CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+
+## Package Information
+PackageName: Periodic Advertising Synchronization
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_sync
+PackageVersion: 2025.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_sync CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
 
 ## Package Information
 PackageName: System
@@ -2271,34 +2310,67 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.2-gpio CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
 
 ## Package Information
-PackageName: Periodic Advertising
-SPDXID: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_periodic_advertiser
+PackageName: Simple LED
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-simple_led
 PackageVersion: 2025.6.2
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib AND MSLA
+PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_periodic_advertiser CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-simple_led CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
 
 ## Package Information
-PackageName: Periodic Advertising Synchronization
-SPDXID: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_sync
+PackageName: Generic LED API
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-led
 PackageVersion: 2025.6.2
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib AND MSLA
+PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_sync CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-led CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
 
 ## Package Information
-PackageName: Extended Advertising
-SPDXID: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_extended_advertiser
+PackageName: Simple LED Core
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-simple_led_core
 PackageVersion: 2025.6.2
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
+PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.2-bluetooth_feature_extended_advertiser CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-simple_led_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+
+## Package Information
+PackageName: Simple Button
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-simple_button
+PackageVersion: 2025.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-simple_button CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+
+## Package Information
+PackageName: Generic Button API
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-button
+PackageVersion: 2025.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-button CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+
+## Package Information
+PackageName: Simple Button Configuration
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-simple_button_core
+PackageVersion: 2025.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-simple_button_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2

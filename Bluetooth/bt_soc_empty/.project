@@ -712,6 +712,26 @@
 			<locationURI>STUDIO_SDK_LOC/platform/bootloader/core/flash/btl_internal_flash.h</locationURI>
 		</link>
 		<link>
+			<name>simplicity_sdk_2025.6.2/platform/driver/button/inc/sl_button.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/button/inc/sl_button.h</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.2/platform/driver/button/inc/sl_simple_button.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/button/inc/sl_simple_button.h</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.2/platform/driver/button/src/sl_button.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/button/src/sl_button.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.2/platform/driver/button/src/sl_simple_button.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/button/src/sl_simple_button.c</locationURI>
+		</link>
+		<link>
 			<name>simplicity_sdk_2025.6.2/platform/driver/debug/inc/sl_debug_swo.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/driver/debug/inc/sl_debug_swo.h</locationURI>
@@ -730,6 +750,26 @@
 			<name>simplicity_sdk_2025.6.2/platform/driver/gpio/src/sl_gpio.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/driver/gpio/src/sl_gpio.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.2/platform/driver/leddrv/inc/sl_led.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/leddrv/inc/sl_led.h</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.2/platform/driver/leddrv/inc/sl_simple_led.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/leddrv/inc/sl_simple_led.h</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.2/platform/driver/leddrv/src/sl_led.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/leddrv/src/sl_led.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.2/platform/driver/leddrv/src/sl_simple_led.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/leddrv/src/sl_simple_led.c</locationURI>
 		</link>
 		<link>
 			<name>simplicity_sdk_2025.6.2/platform/emdrv/common/inc/ecode.h</name>

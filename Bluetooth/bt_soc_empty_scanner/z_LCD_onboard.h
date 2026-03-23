@@ -34,7 +34,6 @@ extern bool display_dirty;
 
 typedef bool (*device_name_parse_t)(const uint8_t *data, uint8_t len, char *name_out, uint8_t name_max);
 
-
 void display_init(void);
 
 int check_device(const bd_addr * );

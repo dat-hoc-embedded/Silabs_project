@@ -3,7 +3,7 @@
   "specVersion" : "1.6",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2026-03-09T10:31:09Z",
+    "timestamp" : "2026-03-17T09:23:24Z",
     "authors" : [ {
       "name" : "Silicon Laboratories, Inc."
     } ],
@@ -84,6 +84,18 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.2:bluetooth_feature_extended_advertiser",
+      "name" : "Extended Advertising",
+      "version" : "2025.6.2",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "simplicity_sdk:2025.6.2:bluetooth_feature_gatt",
       "name" : "GATT Client",
       "version" : "2025.6.2",
@@ -132,6 +144,18 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.2:bluetooth_feature_periodic_advertiser",
+      "name" : "Periodic Advertising",
+      "version" : "2025.6.2",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib AND MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "simplicity_sdk:2025.6.2:bluetooth_feature_sm",
       "name" : "Security Manager",
       "version" : "2025.6.2",
@@ -140,6 +164,18 @@
       },
       "licenses" : [ {
         "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.2:bluetooth_feature_sync",
+      "name" : "Periodic Advertising Synchronization",
+      "version" : "2025.6.2",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib AND MSLA"
       } ]
     }, {
       "scope" : "required",
@@ -2345,38 +2381,74 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.2:bluetooth_feature_periodic_advertiser",
-      "name" : "Periodic Advertising",
+      "bom-ref" : "simplicity_sdk:2025.6.2:simple_led",
+      "name" : "Simple LED",
       "version" : "2025.6.2",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
       },
       "licenses" : [ {
-        "expression" : "Zlib AND MSLA"
+        "expression" : "Zlib"
       } ]
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.2:bluetooth_feature_sync",
-      "name" : "Periodic Advertising Synchronization",
+      "bom-ref" : "simplicity_sdk:2025.6.2:led",
+      "name" : "Generic LED API",
       "version" : "2025.6.2",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
       },
       "licenses" : [ {
-        "expression" : "Zlib AND MSLA"
+        "expression" : "Zlib"
       } ]
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.2:bluetooth_feature_extended_advertiser",
-      "name" : "Extended Advertising",
+      "bom-ref" : "simplicity_sdk:2025.6.2:simple_led_core",
+      "name" : "Simple LED Core",
       "version" : "2025.6.2",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
       },
       "licenses" : [ {
-        "expression" : "MSLA"
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.2:simple_button",
+      "name" : "Simple Button",
+      "version" : "2025.6.2",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.2:button",
+      "name" : "Generic Button API",
+      "version" : "2025.6.2",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.2:simple_button_core",
+      "name" : "Simple Button Configuration",
+      "version" : "2025.6.2",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
       } ]
     } ]
   } ]

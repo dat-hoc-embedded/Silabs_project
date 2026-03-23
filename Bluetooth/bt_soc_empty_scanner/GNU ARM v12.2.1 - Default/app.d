@@ -87,7 +87,15 @@ app.o: ../app.c \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emlib\inc\em_ldma.h \
  E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\config/dmadrv_config.h \
  E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\config/app_log_config.h \
- ../app.h
+ ../app.h ../z_LCD_onboard.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\glib\glib.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\glib\glib_color.h \
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\config/glib_config.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\dmd\dmd.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\em_types.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\dmd\dmd.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\hardware\board\inc\sl_board_control.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\protocol\bluetooth\inc\sl_bgapi.h
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\protocol\bluetooth\inc\sl_bt_api.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_status.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\protocol\bluetooth\inc\sl_bgapi.h:
@@ -177,3 +185,12 @@ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\emlib\inc\em_ldma.h
 E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\config/dmadrv_config.h:
 E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\config/app_log_config.h:
 ../app.h:
+../z_LCD_onboard.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\glib\glib.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\glib\glib_color.h:
+E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\config/glib_config.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\dmd\dmd.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\em_types.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\dmd\dmd.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\hardware\board\inc\sl_board_control.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\protocol\bluetooth\inc\sl_bgapi.h:

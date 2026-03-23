@@ -10,7 +10,7 @@ referenced in this SBOM.)
 -->
 <bom xmlns="http://cyclonedx.org/schema/bom/1.6" version="1">
   <metadata>
-    <timestamp>2026-03-13T08:33:18Z</timestamp>
+    <timestamp>2026-03-19T09:41:36Z</timestamp>
     <authors>
       <author>
         <name>Silicon Laboratories, Inc.</name>
@@ -195,6 +195,16 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
+        <component bom-ref="simplicity_sdk:2025.6.2:dmd_memlcd" type="library">
+          <name>GLIB driver for Memory LCD</name>
+          <version>2025.6.2</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>Zlib</expression>
+          </licenses>
+        </component>
         <component bom-ref="simplicity_sdk:2025.6.2:gatt_configuration" type="library">
           <name>Static GATT Database and Configuration</name>
           <version>2025.6.2</version>
@@ -215,6 +225,16 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
+        <component bom-ref="simplicity_sdk:2025.6.2:glib" type="library">
+          <name>GLIB Graphics Library</name>
+          <version>2025.6.2</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>Zlib</expression>
+          </licenses>
+        </component>
         <component bom-ref="simplicity_sdk:2025.6.2:in_place_ota_dfu" type="library">
           <name>In-Place OTA DFU</name>
           <version>2025.6.2</version>
@@ -227,6 +247,16 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="simplicity_sdk:2025.6.2:iostream_usart" type="library">
           <name>IO Stream: USART</name>
+          <version>2025.6.2</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>Zlib</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2025.6.2:memlcd_eusart" type="library">
+          <name>Memory LCD with eusart SPI driver</name>
           <version>2025.6.2</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -812,6 +842,16 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="simplicity_sdk:2025.6.2:memory_manager_pool" type="library">
           <name>Memory Manager Memory Pool</name>
+          <version>2025.6.2</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>Zlib</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2025.6.2:ls013b7dh03" type="library">
+          <name>Monochrome Sharp Memory LCD</name>
           <version>2025.6.2</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -2040,8 +2080,8 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2025.6.2:dmd_memlcd" type="library">
-          <name>GLIB driver for Memory LCD</name>
+        <component bom-ref="simplicity_sdk:2025.6.2:simple_button" type="library">
+          <name>Simple Button</name>
           <version>2025.6.2</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -2050,8 +2090,8 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2025.6.2:ls013b7dh03" type="library">
-          <name>Monochrome Sharp Memory LCD</name>
+        <component bom-ref="simplicity_sdk:2025.6.2:button" type="library">
+          <name>Generic Button API</name>
           <version>2025.6.2</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -2060,8 +2100,8 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2025.6.2:glib" type="library">
-          <name>GLIB Graphics Library</name>
+        <component bom-ref="simplicity_sdk:2025.6.2:simple_button_core" type="library">
+          <name>Simple Button Configuration</name>
           <version>2025.6.2</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -2070,8 +2110,28 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2025.6.2:memlcd_eusart" type="library">
-          <name>Memory LCD with eusart SPI driver</name>
+        <component bom-ref="simplicity_sdk:2025.6.2:simple_led" type="library">
+          <name>Simple LED</name>
+          <version>2025.6.2</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>Zlib</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2025.6.2:led" type="library">
+          <name>Generic LED API</name>
+          <version>2025.6.2</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>Zlib</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2025.6.2:simple_led_core" type="library">
+          <name>Simple LED Core</name>
           <version>2025.6.2</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>

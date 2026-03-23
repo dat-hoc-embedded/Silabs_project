@@ -128,6 +128,9 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\iostream\inc\sl_iostream_stdlib_config.h \
  ../autogen/sl_iostream_init_usart_instances.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\security\sl_component\sl_mbedtls_support\inc\sl_mbedtls.h \
+ ../autogen/sl_simple_button_instances.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_simple_button.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_button.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto_platform.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\mbedtls\private_access.h \
@@ -353,6 +356,9 @@ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\device_mana
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\iostream\inc\sl_iostream_stdlib_config.h:
 ../autogen/sl_iostream_init_usart_instances.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\security\sl_component\sl_mbedtls_support\inc\sl_mbedtls.h:
+../autogen/sl_simple_button_instances.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_simple_button.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_button.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto_platform.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\mbedtls\private_access.h:

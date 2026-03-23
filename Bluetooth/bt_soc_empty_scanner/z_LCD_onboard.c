@@ -8,11 +8,7 @@
  * @copyright Copyright (c) 2026
  * 
  */
-
-
 #include "z_LCD_onboard.h"
-
-
 
 /** ------------ State -------------- */
 static GLIB_Context_t glib_ctx;

@@ -36,6 +36,16 @@
 
 #include "z_LCD_onboard.h"
 
+#include "sl_simple_button_instances.h"
+#include "sl_button.h" // Declare function: void sl_button_on_change(const sl_button_t *handle) 
+#include "sl_simple_led_instances.h"
+
+ 
+// The variable for button state
+static volatile bool btn0_pressed = false;
+static volatile bool btn1_pressed = false;
+static uint8_t led_state = 0;
+
 // The advertising set handle allocated from Bluetooth stack.
 static uint8_t advertising_set_handle = 0xff;
 #define TARGET_DEVICE_NAME "Empty Example"
@@ -43,31 +53,80 @@ static uint8_t advertising_set_handle = 0xff;
 // MAC của board 1
 static const bd_addr TARGET_ADDR = {{0x77, 0x8B, 0x5B, 0xB1, 0x5C, 0x6C}};
 static uint16_t sync_handle = 0xFFFF;
+static uint8_t conn_handle = SL_BT_INVALID_CONNECTION_HANDLE;
+static uint32_t service_handle = 0;
+static uint16_t char_handle = 0;
+
 static bool sync_opened = false;
 
+/**
+ * @brief This enum declare 2 type of advertiser:  LEGACY | PERIODIC 
+ * 
+ */
 typedef enum
 {
 	ADV_LEGACY = 0,
 	ADV_PERIODIC
 } adv_type_t;
-adv_type_t type = ADV_LEGACY;    // Change the type of advertiser: LEGACY | PERIODIC 
+adv_type_t ad_type = ADV_LEGACY;  
 
+/**
+ * @brief This enum declare state to show the process of Bluetooth scanner
+ * 
+ */
 typedef enum
 {
 	STATE_SCANNING,
 	STATE_CONNECTING,
 	STATE_CONNECTED,
+	STATE_DISCOVERING_SERVICE,
+	STATE_DISCOVERING_CHAR,
+	STATE_SUBSCRIBING,  
+	STATE_READY,
 } app_state_t;
-
 static app_state_t app_state = STATE_SCANNING;
-static uint8_t conn_handle = SL_BT_INVALID_CONNECTION_HANDLE;
 
+/**
+ * @brief Payload for Periodic advertiser
+ * @param type
+ * 
+ */
 typedef struct
 {
 	uint8_t type;
 	uint8_t counter;
 	int16_t temperature_x10;
 } pa_payload_t;
+
+// UUID service: 6933b573-66e5-476c-8ff3-cc3d0c4c1302 (little-endian)
+static const uint8_t led_service_uuid[] = {
+    0x02, 0x13, 0x4c, 0x0c,
+    0x3d, 0xcc,
+    0xf3, 0x8f,
+    0x6c, 0x47,
+    0xe5, 0x66, 0x73, 0xb5, 0x33, 0x69
+};
+
+//UUID characteristic: 023ec5dc-d5ce-404a-bcfd-96145800d535 (little-endian)
+static const uint8_t led_char_uuid[] = {
+    0x35, 0xd5, 0x00, 0x58,
+    0x14, 0x96,
+    0xfd, 0xbc,
+    0x4a, 0x40,
+    0xce, 0xd5, 0xdc, 0xc5, 0x3e, 0x02
+};
+
+void sl_button_on_change(const sl_button_t *handle) {
+	if (handle == &sl_button_btn0 && sl_button_get_state(handle) == SL_SIMPLE_BUTTON_PRESSED) {
+		btn0_pressed = true;
+		app_proceed();
+	} 
+	if (handle == &sl_button_btn1 && sl_button_get_state(handle) == SL_SIMPLE_BUTTON_PRESSED) {
+		btn1_pressed = true;
+		app_proceed();
+	}
+	
+}
 
 // Application Init.
 void app_init(void)
@@ -79,7 +138,7 @@ void app_init(void)
 
 	display_init();
 
-	if (type == ADV_PERIODIC)
+	if (ad_type == ADV_PERIODIC)
 	{
 		app_log_info(" Hello, I am scanner. Periodic Sync Observer \n");
 	}
@@ -99,8 +158,22 @@ void app_process_action(void)
 		// This is will run each time app_proceed() is called.                     //
 		// Do not call blocking functions from here!                               //
 		/////////////////////////////////////////////////////////////////////////////
-		if (display_dirty == true) 
+		if (display_dirty == true)
 			refresh_display();
+
+		if (btn0_pressed && app_state <= STATE_READY)
+		{
+			btn0_pressed = false;
+			led_state = !led_state;
+			sl_bt_gatt_write_characteristic_value(conn_handle, char_handle, sizeof(led_state), &led_state);
+			app_log_info("Client: Write LED = %d \n", led_state);
+
+		}
+		if (btn1_pressed && app_state <= STATE_READY)
+		{
+			btn1_pressed = false;
+			sl_bt_gatt_read_characteristic_value(conn_handle, char_handle);
+		}
 	}
 }
 /**
@@ -177,7 +250,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 	{
 
 		// Bắt đầu scan extended advertising để tìm SyncInfo
-		if (type == ADV_PERIODIC)
+		if (ad_type == ADV_PERIODIC)
 		{
 			sc = sl_bt_scanner_start(sl_bt_gap_phy_1m, sl_bt_scanner_discover_observation);
 			app_assert_status(sc);
@@ -186,7 +259,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 		}
 		else
 		{
-			app_log_info("[EVT] SYSTEM BOOT ID");
+			app_log_info("[EVT] SYSTEM BOOT ID \n");
 			start_scanning();
 		}
 
@@ -252,9 +325,11 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 
 		// Scan lại để tìm và re-sync
 		sl_bt_scanner_start(sl_bt_gap_phy_1m, sl_bt_scanner_discover_observation);
+		break;
 	}
 
-	case sl_bt_evt_scanner_legacy_advertisement_report_id: // [LEGACY]
+
+	case sl_bt_evt_scanner_legacy_advertisement_report_id: // [LEGACY] Event when scanner catch advertisement_report 
 	{
 		app_log_info(" \n\n ===================  evt_legacy_advertisement_report ============== \n ");
 		if (app_state != STATE_SCANNING)
@@ -283,7 +358,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 		add_device(r, parse_device_name);
 
 		// So khớp tên với target
-		if (!has_name || strcmp(name, TARGET_DEVICE_NAME) != 0 || memcmp(r->address.addr, TARGET_ADDR.addr, 6) != 0)
+		if (!has_name || memcmp(r->address.addr, TARGET_ADDR.addr, 6) != 0)     // bỏ strcmp(name, TARGET_DEVICE_NAME) != 0
 			break;
 
 		// Tìm thấy target -> dừng scan và connect
@@ -334,11 +409,97 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 
 		app_log_info(" 		Role	: %s \n", c->role == 0 ? "Peripheral" : "Central");
 
-		break;
+		// Change to Discovering service ... \n
+		app_state = STATE_DISCOVERING_SERVICE;
+		app_log_info("Client: Discovering characteristic ... \n");
+		sc = sl_bt_gatt_discover_primary_services_by_uuid(conn_handle,
+														  sizeof(led_service_uuid),
+														  led_service_uuid);
+		app_assert_status(sc);
 
+		break;
 		// -------------------------------
 		// This event indicates that a connection was closed.
 
+	case sl_bt_evt_gatt_service_id: 
+		if (app_state == STATE_DISCOVERING_SERVICE)
+		{	
+			service_handle = evt->data.evt_gatt_service.service;
+			app_log_info("Client: Service found (handle=%lu)\n", service_handle);
+		}
+		break;
+
+	case sl_bt_evt_gatt_characteristic_id:
+		if (app_state == STATE_DISCOVERING_CHAR)
+		{
+			char_handle = evt->data.evt_gatt_characteristic.characteristic;
+			app_log_info("Client: Characteristic found (handle = %lu)\n", char_handle);
+		}
+		break;
+
+	case sl_bt_evt_gatt_procedure_completed_id:
+		uint16_t result = evt->data.evt_gatt_procedure_completed.result;
+		if (result != SL_STATUS_OK) {
+			app_log_error("GATT procedure failed: 0x%04x \n", result);
+			break;
+		}
+
+		if (app_state == STATE_DISCOVERING_SERVICE) 
+		{
+			app_state = STATE_DISCOVERING_CHAR;
+			app_log_info("Client: Discovering characteristic ... \n");
+
+			sc = sl_bt_gatt_discover_characteristics_by_uuid(conn_handle, service_handle,
+															 sizeof(led_char_uuid), led_char_uuid);
+			app_assert_status(sc);
+
+		}else if (app_state == STATE_DISCOVERING_CHAR)
+		{
+			app_state = STATE_SUBSCRIBING;     
+
+			//Subscribe to Notify của characteristic vừa tìm được (char_handle) để nhận giá trị khi server gửi Notify
+			sl_bt_gatt_set_characteristic_notification(conn_handle,
+													   char_handle,
+													   sl_bt_gatt_notification);   // hoặc sl_bt_gatt_indication
+			
+			app_log_info("Client: Subscribing to Notify ... \n");
+		} else if (app_state == STATE_SUBSCRIBING) {
+
+			app_state = STATE_READY;
+			app_log_info("Client: Subcribed -> READY - PB0 to toggle Server LED \n");
+
+		}
+		break;
+
+	// This evt is raise by API: 		sl_bt_gatt_read_characteristic_value(conn_handle, char_handle);	
+	case sl_bt_evt_gatt_characteristic_value_id: // [LEGACY] - Event when the client receive value after read or notification/indication  
+	{
+		app_log_info("Client: Read value ");
+		sl_bt_evt_gatt_characteristic_value_t *val = &evt->data.evt_gatt_characteristic_value;
+
+		if (val->characteristic != char_handle) break;
+
+		uint8_t received = val->value.data[0];
+
+		if (val->att_opcode == sl_bt_gatt_handle_value_notification || //27
+			val->att_opcode == sl_bt_gatt_read_response ||   //11
+			val->att_opcode == sl_bt_gatt_handle_value_indication)  // 29
+		{
+			// -- Notify: stack khong tu gui ACK, firmware không cần làm gì thêm
+			app_log_info("Client: Notification received (att_type = %d, %d bytes), LED = %d \n", val->att_opcode, val->value.len, received);
+			led_state = received;
+			if (received)
+			{
+				sl_led_turn_on(&sl_led_led0);
+			}
+			else
+			{
+				sl_led_turn_off(&sl_led_led0);
+			}
+		}
+		break;
+	}
+	
 	case sl_bt_evt_connection_closed_id: /* [LEGACY] - Close connection */
 		app_log_info("\n\n ===================  evt_connection_closed_id ============== \n ");
 		app_log_info("Connection closed (handle=0x%02X, reason=0x%04X) \n",
@@ -346,6 +507,9 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 					 evt->data.evt_connection_closed.reason);
 
 		conn_handle = SL_BT_INVALID_CONNECTION_HANDLE;
+		service_handle = 0;
+		char_handle = 0;
+		app_state = STATE_SCANNING;
 
 		start_scanning();
 		break;
@@ -357,6 +521,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 	// Add additional event handlers here as your application requires!      //
 	///////////////////////////////////////////////////////////////////////////
 
+		break;
 	// -------------------------------
 	default: /* Default event handler. */
 		break;
