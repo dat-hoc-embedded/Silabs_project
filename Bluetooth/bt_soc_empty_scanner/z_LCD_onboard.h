@@ -27,8 +27,7 @@ typedef struct {
     char name[DEVICE_NAME_LEN + 1];
     bool has_name;
     bool valid;
-
-}bt_device_t;
+} bt_device_t;
 
 extern bool display_dirty;
 

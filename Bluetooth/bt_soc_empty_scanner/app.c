@@ -81,7 +81,8 @@ typedef enum
 	STATE_CONNECTED,
 	STATE_DISCOVERING_SERVICE,
 	STATE_DISCOVERING_CHAR,
-	STATE_SUBSCRIBING,  
+	STATE_SUBSCRIBING_NOTIFY,
+	STATE_SUBSCRIBING_INDICATION,  
 	STATE_READY,
 } app_state_t;
 static app_state_t app_state = STATE_SCANNING;
@@ -411,7 +412,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 
 		// Change to Discovering service ... \n
 		app_state = STATE_DISCOVERING_SERVICE;
-		app_log_info("Client: Discovering characteristic ... \n");
+		app_log_info("Client: Discovering service ... \n");
 		sc = sl_bt_gatt_discover_primary_services_by_uuid(conn_handle,
 														  sizeof(led_service_uuid),
 														  led_service_uuid);
@@ -455,19 +456,31 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 
 		}else if (app_state == STATE_DISCOVERING_CHAR)
 		{
-			app_state = STATE_SUBSCRIBING;     
+			app_state = STATE_SUBSCRIBING_NOTIFY;     
 
-			//Subscribe to Notify của characteristic vừa tìm được (char_handle) để nhận giá trị khi server gửi Notify
-			sl_bt_gatt_set_characteristic_notification(conn_handle,
-													   char_handle,
-													   sl_bt_gatt_notification);   // hoặc sl_bt_gatt_indication
-			
-			app_log_info("Client: Subscribing to Notify ... \n");
-		} else if (app_state == STATE_SUBSCRIBING) {
+			if(app_state == STATE_SUBSCRIBING_NOTIFY )
+			{
+				//Subscribe to Notify của characteristic vừa tìm được (char_handle) để nhận giá trị khi server gửi Notify
+				sl_bt_gatt_set_characteristic_notification(conn_handle,
+														char_handle,
+														sl_bt_gatt_notification);   // hoặc sl_bt_gatt_indication
+				
+				app_log_info("Client: Subscribing to Notify ... \n");
+			} else if (app_state == STATE_SUBSCRIBING_INDICATION)
+			{
+				//Subscribe to Notify của characteristic vừa tìm được (char_handle) để nhận giá trị khi server gửi Notify
+				sl_bt_gatt_set_characteristic_notification(conn_handle,
+														char_handle,
+														sl_bt_gatt_indication);   // hoặc sl_bt_gatt_indication
+				app_log_info("Client: Subscribing to Indication ... \n");
+
+			}
+		
+
+		} else if (app_state == STATE_SUBSCRIBING_NOTIFY || app_state == STATE_SUBSCRIBING_INDICATION) {
 
 			app_state = STATE_READY;
 			app_log_info("Client: Subcribed -> READY - PB0 to toggle Server LED \n");
-
 		}
 		break;
 
@@ -482,8 +495,8 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 		uint8_t received = val->value.data[0];
 
 		if (val->att_opcode == sl_bt_gatt_handle_value_notification || //27
-			val->att_opcode == sl_bt_gatt_read_response ||   //11
-			val->att_opcode == sl_bt_gatt_handle_value_indication)  // 29
+			val->att_opcode == sl_bt_gatt_read_response    //11
+			)  
 		{
 			// -- Notify: stack khong tu gui ACK, firmware không cần làm gì thêm
 			app_log_info("Client: Notification received (att_type = %d, %d bytes), LED = %d \n", val->att_opcode, val->value.len, received);
@@ -496,7 +509,13 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 			{
 				sl_led_turn_off(&sl_led_led0);
 			}
+		} else if (val->att_opcode == sl_bt_gatt_handle_value_indication) // 29
+		{
+			app_log_info("Client: Indication received, LED = %d \n", received);
+			
 		}
+
+
 		break;
 	}
 	

@@ -50,9 +50,11 @@ static uint32_t pa_counter = 0;
 static uint8_t notify_connection = SL_BT_INVALID_CONNECTION_HANDLE;
 static bool notify_enabled = false;
 static bool indicate_enabled = false;
+static bool indication_in_flight = false; // Dùng flag để chờ ACK tránh gửi indication liên tục mà không chờ ACK 
 
 static uint8_t ble_conn_handle = SL_BT_INVALID_CONNECTION_HANDLE; // Connection handle for the current BLE connection 
 static volatile bool btn0_pressed = false;
+static volatile bool btn1_pressed = false;
 
 
 // PACKSTRUCT để không có padding bytes - quan trọng khi truyền qua mạng 
@@ -63,12 +65,21 @@ PACKSTRUCT( typedef struct
     int16_t temperature_x10;
 }) pa_payload_t;
 
+static bool flags = false;  // true = custome, false = info 
+
+static gattdb_cap_t caps;
+
+// Interrupt function for button 
 void sl_button_on_change(const sl_button_t *handle){
     if (handle == &sl_button_btn0 && sl_button_get_state(handle) == SL_SIMPLE_BUTTON_PRESSED)
     {
         btn0_pressed = true; 
         app_proceed(); 
     }
+    if (handle == &sl_button_btn1 && sl_button_get_state(handle) == SL_SIMPLE_BUTTON_PRESSED) {
+		btn1_pressed = true;
+		app_proceed();
+	}
 }
 
 static void update_periodic_data(sl_sleeptimer_timer_handle_t *h, void *data)
@@ -87,6 +98,29 @@ static void update_periodic_data(sl_sleeptimer_timer_handle_t *h, void *data)
 
     if (sc == SL_STATUS_OK) {
         app_log_info("[PA] TX packet #%lu temp=%.1f C \n", pa_counter, payload.temperature_x10 / 10.0f);
+    }
+
+}
+
+
+static void toggle_gatt_mode(void) 
+{
+    sl_status_t sc;
+    flags = !flags;
+    if (flags == false) {  
+        // Bật cap_info
+        caps = info;
+        sc = sl_bt_gatt_server_set_capabilities(caps, 0);
+        app_assert_status(sc);
+        app_log_info("[PolyGATT] Mode -> INFO: Custome hidden, "
+                     "Info visible \n");
+    } else {
+        caps = custome;
+        // Bật cap_custome, tắt capp_info - về trạng thái mặc định
+        sc = sl_bt_gatt_server_set_capabilities(caps, 0);
+        app_assert_status(sc);
+        app_log_info("[PolyGATT] Mode -> CUSTOME: Custome visible, "
+                     "Info hidden \n");
     }
 
 }
@@ -128,14 +162,24 @@ void app_process_action(void)
                                                         gattdb_Led_Control, sizeof(state),
                                                         &state);
                     app_log_info("BTN0: Notify sent -> %d \n", state);
-                } else if (indicate_enabled) {
+                }
+                else if (indicate_enabled && !indication_in_flight)
+                {
                     sl_bt_gatt_server_send_indication(ble_conn_handle,
                                                       gattdb_Led_Control,
                                                       sizeof(state), &state);
                     app_log_info("BTN0: Indicate sent -> %d (waiting ACK) \n", state);
+
+                    indication_in_flight == true;
                 }
             }
         }
+        if (btn1_pressed) {
+            btn1_pressed = false;
+            toggle_gatt_mode();
+        }
+
+        
     }
 }
 
@@ -260,6 +304,8 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
         ble_conn_handle = evt->data.evt_connection_opened.connection;
         notify_enabled = false;
         indicate_enabled = false;
+        indication_in_flight = false;
+
         app_log_info("Connection opened (handle=0x%02x, addr=%02x:%02x:%02x:%02x:%02x:%02x)\n",
                      evt->data.evt_connection_opened.connection,
                      evt->data.evt_connection_opened.address.addr[5],
@@ -277,6 +323,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
         ble_conn_handle = SL_BT_INVALID_CONNECTION_HANDLE;
         notify_enabled = false;
         indicate_enabled = false;
+        indication_in_flight = false;
 
         app_log_info("Connection closed (handle=0x%02x, reason=0x%04x) \n",
                      evt->data.evt_connection_closed.connection,
@@ -352,6 +399,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     // This event is riss when client write value to server with type value = hex
 
     case sl_bt_evt_gatt_server_indication_timeout_id:
+        indication_in_flight = false;   // reset để có thể gửi lại
         app_log_warning("Indication timeout (conn=0x%02x) - client did not ACK \n",
                         evt->data.evt_gatt_server_indication_timeout.connection);
         break;
@@ -373,6 +421,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 			}
 			app_log_info("LED set to: %d \n", value);
 
+        }
 		break;
 	}
 
@@ -380,6 +429,8 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 	case sl_bt_evt_gatt_server_characteristic_status_id: 
     {
         sl_bt_evt_gatt_server_characteristic_status_t *cs = &evt->data.evt_gatt_server_characteristic_status;
+
+        // ___ CCCD write: client subscribe/unsubsribe
         if (cs->characteristic == gattdb_Led_Control && cs->status_flags == sl_bt_gatt_server_client_config)
         {
             notify_enabled = (cs->client_config_flags & sl_bt_gatt_notification) != 0; // Kiểm tra notify có được bật hay không bằng cách kiểm tra bit sl_bt_gatt_notification trong client_config_flags
@@ -388,8 +439,18 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
                          notify_enabled ? "ON" : "OFF",
                          indicate_enabled ? "ON" : "OFF"); // 
         }
+        
+        // ____ Confirmation: client đã ACK indication
+        if (cs ->status_flags == sl_bt_gatt_server_confirmation && cs->characteristic == gattdb_Led_Control)
+        {
+            indication_in_flight = false;
+            app_log_info("Indication ACK received \n");
+        }
+
         break;
     }
+
+
     // -------------------------------
     // Default event handler.
     default:
