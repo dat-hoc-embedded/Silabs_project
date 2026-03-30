@@ -95,7 +95,16 @@ app.o: ../app.c \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\em_types.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\dmd\dmd.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\hardware\board\inc\sl_board_control.h \
- c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\protocol\bluetooth\inc\sl_bgapi.h
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\protocol\bluetooth\inc\sl_bgapi.h \
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\autogen/sl_simple_button_instances.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_simple_button.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_button.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\gpio\inc\sl_gpio.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\device_manager\inc\sl_device_gpio.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_button.h \
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\autogen/sl_simple_led_instances.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\leddrv\inc\sl_simple_led.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\leddrv\inc\sl_led.h
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\protocol\bluetooth\inc\sl_bt_api.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_status.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\protocol\bluetooth\inc\sl_bgapi.h:
@@ -194,3 +203,12 @@ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\em_
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\middleware\glib\dmd\dmd.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\hardware\board\inc\sl_board_control.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\protocol\bluetooth\inc\sl_bgapi.h:
+E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\autogen/sl_simple_button_instances.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_simple_button.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_button.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\gpio\inc\sl_gpio.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\service\device_manager\inc\sl_device_gpio.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_button.h:
+E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\autogen/sl_simple_led_instances.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\leddrv\inc\sl_simple_led.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\leddrv\inc\sl_led.h:

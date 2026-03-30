@@ -56,6 +56,10 @@ static uint8_t ble_conn_handle = SL_BT_INVALID_CONNECTION_HANDLE; // Connection 
 static volatile bool btn0_pressed = false;
 static volatile bool btn1_pressed = false;
 
+static void log_local_database_hash(void) ;
+
+#define DB_HASH_LEN 16
+
 
 // PACKSTRUCT để không có padding bytes - quan trọng khi truyền qua mạng 
 PACKSTRUCT( typedef struct
@@ -123,6 +127,52 @@ static void toggle_gatt_mode(void)
                      "Info hidden \n");
     }
 
+    // Hash thay đổi vì GATT structure đã thay đổi
+    log_local_database_hash();
+
+}
+// --------- GATT Caching: Server helpers 
+/**
+ * @brief Đọc Database Hash (UUID 0x2B2A) từ Local GATT database. 
+ * Stack tự tính hash bằng AES-CMAC mỗi khi GATT structure thay đổi. 
+ * Hash = 16 bytes, thay đổi khi toggle capabilities. 
+ * 
+ */
+static void log_local_database_hash(void) 
+{
+    uint8_t hash[DB_HASH_LEN];
+    size_t hash_len = 0;
+    sl_status_t sc = sl_bt_gatt_server_read_attribute_value(gattdb_database_hash, 0, sizeof(hash), &hash_len, hash);
+    
+    if (sc == SL_STATUS_OK && hash_len == DB_HASH_LEN) 
+    {
+        app_log_info("[DB_HASH] Database Hash: ");
+        for (int i = 0; i < DB_HASH_LEN; i++) {
+            app_log_append("%02X", hash[i]);
+        }
+        app_log_append("\n");
+    } else {
+        app_log_warning("[DB_HASH] Failed to read Database Hash: 0x%04x \n", sc);
+    }
+}
+
+/**
+ * @brief Kiểm tra client đã ghi Robust Caching bit (bit 0) vào Client Supported Features (UUID 0x2B29) chưa.
+ * Nếu Yes: stack sẽ gửi Service Changed indication khi DB thay đổi. 
+ * Nếu No: Stack sẽ trả ATT error 0x110A (Database Out Of Sync) khi client dùng stale cached handle. 
+ * 
+ * @param connection 
+ */
+static void check_client_caching_support(uint8_t connection)
+{
+    uint8_t client_feature = 0;
+    sl_status_t sc = sl_bt_gatt_server_read_client_supported_features(connection, &client_feature);
+
+    if (sc == SL_STATUS_OK) 
+    {
+        bool robust_caching = (client_feature & 0x01) != 0 ;
+        app_log_info("[Connection_opened][Check_caching] Client features = 0x%02X -> Robust Caching: %s \n", client_feature, robust_caching ? "YES" : "NO");
+    }
 }
 
 // Application Init.
@@ -153,24 +203,24 @@ void app_process_action(void)
 
             uint8_t state = (uint8_t)sl_led_get_state(&sl_led_led0);
             sl_bt_gatt_server_write_attribute_value(gattdb_Led_Control, 0, sizeof(state), &state);  // sync Database 
-            app_log_info("BTN0: LED toggled -> %d \n", state);
+            app_log_info("[App_process] BTN0: LED toggled -> %d \n", state);
 
             if (ble_conn_handle != SL_BT_INVALID_CONNECTION_HANDLE)
             {
                 if (notify_enabled) {
                     sl_bt_gatt_server_send_notification(ble_conn_handle,
-                                                        gattdb_Led_Control, sizeof(state),
-                                                        &state);
-                    app_log_info("BTN0: Notify sent -> %d \n", state);
+                                                        gattdb_Led_Control,
+                                                        sizeof(state), &state);
+                    app_log_info("[App_process] BTN0: Notify sent -> %d \n", state);
                 }
                 else if (indicate_enabled && !indication_in_flight)
                 {
                     sl_bt_gatt_server_send_indication(ble_conn_handle,
                                                       gattdb_Led_Control,
                                                       sizeof(state), &state);
-                    app_log_info("BTN0: Indicate sent -> %d (waiting ACK) \n", state);
+                    app_log_info("[App_process] BTN0: Indicate sent -> %d (waiting ACK) \n", state);
 
-                    indication_in_flight == true;
+                    indication_in_flight = true;
                 }
             }
         }
@@ -210,7 +260,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
         bd_addr address;
         uint8_t address_type; 
         sl_bt_system_get_identity_address(&address, &address_type);
-        app_log_info("[BOARD1 - Advertiser] MY BT address: %02X:%02X:%02X:%02X:%02X:%02X \n",
+        app_log_info("[SYSTEM_BOOT] MY BT address: %02X:%02X:%02X:%02X:%02X:%02X \n",
                         address.addr[5],
                         address.addr[4],
                         address.addr[3],
@@ -219,7 +269,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
                         address.addr[0]);
 
 
-        app_log_info("BT stack booted (v%d.%d.%d build %d) \n",
+        app_log_info("[SYSTEM_BOOT] BT stack booted (v%d.%d.%d build %d) \n",
                      evt->data.evt_system_boot.major,
                      evt->data.evt_system_boot.minor,
                      evt->data.evt_system_boot.minor,
@@ -248,9 +298,9 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
             sc = sl_bt_legacy_advertiser_start(advertising_set_handle,
                                             sl_bt_legacy_advertiser_connectable);
             app_assert_status(sc);
-            app_log_info("Advertising started (handle = %d)\n", advertising_set_handle);
+            app_log_info("[SYSTEM_BOOT] Advertising started (handle = %d)\n", advertising_set_handle);
 
-        } else {
+        } else {   // Periodic Advertising
 
             // 2. Set data ban đầu cho periodic advertising
             pa_payload_t init_payload = {.type = 0xAB,
@@ -277,6 +327,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
             app_log_info("[PA] Started. interval = 100ms. Soft timer 1s set. \n");
         }
 
+        log_local_database_hash();
         break;
 
     case sl_bt_evt_system_soft_timer_id:   /** [SOFT_Timer is used to change pa_payload ] */
@@ -314,6 +365,8 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
                      evt->data.evt_connection_opened.address.addr[2],
                      evt->data.evt_connection_opened.address.addr[1],
                      evt->data.evt_connection_opened.address.addr[0]);
+
+        check_client_caching_support(ble_conn_handle);
         break;
 
     // -------------------------------
@@ -337,7 +390,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
         sc = sl_bt_legacy_advertiser_start(advertising_set_handle,
                                            sl_bt_legacy_advertiser_connectable);
         app_assert_status(sc);
-        app_log_info("Advertising restarted\n");
+        app_log_info("[connection_closed] Advertising restarted\n");
         break;
 
     case sl_bt_evt_advertiser_scan_request_id:
@@ -352,7 +405,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
             );
         break;
     case sl_bt_evt_gatt_mtu_exchanged_id:
-		printf("MTU exchanged: %d \n", evt->data.evt_gatt_mtu_exchanged.mtu);
+		//printf("MTU exchanged: %d \n", evt->data.evt_gatt_mtu_exchanged.mtu);
         break;
     ///////////////////////////////////////////////////////////////////////////
     // Add additional event handlers here as your application requires!      //
@@ -400,7 +453,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 
     case sl_bt_evt_gatt_server_indication_timeout_id:
         indication_in_flight = false;   // reset để có thể gửi lại
-        app_log_warning("Indication timeout (conn=0x%02x) - client did not ACK \n",
+        app_log_warning("[Indicate Timeout] Indication timeout (conn=0x%02x) - client did not ACK \n",
                         evt->data.evt_gatt_server_indication_timeout.connection);
         break;
 
@@ -419,8 +472,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 			{
 				sl_led_turn_off(&sl_led_led0);
 			}
-			app_log_info("LED set to: %d \n", value);
-
+			app_log_info("[Server_attribute_value] LED set to: %d  via BLE write from client \n", value);
         }
 		break;
 	}
@@ -435,7 +487,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
         {
             notify_enabled = (cs->client_config_flags & sl_bt_gatt_notification) != 0; // Kiểm tra notify có được bật hay không bằng cách kiểm tra bit sl_bt_gatt_notification trong client_config_flags
             indicate_enabled = (cs->client_config_flags & sl_bt_gatt_indication) != 0; // 
-            app_log_info("CCCD Led_control: Notify = %s Indicate = %s \n",
+            app_log_info("[Server_characteristic_status] CCCD Led_control: Notify = %s Indicate = %s \n",
                          notify_enabled ? "ON" : "OFF",
                          indicate_enabled ? "ON" : "OFF"); // 
         }
@@ -444,13 +496,11 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
         if (cs ->status_flags == sl_bt_gatt_server_confirmation && cs->characteristic == gattdb_Led_Control)
         {
             indication_in_flight = false;
-            app_log_info("Indication ACK received \n");
+            app_log_info("[Server_characteristic_status] Indication ACK received \n");
         }
 
         break;
     }
-
-
     // -------------------------------
     // Default event handler.
     default:

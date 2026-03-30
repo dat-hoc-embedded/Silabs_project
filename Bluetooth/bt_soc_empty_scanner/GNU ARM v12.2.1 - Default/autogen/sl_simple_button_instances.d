@@ -12,7 +12,8 @@ autogen/sl_simple_button_instances.o: \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_enum.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_code_classification.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sli_code_classification.h \
- E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\config/sl_simple_button_btn0_config.h
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\config/sl_simple_button_btn0_config.h \
+ E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\config/sl_simple_button_btn1_config.h
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_simple_button.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_button.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_common.h:
@@ -26,3 +27,4 @@ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_enum.
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sl_code_classification.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\common\inc\sli_code_classification.h:
 E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\config/sl_simple_button_btn0_config.h:
+E:\CODE\Silicon_Labs\Bluetooth\bt_soc_empty_scanner\config/sl_simple_button_btn1_config.h:

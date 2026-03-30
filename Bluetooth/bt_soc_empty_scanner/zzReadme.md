@@ -1,5 +1,11 @@
 ## This is the process of client 
 
+> Source code have some functions
+> 1. Read value of Characteristic from Service, nottify & indicate
+> 2. Polymorphic GATT
+> 3. GATT Caching
+> 
+
 ### Scanning 
 
 ```Cpp
@@ -58,3 +64,4 @@ sc = sl_bt_gatt_discover_characteristics_by_uuid(conn_handle, service_handle,
 															 sizeof(led_char_uuid), led_char_uuid);
 ```
 
+> Hash not run -> cancle this feature

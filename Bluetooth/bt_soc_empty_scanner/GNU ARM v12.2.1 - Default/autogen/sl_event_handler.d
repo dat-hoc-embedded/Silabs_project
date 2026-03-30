@@ -131,6 +131,9 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  ../autogen/sl_simple_button_instances.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_simple_button.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_button.h \
+ ../autogen/sl_simple_led_instances.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\leddrv\inc\sl_simple_led.h \
+ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\leddrv\inc\sl_led.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto_platform.h \
  c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\mbedtls\private_access.h \
@@ -359,6 +362,9 @@ c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\security\sl_compone
 ../autogen/sl_simple_button_instances.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_simple_button.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\button\inc\sl_button.h:
+../autogen/sl_simple_led_instances.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\leddrv\inc\sl_simple_led.h:
+c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\platform\driver\leddrv\inc\sl_led.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\psa\crypto_platform.h:
 c:\users\sucut\simplicitystudio\sdks\simplicity_sdk\util\third_party\mbedtls\include\mbedtls\private_access.h:

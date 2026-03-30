@@ -50,6 +50,7 @@ simplicity_sdk_2025.6.2/platform/common/src \
 simplicity_sdk_2025.6.2/platform/driver/button/src \
 simplicity_sdk_2025.6.2/platform/driver/debug/src \
 simplicity_sdk_2025.6.2/platform/driver/gpio/src \
+simplicity_sdk_2025.6.2/platform/driver/leddrv/src \
 simplicity_sdk_2025.6.2/platform/emdrv/dmadrv/src \
 simplicity_sdk_2025.6.2/platform/emdrv/nvm3/src \
 simplicity_sdk_2025.6.2/platform/emlib/src \

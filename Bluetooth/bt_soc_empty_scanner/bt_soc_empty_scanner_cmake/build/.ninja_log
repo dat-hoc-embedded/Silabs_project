@@ -120,7 +120,7 @@
 3931	4933	7956166246197053	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/clock_manager/src/sl_clock_manager_init_hal_s2.c.obj	e598db537f81fc37
 5111	5727	7956136020894825	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/device_manager/src/sl_device_peripheral.c.obj	1e337581ae01796f
 3404	5205	7956166248937979	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/d598a3705e05bd75805a3085a3aa77ce/security/sl_component/sl_psa_driver/src/sli_se_transparent_driver_mac.c.obj	3d46916aea0bd21a
-617	3382	7960292930835112	default_config/bt_soc_empty_scanner.out	8d86026eca32987a
+458	1044	7962139828710888	default_config/bt_soc_empty_scanner.out	8d86026eca32987a
 4360	5042	7956166247282117	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/interrupt_manager/src/sl_interrupt_manager_cortexm.c.obj	1be32c2b19f12708
 4244	4958	7956166246462914	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/027a1a93217453c231a8cd2b3502e33c/platform/service/hfxo_manager/src/sl_hfxo_manager_hal_s2.c.obj	aa7740698539881c
 4563	5085	7956166247583815	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/d598a3705e05bd75805a3085a3aa77ce/service/memory_manager/profiler/src/sli_memory_profiler_stubs.c.obj	6e7d7d20560ae66b
@@ -168,6 +168,7 @@
 6010	7090	7956166267812729	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/platform_util.c.obj	2004afa500a1f1ee
 6401	7220	7956166269113248	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/psa_crypto_se.c.obj	d2b393b1abb05048
 8145	8466	7956136048337805	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/app_bm.c.obj	cddb62b58449b1f0
+104	571	7965405884142780	build-default_config.ninja	bee13c8b942822e0
 6984	7260	7956166269496104	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/autogen/gatt_db.c.obj	ae6672795532fe84
 6567	7351	7956166270418311	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/threading.c.obj	6dd3e33d64668749
 5927	7464	7956166271560905	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/cipher_wrap.c.obj	2f7debf2e090fbae
@@ -175,7 +176,7 @@
 1115	2356	7956166220274992	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/middleware/glib/dmd/display/dmd_memlcd.c.obj	43c988466eff3d58
 5918	7624	7956166273043810	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/cipher.c.obj	2e7178ba2ca9c37a
 6125	7609	7956166272966781	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/psa_crypto_client.c.obj	e6333a08bcaebc73
-110	617	7960292905324057	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/app.c.obj	c51bc67d43b14199
+123	457	7962139824790833	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/app.c.obj	c51bc67d43b14199
 140	1263	7956166209481371	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/hardware/driver/memlcd/src/sl_memlcd.c.obj	281c180f140c2f53
 6193	7616	7956166272966781	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/psa_crypto_hash.c.obj	cc8c153ead24491c
 6211	7634	7956166273119102	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/util/third_party/mbedtls/library/psa_crypto_mac.c.obj	5bcca09f41ff9ea7
@@ -206,3 +207,7 @@
 219	590	7956135969575030	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/button/src/sl_button.c.obj	395b7238382f7c9c
 7464	7869	7956166275607929	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/autogen/sl_simple_button_instances.c.obj	8d3ce944c1e2644c
 591	1367	7956135977299777	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/C_/Users/sucut/SimplicityStudio/SDKs/simplicity_sdk/platform/driver/leddrv/src/sl_simple_led.c.obj	509baca6e757a17d
+104	571	7965405884107968	CMakeFiles/impl-default_config.ninja	bee13c8b942822e0
+104	571	7965405884107968	build.ninja	bee13c8b942822e0
+115	2416	7965405908958132	CMakeFiles/slc_bt_soc_empty_scanner.dir/default_config/E_/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/app.c.obj	c51bc67d43b14199
+2417	6686	7965405949655511	default_config/bt_soc_empty_scanner.out	8d86026eca32987a
