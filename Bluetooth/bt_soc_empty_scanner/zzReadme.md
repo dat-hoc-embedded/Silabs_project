@@ -1,39 +1,47 @@
-## This is the process of client 
+# This is the process of client/central
 
 > Source code have some functions
 > 1. Read value of Characteristic from Service, nottify & indicate
 > 2. Polymorphic GATT
 > 3. GATT Caching
-> 
+> 4. Pairing and bonding 
 
+## Step 1: Connect to Peripheral
 ### Scanning 
-
 ```Cpp
 case sl_bt_evt_system_boot_id: 
     start_scanning();
-
+```
+```Cpp
 static void start_scanning(void)
 {
-sc = sl_bt_scanner_set_parameters(sl_bt_scanner_scan_mode_passive, 16, 16);
+    sc = sl_bt_scanner_set_parameters(sl_bt_scanner_scan_mode_passive, 16, 16);
 
-sc = sl_bt_scanner_start(sl_bt_scanner_scan_phy_1m, sl_bt_scanner_discover_generic);
+    sc = sl_bt_scanner_start(sl_bt_scanner_scan_phy_1m, sl_bt_scanner_discover_generic);
 
-app_state = STATE_SCANNING;
+    app_state = STATE_SCANNING;
 }
 ```
-
-### advertisement report
+### Advertisement report
 ```Cpp
 case sl_bt_evt_scanner_legacy_advertisement_report_id:
     sc = sl_bt_scanner_stop();
     sc = sl_bt_connection_open(r->address, r->address_type, sl_bt_gap_phy_1m, &conn_handle);
-
 ```
 ### Parameters of advertiser (Peripheral)
 - This event help print some parameters (handle, address, role)
 ```Cpp
 case sl_bt_evt_connection_opened_id:
-
+{
+    .... // Show address, handle, role
+    // Trigger pairing 
+    sl_status_t sc = sl_bt_sm_increase_security(connection);
+    // Discovering custome service by servicie uuid
+    app_log_info("[connection_opened] Discovering service ... \n");
+    sc = sl_bt_gatt_discover_primary_services_by_uuid(conn_handle,
+                                                        sizeof(led_service_uuid),
+                                                        led_service_uuid);
+}
 ```
 ### Paramerter of connection
 ```Cpp
@@ -49,7 +57,6 @@ case sl_bt_evt_connection_parameters_id: /* [LEGACY] - */
     break;
 }
 ```
-
 ### Found Service
 
 ```Cpp
@@ -65,3 +72,6 @@ sc = sl_bt_gatt_discover_characteristics_by_uuid(conn_handle, service_handle,
 ```
 
 > Hash not run -> cancle this feature
+
+
+

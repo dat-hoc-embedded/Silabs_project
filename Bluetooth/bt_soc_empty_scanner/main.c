@@ -55,6 +55,7 @@ int main(void)
 
   // User provided code.
   app_init();
+  IADC_init();
   
 
   while (1) {

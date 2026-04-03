@@ -40,7 +40,6 @@ void display_init(void){
     GLIB_drawStringOnLine(&glib_ctx, "    Scanning ... ", LCD_DEVICE_FIRST, GLIB_ALIGN_LEFT, 0, 0, true);
 
     DMD_updateDisplay();
-
 }
 
 /**
@@ -76,7 +75,7 @@ void add_device(sl_bt_evt_scanner_legacy_advertisement_report_t *report , device
             device_list[idx].address = report -> address;
             device_list[idx].rssi = report -> rssi; 
             device_list[idx].has_name = (name[0] != '\0');
-            device_list[idx].valid = true;
+            device_list[idx].valid = true; 
             strncpy(device_list[idx].name, name, DEVICE_NAME_LEN);
             device_list[idx].name[DEVICE_NAME_LEN] = '\0';
 
@@ -88,8 +87,7 @@ void add_device(sl_bt_evt_scanner_legacy_advertisement_report_t *report , device
                         device_list[idx].rssi,
                         device_list[idx].address.addr[5], device_list[idx].address.addr[4],
                         device_list[idx].address.addr[3], device_list[idx].address.addr[2],
-                        device_list[idx].address.addr[1], device_list[idx].address.addr[0]);
-            
+                        device_list[idx].address.addr[1], device_list[idx].address.addr[0]);           
         }
     } else {
         bool changed = false;
@@ -144,6 +142,23 @@ void refresh_display(void){
             break; // stop displaying more devices if we reach max devices
         }
     }
+
+    DMD_updateDisplay();
+    display_dirty = false;
+}
+
+void lcd_show_passkey(uint32_t passkey)
+{
+    char pass_line[32];
+    char hint_line[32];
+
+    snprintf(pass_line, sizeof(pass_line), "Passkey: %06lu", (unsigned long)passkey);
+    snprintf(hint_line, sizeof(hint_line), "Confirm on peer device");
+
+    GLIB_clear(&glib_ctx);
+    GLIB_drawStringOnLine(&glib_ctx, "=== PAIRING ===", LCD_TITLE_LINE, GLIB_ALIGN_LEFT, 0, 0, true);
+    GLIB_drawStringOnLine(&glib_ctx, hint_line, LCD_DEVICE_FIRST, GLIB_ALIGN_LEFT, 0, 0, true);
+    GLIB_drawStringOnLine(&glib_ctx, pass_line, LCD_DEVICE_FIRST + 1, GLIB_ALIGN_LEFT, 0, 0, true);
 
     DMD_updateDisplay();
     display_dirty = false;

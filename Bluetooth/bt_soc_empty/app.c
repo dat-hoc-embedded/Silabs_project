@@ -73,6 +73,25 @@ static bool flags = false;  // true = custome, false = info
 
 static gattdb_cap_t caps;
 
+static void bluetooth_pairing_init()
+{
+	sl_status_t sc;
+	sc = sl_bt_sm_store_bonding_configuration(8, 0);
+	app_assert_status(sc);
+
+	sc = sl_bt_sm_configure(1, sl_bt_sm_io_capability_keyboardonly);
+	app_assert_status(sc);
+
+    // sc = sl_bt_sm_set_passkey(3010); 
+ 	// app_assert_status(sc);
+
+	sc = sl_bt_sm_set_bondable_mode(1);   // 
+	app_assert_status(sc);
+
+	app_log_info("[SM] Peripheral + Central: bonding + SC, IO=none, bondable = 1, max = 8 \n");
+
+}
+
 // Interrupt function for button 
 void sl_button_on_change(const sl_button_t *handle){
     if (handle == &sl_button_btn0 && sl_button_get_state(handle) == SL_SIMPLE_BUTTON_PRESSED)
@@ -105,7 +124,6 @@ static void update_periodic_data(sl_sleeptimer_timer_handle_t *h, void *data)
     }
 
 }
-
 
 static void toggle_gatt_mode(void) 
 {
@@ -275,6 +293,9 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
                      evt->data.evt_system_boot.minor,
                      evt->data.evt_system_boot.build);
 
+        bluetooth_pairing_init();
+        sl_bt_sm_delete_bondings();
+
         // Create an advertising set.
         sc = sl_bt_advertiser_create_set(&advertising_set_handle);
         app_assert_status(sc);
@@ -378,7 +399,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
         indicate_enabled = false;
         indication_in_flight = false;
 
-        app_log_info("Connection closed (handle=0x%02x, reason=0x%04x) \n",
+        app_log_info("[Connection closed] Connection closed (handle=0x%02x, reason=0x%04x) \n",
                      evt->data.evt_connection_closed.connection,
                      evt->data.evt_connection_closed.reason);
         // Generate data for advertising
@@ -501,6 +522,60 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 
         break;
     }
+
+    /** --------- Handle event security of central */
+
+	/** Central phải hiện thị passkey */
+	case sl_bt_evt_sm_passkey_display_id:
+	{
+		uint32_t passkey = evt->data.evt_sm_passkey_display.passkey;
+    	app_log_info("[SM] Passkey: %06lu\n", passkey);
+        break;
+	}
+		
+
+	/** Stack yêu cầu confirm bonding */
+	case sl_bt_evt_sm_confirm_bonding_id:
+	{
+		app_log_info("[SM] Confirm bonding \n");;
+		sl_bt_sm_bonding_confirm(evt->data.evt_sm_confirm_bonding.connection, 1);
+        break;
+	}
+
+	/** Central phải nhập passkey */
+	case sl_bt_evt_sm_passkey_request_id:
+	{
+		app_log_info("[SM] Enter passkey \n");
+		sl_bt_sm_enter_passkey(evt->data.evt_sm_passkey_request.connection, 3010);
+        break;
+	}
+
+	/** Nếu central phải confirm số */
+	case sl_bt_evt_sm_confirm_passkey_id: 
+	{
+        app_log_info("[SM] Confirm passkey \n");
+		sl_bt_sm_passkey_confirm(evt->data.evt_sm_confirm_passkey.connection, 1);
+        break;
+	}
+
+	case sl_bt_evt_sm_bonded_id:
+	{
+		sl_bt_evt_sm_bonded_t *bonded = &evt->data.evt_sm_bonded;
+		app_log_info("[SM] Bonded (conn=0x%02X, bonding=%u) \n", bonded->connection, bonded->bonding);
+        break;
+	}
+
+	case sl_bt_evt_sm_bonding_failed_id:
+	{
+		sl_bt_evt_sm_bonding_failed_t *failed = &evt->data.evt_sm_bonding_failed;
+		app_log_warning("[SM] Bonding failed (conn=0x%02X, reason=0x%04X) \n", failed->connection, failed->reason);
+		if (failed->connection != SL_BT_INVALID_CONNECTION_HANDLE)
+		{
+			app_log_warning("[SM] Closing unbonded connection 0x%02X \n", failed->connection);
+			sl_bt_connection_close(failed->connection);
+		}
+        break;
+	}
     // -------------------------------
     // Default event handler.
     default:

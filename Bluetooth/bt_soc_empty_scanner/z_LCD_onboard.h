@@ -40,4 +40,5 @@ int check_device(const bd_addr * );
 void add_device(sl_bt_evt_scanner_legacy_advertisement_report_t *report, device_name_parse_t parse);
 
 void refresh_display(void);
+void lcd_show_passkey(uint32_t passkey);
 #endif
