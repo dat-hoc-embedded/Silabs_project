@@ -18,8 +18,15 @@
 /***************************************************************************//**
  * Initialize application.
  ******************************************************************************/
-void app_init(void)
+#include "app_log.h"
+#include "zIADC.h"
+
+ void app_init(void)
 {
+    app_log("========== [APP INIT] ============\n");
+    //CHIP_Init();
+
+    initIADC();
 }
 
 /***************************************************************************//**
@@ -27,4 +34,6 @@ void app_init(void)
  ******************************************************************************/
 void app_process_action(void)
 {
+    //app_log_info(" Hello ADC \n");
+    IADC_command(IADC0, iadcCmdStartScan);
 }

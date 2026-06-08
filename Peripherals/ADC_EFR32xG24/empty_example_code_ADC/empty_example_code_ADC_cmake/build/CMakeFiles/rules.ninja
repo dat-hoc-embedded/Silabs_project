@@ -36,6 +36,18 @@ rule C_COMPILER__slc_empty_example_code_ADC_unscanned_default_config
 
 
 #############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__empty_example_code_ADC_unscanned_default_config
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}E:\Application\SiliconLabs\SimplicityStudio\v5\developer\toolchains\gnu_arm\12.2.rel1_2023.7\\bin\arm-none-eabi-gcc.exe @$RSP_FILE -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+  rspfile = $RSP_FILE
+  rspfile_content =  $DEFINES $INCLUDES $FLAGS
+
+
+#############################################
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__empty_example_code_ADC_default_config

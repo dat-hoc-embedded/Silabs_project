@@ -26,10 +26,12 @@ sdk: {id: simplicity_sdk, version: 2025.6.2}
 toolchain_settings: []
 component:
 - {id: EFR32MG24B220F1536IM48}
+- {id: app_log}
 - {id: brd4001a}
 - {id: brd4187c}
 - {id: clock_manager}
 - {id: device_init}
+- {id: emlib_iadc}
 - {id: sl_main}
 define:
 - {name: DEBUG_EFM}
