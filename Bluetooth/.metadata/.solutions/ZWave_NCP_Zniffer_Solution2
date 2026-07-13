@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<MSolutions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.silabs.com/ss/Solution.ecore">
-  <solution name="ZWave_NCP_Zniffer_Solution2" label="ZWave_NCP_Zniffer_Solution2">
-    <property key="solution.activeDebugGroup" value="Default"/>
-    <project name="zwave_ncp_zniffer2"/>
-    <project name="bootloader-uart-xmodem-zwave-otw2"/>
-    <configuration name="Default"/>
-  </solution>
-</MSolutions>

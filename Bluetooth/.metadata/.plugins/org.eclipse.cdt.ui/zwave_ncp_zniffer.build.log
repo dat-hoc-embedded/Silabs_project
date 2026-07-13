@@ -1,7 +1,0 @@
-09:25:27 **** Clean-only build of configuration GNU ARM v12.2.1 - Default for project zwave_ncp_zniffer ****
-make -j20 clean 
-make: *** No rule to make target 'clean'.  Stop.
-"make -j20 clean" terminated with exit code 2. Build might be incomplete.
-
-09:25:27 Build Failed. 1 errors, 0 warnings. (took 123ms)
-

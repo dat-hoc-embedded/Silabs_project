@@ -1,0 +1,15 @@
+# Simplicity Studio generated project artifacts
+**/autogen/
+**/config/
+**/*_cmake/
+**/.browser/
+**/.metadata/
+**/GNU ARM */
+**/artifact/
+**/simplicity_sdk_*/
+**/outgoing/
+**/zmy_queue/
+
+Open_Thread/ot-br-posix
+**/.browser/
+Open_Thread/openthread

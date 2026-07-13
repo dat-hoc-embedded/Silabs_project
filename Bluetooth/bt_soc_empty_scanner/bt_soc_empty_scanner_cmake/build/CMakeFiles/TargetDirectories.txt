@@ -1,4 +1,0 @@
-E:/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/bt_soc_empty_scanner_cmake/build/CMakeFiles/slc_bt_soc_empty_scanner.dir
-E:/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/bt_soc_empty_scanner_cmake/build/CMakeFiles/bt_soc_empty_scanner.dir
-E:/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/bt_soc_empty_scanner_cmake/build/CMakeFiles/edit_cache.dir
-E:/CODE/Silicon_Labs/Bluetooth/bt_soc_empty_scanner/bt_soc_empty_scanner_cmake/build/CMakeFiles/rebuild_cache.dir
