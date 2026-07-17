@@ -1,6 +1,6 @@
 # Simplicity Studio generated project artifacts
-**/autogen/
-**/config/
+# **/autogen/
+# **/config/
 **/*_cmake/
 **/.browser/
 **/.metadata/
@@ -13,3 +13,8 @@
 Open_Thread/ot-br-posix
 **/.browser/
 Open_Thread/openthread
+**/*.code-workspace
+Simplicity6/bt_soc_blinky/.silabsExtContext
+**/.cproject
+**/.projectlinkstore
+**/build/
