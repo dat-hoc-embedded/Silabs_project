@@ -1,3 +1,8 @@
 {
-  "cmake.sourceDirectory": "E:/CODE/Silicon_Labs/Simplicity6/empty/cmake_gcc"
+  "cmake.sourceDirectory": "E:/CODE/Silicon_Labs/Simplicity6/empty/cmake_gcc",
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/cmake_gcc/build",
+    "--query-driver=**/*arm-none-eabi*",
+    "--header-insertion=never"
+  ]
 }

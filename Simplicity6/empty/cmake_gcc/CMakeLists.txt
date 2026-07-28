@@ -3,14 +3,22 @@ cmake_minimum_required(VERSION "3.25")
 
 # Project definition
 project(
-	empty
+	empty   # name project (not create target )
 	VERSION 1.0
-	LANGUAGES C CXX ASM
+	LANGUAGES C CXX ASM # Use C/C++/ASM
 )
 
 # Include the definition of the slc_empty target,
 # which contains the content of the SLC project
-include(empty.cmake)
+include(empty.cmake)    # Copy entirely content of empty.cmake 
+
+file(GLOB MODULE_SOURCES
+    "${CMAKE_CURRENT_SOURCE_DIR}/../src/module/source/*.c"
+)
+
+message(STATUS "Current source dir: ${CMAKE_CURRENT_SOURCE_DIR}")
+message(STATUS "Module sources: ${MODULE_SOURCES}")
+message(STATUS "SDK Path: ${COPIED_SDK_PATH}")
 
 add_executable(empty
     # Add additional sources here
@@ -18,6 +26,14 @@ add_executable(empty
 
 target_include_directories(empty PUBLIC
     # Add additional include paths here
+    ${CMAKE_CURRENT_SOURCE_DIR}/../src/module/include
+)
+target_include_directories(slc PUBLIC
+    # Add additional include paths here
+    ${CMAKE_CURRENT_SOURCE_DIR}/../src/module/include
+)
+target_sources(slc PRIVATE
+    ${MODULE_SOURCES}
 )
 
 target_compile_definitions(empty PUBLIC

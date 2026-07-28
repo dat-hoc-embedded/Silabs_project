@@ -39,6 +39,9 @@ component:
   id: EFR32MG24B220F1536IM48
 - package: simplicity_sdk
   vendor: silabs
+  id: app_log
+- package: simplicity_sdk
+  vendor: silabs
   id: brd4001a
 - package: simplicity_sdk
   vendor: silabs
@@ -51,11 +54,31 @@ component:
   id: device_init
 - package: simplicity_sdk
   vendor: silabs
+  id: hal_acmp
+- package: simplicity_sdk
+  vendor: silabs
+  id: iostream
+- package: simplicity_sdk
+  instance:
+  - led0
+  vendor: silabs
+  id: simple_led
+- package: simplicity_sdk
+  vendor: silabs
   id: sl_main
+- package: simplicity_sdk
+  vendor: silabs
+  id: sleeptimer
 autoselected_components:
 - package: simplicity_sdk
   vendor: silabs
   id: agents_md
+- package: simplicity_sdk
+  vendor: silabs
+  id: atomic
+- package: simplicity_sdk
+  vendor: silabs
+  id: bit
 - package: simplicity_sdk
   vendor: silabs
   id: board_control
@@ -103,6 +126,9 @@ autoselected_components:
   id: device_gpio
 - package: simplicity_sdk
   vendor: silabs
+  id: device_i2c
+- package: simplicity_sdk
+  vendor: silabs
   id: device_init_dcdc
 - package: simplicity_sdk
   vendor: silabs
@@ -112,10 +138,31 @@ autoselected_components:
   id: device_init_emu
 - package: simplicity_sdk
   vendor: silabs
+  id: device_manager
+- package: simplicity_sdk
+  vendor: silabs
   id: device_peripheral
 - package: simplicity_sdk
   vendor: silabs
   id: device_peripheral_hal
+- package: simplicity_sdk
+  vendor: silabs
+  id: dma_channel
+- package: simplicity_sdk
+  vendor: silabs
+  id: dma_descriptor_allocator
+- package: simplicity_sdk
+  vendor: silabs
+  id: dma_manager
+- package: simplicity_sdk
+  vendor: silabs
+  id: dma_manager_hal_ldma
+- package: simplicity_sdk
+  vendor: silabs
+  id: dma_manager_init
+- package: simplicity_sdk
+  vendor: silabs
+  id: emlib_burtc
 - package: simplicity_sdk
   vendor: silabs
   id: emlib_cmu
@@ -142,13 +189,22 @@ autoselected_components:
   id: emlib_msc
 - package: simplicity_sdk
   vendor: silabs
+  id: emlib_prs
+- package: simplicity_sdk
+  vendor: silabs
   id: emlib_syscfg
 - package: simplicity_sdk
   vendor: silabs
   id: emlib_system
 - package: simplicity_sdk
   vendor: silabs
+  id: emlib_timer
+- package: simplicity_sdk
+  vendor: silabs
   id: enum
+- package: simplicity_sdk
+  vendor: silabs
+  id: errno_error_codes
 - package: simplicity_sdk
   vendor: silabs
   id: event_handler
@@ -166,6 +222,9 @@ autoselected_components:
   id: hal_gpio
 - package: simplicity_sdk
   vendor: silabs
+  id: hal_ldma
+- package: simplicity_sdk
+  vendor: silabs
   id: hal_prs
 - package: simplicity_sdk
   vendor: silabs
@@ -176,6 +235,12 @@ autoselected_components:
 - package: simplicity_sdk
   vendor: silabs
   id: hal_syscfg_impl
+- package: simplicity_sdk
+  vendor: silabs
+  id: hal_sysrtc
+- package: simplicity_sdk
+  vendor: silabs
+  id: hal_sysrtc_subsystem_host
 - package: simplicity_sdk
   vendor: silabs
   id: hal_system
@@ -189,11 +254,49 @@ autoselected_components:
   vendor: silabs
   id: interrupt_manager_cortexm
 - package: simplicity_sdk
+  instance:
+  - vcom
+  vendor: silabs
+  id: iostream_eusart
+- package: simplicity_sdk
+  vendor: silabs
+  id: iostream_eusart_core
+- package: simplicity_sdk
+  vendor: silabs
+  id: iostream_retarget_stdio
+- package: simplicity_sdk
+  vendor: silabs
+  id: iostream_stdlib_config
+- package: simplicity_sdk
+  vendor: silabs
+  id: iostream_uart_common
+- package: simplicity_sdk
+  vendor: silabs
+  id: led
+- package: simplicity_sdk
+  vendor: silabs
+  id: memory_manager
+- package: simplicity_sdk
+  vendor: silabs
+  id: memory_manager_pool
+- package: simplicity_sdk
+  vendor: silabs
+  id: memory_manager_pool_common
+- package: simplicity_sdk
   vendor: silabs
   id: memory_manager_region
 - package: simplicity_sdk
   vendor: silabs
+  id: memory_manager_retention_control
+- package: simplicity_sdk
+  vendor: silabs
+  id: memory_manager_retention_control_hal
+- package: simplicity_sdk
+  vendor: silabs
   id: mx25_flash_shutdown_eusart
+- package: simplicity_sdk
+  vendor: silabs
+  id: simple_led_core
 - package: simplicity_sdk
   vendor: silabs
   id: sl_assert
@@ -212,6 +315,15 @@ autoselected_components:
 - package: simplicity_sdk
   vendor: silabs
   id: sl_main_process_action
+- package: simplicity_sdk
+  vendor: silabs
+  id: sl_string
+- package: simplicity_sdk
+  vendor: silabs
+  id: sleeptimer_cortexm
+- package: simplicity_sdk
+  vendor: silabs
+  id: slist
 - package: simplicity_sdk
   vendor: silabs
   id: status

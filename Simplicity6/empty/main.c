@@ -38,6 +38,7 @@
 #include "sl_main_process_action.h"
 #endif // SL_CATALOG_KERNEL_PRESENT
 
+#include "sl_simple_led_instances.h"
 int main(void)
 {
   // Initialize Silicon Labs device, system, service(s) and protocol stack(s).

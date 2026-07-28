@@ -18,13 +18,17 @@
 /***************************************************************************//**
  * Initialize application.
  ******************************************************************************/
+#include "blink.h"
+#include "sound_pin.h"
 void app_init(void) {
-  
+  blink_init();
+  init_pin_sound();
 }
 
 /***************************************************************************//**
  * App ticking function.
  ******************************************************************************/
-void app_process_action(void)
-{
+void app_process_action(void) {
+  // blink_process(); // Có thể tạm ngắt blink tự động để nháy theo âm thanh
+  sound_pin_process();
 }

@@ -1,0 +1,48 @@
+flowchart TD
+
+A["project()"] --> B[Create Variables]
+B --> C["set()"]
+B --> D["option()"]
+B --> E["list()"]
+
+A --> F[Create Targets]
+
+F --> G["add_executable()"]
+F --> H["add_library()"]
+
+G --> I["target_sources()"]
+G --> J["target_include_directories()"]
+G --> K["target_compile_definitions()"]
+G --> L["target_compile_options()"]
+G --> M["target_link_options()"]
+G --> N["target_link_libraries()"]
+
+H --> I
+H --> J
+H --> K
+H --> L
+H --> M
+H --> N
+
+A --> O[Project Structure]
+
+O --> P["include()"]
+O --> Q["add_subdirectory()"]
+
+A --> R[File]
+
+R --> S["file()"]
+R --> T["configure_file()"]
+
+A --> U[Logic]
+
+U --> V["if()"]
+U --> W["foreach()"]
+U --> X["function()"]
+U --> Y["macro()"]
+
+A --> Z[Build]
+
+Z --> AA["add_custom_command()"]
+Z --> AB["add_custom_target()"]
+Z --> AC["install()"]
