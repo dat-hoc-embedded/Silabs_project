@@ -180,6 +180,8 @@ typedef enum {
 } sound_state_t;
 
 static sound_state_t current_state = SOUND_STATE_IDLE;
+static bool last_logged_pin_state = true;
+static bool has_logged_initial_state = false;
 
 // Hàm phát 1 nốt nhạc bằng sóng vuông tần số tương ứng trên chân GPIO
 static void play_tone(uint16_t freq, uint16_t duration_ms) {
@@ -212,12 +214,25 @@ static void play_melody(void) {
 
 void init_pin_sound(void) {
     sl_gpio_set_pin_mode(&pin_sound, SL_GPIO_MODE_INPUT_PULL, 1);
+
+    bool pin_val = true;
+    sl_gpio_get_pin_input(&pin_sound, &pin_val);
+    last_logged_pin_state = pin_val;
+    has_logged_initial_state = false;
+
+    app_log_info("LM393 init: %s\n", pin_val ? "HIGH" : "LOW");
     sl_led_turn_off(&sl_led_led0);
 }
 
 void sound_pin_process(void) {
     bool pin_val = true;
     sl_gpio_get_pin_input(&pin_sound, &pin_val);
+
+    if (!has_logged_initial_state || pin_val != last_logged_pin_state) {
+        app_log_info("LM393 digital: %s\n", pin_val ? "HIGH" : "LOW");
+        last_logged_pin_state = pin_val;
+        has_logged_initial_state = true;
+    }
 
     switch (current_state) {
         case SOUND_STATE_IDLE:

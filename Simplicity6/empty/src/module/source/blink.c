@@ -10,7 +10,7 @@
  */
 
 #include "blink.h"
-#include "app_log.h"
+// #include "app_log.h"
 #include "sl_led.h"
 #include "sl_simple_led_instances.h"
 #include "sl_sleeptimer.h"
@@ -29,7 +29,7 @@ void blink_init() {
       SL_SLEEPTIMER_NO_HIGH_PRECISION_HF_CLOCKS_REQUIRED_FLAG);
 
   if (sc != SL_STATUS_OK) {
-    app_log_info("Initialize sleeptimer failed! \n");
+      // app_log_info("Initialize sleeptimer failed! \n");
   }
 }
 
@@ -37,7 +37,7 @@ void blink_process() {
   if (toggle_timeout == true) {
     sl_led_toggle(&sl_led_led0);
     toggle_timeout = false;
-    app_log_info("Status of LED = %d", sl_led_get_state(&sl_led_led0));
+    // app_log_info("Status of LED = %d", sl_led_get_state(&sl_led_led0));
   }
 }
 

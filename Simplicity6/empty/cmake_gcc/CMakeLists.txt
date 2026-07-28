@@ -18,7 +18,7 @@ file(GLOB MODULE_SOURCES
 
 message(STATUS "Current source dir: ${CMAKE_CURRENT_SOURCE_DIR}")
 message(STATUS "Module sources: ${MODULE_SOURCES}")
-message(STATUS "SDK Path: ${COPIED_SDK_PATH}")
+message(STATUS "SDK Path: ${SDK_PATH}")
 
 add_executable(empty
     # Add additional sources here
