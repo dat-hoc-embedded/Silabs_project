@@ -4,5 +4,12 @@
     "--compile-commands-dir=${workspaceFolder}/cmake_gcc/build",
     "--query-driver=**/*arm-none-eabi*",
     "--header-insertion=never"
+  ],
+  "python-envs.pythonProjects": [
+    {
+      "path": ".",
+      "envManager": "ms-python.python:conda",
+      "packageManager": "ms-python.python:conda"
+    }
   ]
 }

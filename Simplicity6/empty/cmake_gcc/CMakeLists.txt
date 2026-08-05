@@ -3,14 +3,15 @@ cmake_minimum_required(VERSION "3.25")
 
 # Project definition
 project(
-	empty   # name project (not create target )
-	VERSION 1.0
-	LANGUAGES C CXX ASM # Use C/C++/ASM
+    empty # name project (not create target )
+    VERSION 1.0
+    LANGUAGES C CXX ASM # Use C/C++/ASM
 )
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Include the definition of the slc_empty target,
 # which contains the content of the SLC project
-include(empty.cmake)    # Copy entirely content of empty.cmake 
+include(empty.cmake) # Copy entirely content of empty.cmake 
 
 file(GLOB MODULE_SOURCES
     "${CMAKE_CURRENT_SOURCE_DIR}/../src/module/source/*.c"
@@ -26,7 +27,7 @@ add_executable(empty
 
 target_include_directories(empty PUBLIC
     # Add additional include paths here
-    ${CMAKE_CURRENT_SOURCE_DIR}/../src/module/include
+
 )
 target_include_directories(slc PUBLIC
     # Add additional include paths here
@@ -67,14 +68,14 @@ add_custom_command(TARGET empty
     POST_BUILD
     COMMAND ${CMAKE_OBJCOPY} ${OBJCOPY_SREC_CMD} "$<TARGET_FILE:empty>" "$<TARGET_FILE_DIR:empty>/$<TARGET_FILE_BASE_NAME:empty>.s37"
     COMMAND ${CMAKE_OBJCOPY} ${OBJCOPY_IHEX_CMD} "$<TARGET_FILE:empty>" "$<TARGET_FILE_DIR:empty>/$<TARGET_FILE_BASE_NAME:empty>.hex"
-    COMMAND ${CMAKE_OBJCOPY} ${OBJCOPY_BIN_CMD}  "$<TARGET_FILE:empty>" "$<TARGET_FILE_DIR:empty>/$<TARGET_FILE_BASE_NAME:empty>.bin" 
+    COMMAND ${CMAKE_OBJCOPY} ${OBJCOPY_BIN_CMD} "$<TARGET_FILE:empty>" "$<TARGET_FILE_DIR:empty>/$<TARGET_FILE_BASE_NAME:empty>.bin"
 )
 
 # Run post-build pipeline to perform additional post-processing
 if(post_build_command)
-add_custom_command(TARGET empty
-    POST_BUILD
-    WORKING_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/..
-    COMMAND ${post_build_command}
-)
+    add_custom_command(TARGET empty
+        POST_BUILD
+        WORKING_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/..
+        COMMAND ${post_build_command}
+    )
 endif()
