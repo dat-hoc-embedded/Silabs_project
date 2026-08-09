@@ -13,7 +13,7 @@ DocumentNamespace: https://silabs.com
 
 ## Creation Information
 Creator: Organization: Silicon Laboratories, Inc.
-Created: 2026-08-05T08:22:54Z
+Created: 2026-08-07T07:53:28Z
 ## Relationships
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-silabs.simplicity_sdk-2026.6.0
 
@@ -27,18 +27,38 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 ## Relationships
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-EFR32MG24B220F1536IM48
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-app_log
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_connection
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_dynamic_gattdb
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_gatt_server
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_legacy_advertiser
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_stack
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-brd4001a
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-brd4187c
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-clock_manager
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-device_init
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-gatt_configuration
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-hal_acmp
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-simple_led
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-agents_md
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-atomic
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol_libraries_release
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bit
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common_libraries_release
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_configuration
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_crypto
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_libraries
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_crypto_lib_psa
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_device_compatibility
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_advertiser
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_gattdb_definition
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_adaptation
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_release_libraries
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_version
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-board_control
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-brd4187c_config
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-clock_manager_init_hal_s2
@@ -94,21 +114,51 @@ Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.sim
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-hal_sysrtc_subsystem_host
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-hal_system
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-hal_system_impl
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-hfxo_manager
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-interrupt_manager
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-interrupt_manager_cortexm
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_eusart
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_eusart_core
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_retarget_stdio
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_stdlib_config
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_uart_common
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-led
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_config
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto_driver
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_manager
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_manager_pool
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_manager_pool_common
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_manager_region
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_manager_retention_control
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_manager_retention_control_hal
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_profiler_api
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-mx25_flash_shutdown_eusart
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_common
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop_common
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_deepsleep
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_handler_implementation
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_common
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_config
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_trng
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver_common
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_se_driver
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_alpha_chips
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_internal_chips_dummy
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_util_features
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_config
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_crypto
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox_default
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-simple_led_core
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_assert
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_common
@@ -116,71 +166,26 @@ Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.sim
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_init
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_memory_init
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_process_action
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_string
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer_cortexm
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-slist
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-status
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay_cortexm
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_stack
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver_common
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_libraries
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_trng
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_config
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_configuration
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_crypto
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_pa_tables
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto_s2
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_protocol_crypto
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_gattdb_definition
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop_common
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_built_in_phys
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_compatible_pa
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_pa
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_device_compatibility
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_release_libraries
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-trustzone_unaware
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_se_driver
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_sequencer
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-hfxo_manager
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_osal
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_config
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_handler_implementation
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common_libraries_release
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_profiler_api
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_common
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol_libraries_release
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto_driver
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_built_in_phys
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_deepsleep
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_util_features
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_internal_chips_dummy
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_adaptation
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_alpha_chips
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_version
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_crypto
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_common
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_pa_tables
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_power_manager_init
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox_default
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_common
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_config
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_gatt_server
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_crypto_lib_psa
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_dynamic_gattdb
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-gatt_configuration
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_sequencer
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_string
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer_cortexm
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto_s2
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_protocol_crypto
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_common
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_osal
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-slist
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-status
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-trustzone_unaware
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay_cortexm
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-emlib_iadc
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-emlib_vdac
 
 ## Package Information
 PackageName: EFR32MG24B220F1536IM48
@@ -203,6 +208,61 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-app_log CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Connection
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_connection
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_connection CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Dynamic GATT Database
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_dynamic_gattdb
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_dynamic_gattdb CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: GATT Server
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_gatt_server
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_gatt_server CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Legacy Advertising
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_legacy_advertiser
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_legacy_advertiser CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Bluetooth Core
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_stack
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_stack CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
 PackageName: BRD4001A
@@ -249,6 +309,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-device_init CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
+PackageName: Static GATT Database and Configuration
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-gatt_configuration
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-gatt_configuration CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
 PackageName: ACMP
 SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-hal_acmp
 PackageVersion: 2026.6.0
@@ -258,17 +329,6 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-hal_acmp CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: IO Stream
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
 PackageName: Simple LED
@@ -326,6 +386,28 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-atomic CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
+PackageName: BGAPI Protocol
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: BGAPI Protocol release libraries
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol_libraries_release
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol_libraries_release CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
 PackageName: Bit Operations Library
 SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bit
 PackageVersion: 2026.6.0
@@ -335,6 +417,149 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bit CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Bluetooth Low Energy Common Component
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: bluetooth_common_libraries_release
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common_libraries_release
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common_libraries_release CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Instantiation of Bluetooth configuration
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_configuration
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_configuration CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Bluetooth Low Energy Controller
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Bluetooth Core Crypto Configuration for Controller
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_crypto
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_crypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Bluetooth Low Energy Controller Library
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_libraries
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_libraries CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Bluetooth Crypto PSA Backend
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_crypto_lib_psa
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_crypto_lib_psa CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Device compatibility defines for Bluetooth features
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_device_compatibility
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_device_compatibility CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Advertising Base Feature
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_advertiser
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_advertiser CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Bluetooth GATT database structure definition
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_gattdb_definition
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_gattdb_definition CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: System adaptation layer used by the Bluetooth host stack
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_adaptation
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_adaptation CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Bluetooth Low Energy Host Library
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_release_libraries
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_release_libraries CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Bluetooth Version
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_version
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_version CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
 PackageName: Board Control
@@ -957,6 +1182,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-hal_system_impl CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
+PackageName: HFXO Manager
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-hfxo_manager
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-hfxo_manager CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
 PackageName: Interrupt Manager
 SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-interrupt_manager
 PackageVersion: 2026.6.0
@@ -977,6 +1213,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-interrupt_manager_cortexm CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: IO Stream
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
 PackageName: IO Stream: EUSART
@@ -1045,6 +1292,39 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-led CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
+PackageName: Configuration
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_config
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_config CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Silicon Labs Mbed TLS support
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Drivers for Silicon Labs Crypto Acceleration
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto_driver
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto_driver CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
 PackageName: Memory Manager
 SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_manager
 PackageVersion: 2026.6.0
@@ -1111,6 +1391,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_manager_retention_control_hal CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
+PackageName: Memory Profiler API
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_profiler_api
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_profiler_api CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
 PackageName: MX25 Flash Shutdown with eusart
 SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-mx25_flash_shutdown_eusart
 PackageVersion: 2026.6.0
@@ -1120,6 +1411,270 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-mx25_flash_shutdown_eusart CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Power Manager
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Power Manager: Core
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Power Manager: Core Common
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_common
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Power Manager: Core implementation
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Power Manager: Core implementation Common files
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop_common
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Power Manager: Deepsleep
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_deepsleep
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_deepsleep CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Power Manager: Handler
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_handler_implementation
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_handler_implementation CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: PSA Crypto
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: PSA Crypto Common
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_common
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Configuration
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_config
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_config CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: TRNG
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_trng
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_trng CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Drivers for Crypto Acceleration
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: PSA Driver Common Source Code
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver_common
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: PSA SE Driver Source Code
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_se_driver
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_se_driver CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: RAIL Library, Core
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: RAIL Library, Single Protocol
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: RAIL Library, Single Protocol for Alpha Chips
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_alpha_chips
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_alpha_chips CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: RAIL Library, Single Protocol Internal Chips Dummy
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_internal_chips_dummy
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_internal_chips_dummy CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: RAIL Library Features, Core
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_util_features
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_util_features CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: SE Manager
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Config
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_config
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_config CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Crypto
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_crypto
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_crypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: SE mailbox utilities
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: SE mailbox utilities source
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox_default
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox_default CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
 PackageName: Simple LED Core
@@ -1199,235 +1754,15 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_process_action CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
-PackageName: String Functions
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_string
+PackageName: RAIL Utility, Built-in PHYs Across HFXO Frequencies (RAIL 3)
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_built_in_phys
 PackageVersion: 2026.6.0
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_string CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Sleep Timer Cortex-M Architecture Support
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer_cortexm
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer_cortexm CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Single Link List
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-slist
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-slist CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Status Codes Definitions
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-status
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-status CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Microsecond Delay
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Microsecond Delay Cortex-M
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay_cortexm
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay_cortexm CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Bluetooth Core
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_stack
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib AND MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_stack CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Power Manager
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: PSA Driver Common Source Code
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver_common
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Bluetooth Low Energy Controller Library
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_libraries
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_libraries CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: TRNG
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_trng
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_trng CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Configuration
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_config
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_config CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Instantiation of Bluetooth configuration
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_configuration
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_configuration CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Crypto
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_crypto
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_crypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: RAIL Utility, PA Tables
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_pa_tables
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_pa_tables CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Power Manager: Core implementation
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Accelerated Crypto Primitives for Series-2 devices
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto_s2
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto_s2 CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Accelerated Crypto Primitives (CRYPTO and RADIOAES)
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_protocol_crypto
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_protocol_crypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Bluetooth GATT database structure definition
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_gattdb_definition
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_gattdb_definition CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Power Manager: Core implementation Common files
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop_common
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_impl_sleep_loop_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: RAIL Library, Single Protocol
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_built_in_phys CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
 PackageName: RAIL Utility, PA compatibility
@@ -1452,378 +1787,15 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_pa CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
-PackageName: Device compatibility defines for Bluetooth features
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_device_compatibility
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_device_compatibility CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Bluetooth Low Energy Host Library
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_release_libraries
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_release_libraries CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: TrustZone Unaware
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-trustzone_unaware
+PackageName: RAIL Utility, PA Tables
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_pa_tables
 PackageVersion: 2026.6.0
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-trustzone_unaware CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: PSA SE Driver Source Code
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_se_driver
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_se_driver CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: RAIL Utility, Radio Sequencer Image Selection (RAIL 3)
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_sequencer
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_sequencer CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: HFXO Manager
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-hfxo_manager
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-hfxo_manager CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: BGAPI Protocol
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib AND MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: PSA Crypto
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Drivers for Crypto Acceleration
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_driver CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: OS Abstraction Layer
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_osal
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_osal CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: SE mailbox utilities
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Config
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_config
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_config CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Power Manager: Handler
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_handler_implementation
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_handler_implementation CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: bluetooth_common_libraries_release
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common_libraries_release
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common_libraries_release CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Memory Profiler API
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_profiler_api
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-memory_profiler_api CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Power Manager: Core Common
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_common
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Power Manager: Core
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_core CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: BGAPI Protocol release libraries
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol_libraries_release
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bgapi_protocol_libraries_release CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Drivers for Silicon Labs Crypto Acceleration
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto_driver
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto_driver CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: RAIL Library, Core
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: SE Manager
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Bluetooth Low Energy Controller
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Accelerated Crypto Primitives
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: RAIL Utility, Built-in PHYs Across HFXO Frequencies (RAIL 3)
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_built_in_phys
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_built_in_phys CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Power Manager: Deepsleep
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_deepsleep
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-power_manager_deepsleep CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: RAIL Library Features, Core
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_util_features
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_util_features CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: RAIL Library, Single Protocol Internal Chips Dummy
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_internal_chips_dummy
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_internal_chips_dummy CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: System adaptation layer used by the Bluetooth host stack
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_adaptation
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib AND MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_host_adaptation CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Bluetooth Low Energy Common Component
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: RAIL Library, Single Protocol for Alpha Chips
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_alpha_chips
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-rail_lib_singleprotocol_alpha_chips CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Bluetooth Version
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_version
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_version CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Silicon Labs Mbed TLS support
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_slcrypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Bluetooth Core Crypto Configuration for Controller
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_crypto
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_controller_crypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: PSEC Common Primitives
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_common
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_pa_tables CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
 PackageName: RAIL Utility, Power manager init (RAIL 3)
@@ -1837,78 +1809,166 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_power_manager_init CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
-PackageName: SE mailbox utilities source
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox_default
+PackageName: RAIL Utility, Radio Sequencer Image Selection (RAIL 3)
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_sequencer
 PackageVersion: 2026.6.0
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-se_manager_mailbox_default CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_rail_util_sequencer CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
-PackageName: PSA Crypto Common
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_common
+PackageName: String Functions
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_string
 PackageVersion: 2026.6.0
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-psa_crypto_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_string CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
-PackageName: Configuration
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_config
+PackageName: Sleep Timer Cortex-M Architecture Support
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer_cortexm
 PackageVersion: 2026.6.0
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-mbedtls_config CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer_cortexm CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
 
 ## Package Information
-PackageName: GATT Server
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_gatt_server
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_gatt_server CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Bluetooth Crypto PSA Backend
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_crypto_lib_psa
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_crypto_lib_psa CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Dynamic GATT Database
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_dynamic_gattdb
-PackageVersion: 2026.6.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib AND MSLA
-## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bluetooth_feature_dynamic_gattdb CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
-
-## Package Information
-PackageName: Static GATT Database and Configuration
-SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-gatt_configuration
+PackageName: Accelerated Crypto Primitives
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto
 PackageVersion: 2026.6.0
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-gatt_configuration CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Accelerated Crypto Primitives for Series-2 devices
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto_s2
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_crypto_s2 CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Accelerated Crypto Primitives (CRYPTO and RADIOAES)
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_protocol_crypto
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_protocol_crypto CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: PSEC Common Primitives
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_common
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: OS Abstraction Layer
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_osal
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sli_psec_osal CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Single Link List
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-slist
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-slist CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Status Codes Definitions
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-status
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-status CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: TrustZone Unaware
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-trustzone_unaware
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-trustzone_unaware CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Microsecond Delay
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Microsecond Delay Cortex-M
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay_cortexm
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-udelay_cortexm CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: IADC
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-emlib_iadc
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-emlib_iadc CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: VDAC
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-emlib_vdac
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-emlib_vdac CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0

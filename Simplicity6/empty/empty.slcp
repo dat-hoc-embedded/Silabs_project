@@ -42,10 +42,19 @@ component:
   id: app_log
 - package: simplicity_sdk
   vendor: silabs
+  id: bluetooth_feature_connection
+- package: simplicity_sdk
+  vendor: silabs
+  id: bluetooth_feature_connection_role_peripheral
+- package: simplicity_sdk
+  vendor: silabs
   id: bluetooth_feature_dynamic_gattdb
 - package: simplicity_sdk
   vendor: silabs
   id: bluetooth_feature_gatt_server
+- package: simplicity_sdk
+  vendor: silabs
+  id: bluetooth_feature_legacy_advertiser
 - package: simplicity_sdk
   vendor: silabs
   id: bluetooth_stack
@@ -63,13 +72,16 @@ component:
   id: device_init
 - package: simplicity_sdk
   vendor: silabs
+  id: emlib_iadc
+- package: simplicity_sdk
+  vendor: silabs
+  id: emlib_vdac
+- package: simplicity_sdk
+  vendor: silabs
   id: gatt_configuration
 - package: simplicity_sdk
   vendor: silabs
   id: hal_acmp
-- package: simplicity_sdk
-  vendor: silabs
-  id: iostream
 - package: simplicity_sdk
   instance:
   - led0
@@ -121,6 +133,9 @@ autoselected_components:
 - package: simplicity_sdk
   vendor: silabs
   id: bluetooth_device_compatibility
+- package: simplicity_sdk
+  vendor: silabs
+  id: bluetooth_feature_advertiser
 - package: simplicity_sdk
   vendor: silabs
   id: bluetooth_gattdb_definition
@@ -307,6 +322,9 @@ autoselected_components:
 - package: simplicity_sdk
   vendor: silabs
   id: interrupt_manager_cortexm
+- package: simplicity_sdk
+  vendor: silabs
+  id: iostream
 - package: simplicity_sdk
   instance:
   - vcom

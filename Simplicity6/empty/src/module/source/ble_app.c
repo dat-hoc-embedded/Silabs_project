@@ -4,7 +4,7 @@
  * @brief BLE application — advertising, GATT server, event handling.
  *
  * Implements sl_bt_on_event() to handle all Bluetooth stack events.
- * Manages advertising as "Embeddat_BLE" and serves a custom GATT
+ * Manages advertising as "embeddat" and serves a custom GATT
  * service with LED State (read/write/notify) and Blink Interval
  * (read/write) characteristics.
  *
@@ -29,7 +29,7 @@
  * -------------------------------------------------------------------------- */
 
 /** Device name shown during advertising scan. */
-#define BLE_DEVICE_NAME           "Embeddat_BLE"
+#define BLE_DEVICE_NAME           "embeddat"
 
 /** Advertising interval range (in units of 0.625 ms).
  *  160 = 100 ms, good for development. */
@@ -69,38 +69,37 @@ static void _start_advertising(void)
 {
   sl_status_t sc;
 
-  /* Create an advertising set (first time) or reuse existing handle. */
-  sc = sl_bt_advertiser_create_set(&_adv_handle);
+  app_log_info("ADV STEP 1: create_set (handle=0x%02x)\n", _adv_handle);
+  if (_adv_handle == 0xFF) {
+    sc = sl_bt_advertiser_create_set(&_adv_handle);
   if (sc != SL_STATUS_OK && sc != SL_STATUS_ALREADY_EXISTS) {
-    app_log_info("BLE: adv set create failed: 0x%04lx\n", (unsigned long)sc);
-    return;
+    app_log_info("ADV STEP 1: BLE adv set create failed: 0x%04lx\n", (unsigned long)sc);
+      return;
+    }
   }
 
-  /* Set advertising interval. */
+  app_log_info("ADV STEP 2: set_timing\n");
   sc = sl_bt_advertiser_set_timing(
       _adv_handle,
       BLE_ADV_INTERVAL_MIN,
       BLE_ADV_INTERVAL_MAX,
       0,   /* duration: 0 = advertise indefinitely */
       0);  /* max events: 0 = no limit */
-  if (sc != SL_STATUS_OK) {
-    app_log_info("BLE: adv timing failed: 0x%04lx\n", (unsigned long)sc);
-  }
+  app_log_info("ADV STEP 2 status: 0x%04lx\n", (unsigned long)sc);
 
-  /* Start advertising (connectable, undirected). */
+  app_log_info("ADV STEP 3: generate_data\n");
   sc = sl_bt_legacy_advertiser_generate_data(
       _adv_handle,
       sl_bt_advertiser_general_discoverable);
-  if (sc != SL_STATUS_OK) {
-    app_log_info("BLE: adv data gen failed: 0x%04lx\n", (unsigned long)sc);
-  }
+  app_log_info("ADV STEP 3 status: 0x%04lx\n", (unsigned long)sc);
 
+  app_log_info("ADV STEP 4: advertiser_start\n");
   sc = sl_bt_legacy_advertiser_start(
       _adv_handle,
       sl_bt_advertiser_connectable_scannable);
-  if (sc != SL_STATUS_OK) {
-    app_log_info("BLE: adv start failed: 0x%04lx\n", (unsigned long)sc);
-  } else {
+  app_log_info("ADV STEP 4 status: 0x%04lx\n", (unsigned long)sc);
+
+  if (sc == SL_STATUS_OK) {
     app_log_info("BLE: Advertising as \"%s\"\n", BLE_DEVICE_NAME);
   }
 }
@@ -158,7 +157,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
                    evt->data.evt_system_boot.minor,
                    evt->data.evt_system_boot.patch);
 
-      /* Set the device name in the GATT database. */
+      app_log_info("BOOT STEP A: write device name\n");
       sc = sl_bt_gatt_server_write_attribute_value(
           gattdb_device_name,
           0,
@@ -169,7 +168,9 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
                      (unsigned long)sc);
       }
 
+      app_log_info("BOOT STEP B: calling _start_advertising\n");
       _start_advertising();
+      app_log_info("BOOT STEP C: done boot handler\n");
       break;
 
     /* ── Connection opened ──────────────────────────────────────── */

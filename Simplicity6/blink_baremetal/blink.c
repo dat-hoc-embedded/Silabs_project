@@ -19,7 +19,7 @@
 #include "sl_simple_led_instances.h"
 #include "sl_sleeptimer.h"
 #include "sl_code_classification.h"
-
+#include "app_log.h"
 /*******************************************************************************
  *******************************   DEFINES   ***********************************
  ******************************************************************************/
@@ -56,11 +56,10 @@ SL_CODE_RAM static void on_timeout(sl_sleeptimer_timer_handle_t *handle,
 void blink_init(void)
 {
   // Create timer for waking up the system periodically.
-  sl_sleeptimer_start_periodic_timer_ms(&timer,
-                                        TOOGLE_DELAY_MS,
-                                        on_timeout, NULL,
-                                        0,
-                                        SL_SLEEPTIMER_NO_HIGH_PRECISION_HF_CLOCKS_REQUIRED_FLAG);
+  sl_sleeptimer_start_periodic_timer_ms(
+      &timer, TOOGLE_DELAY_MS, on_timeout, NULL, 0,
+      SL_SLEEPTIMER_NO_HIGH_PRECISION_HF_CLOCKS_REQUIRED_FLAG);
+    app_log_info("blink_init() done\n");
 }
 
 /***************************************************************************//**

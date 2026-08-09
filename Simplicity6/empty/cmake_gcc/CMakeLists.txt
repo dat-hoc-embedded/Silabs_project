@@ -55,7 +55,7 @@ target_link_libraries(empty PRIVATE
 )
 
 # Include managed project content if available
-include(empty_project.cmake OPTIONAL RESULT_VARIABLE managed_project)
+include(empty_project.cmake OPTIONAL RESULT_VARIABLE managed_project) # managed_project = empty_project.cmake
 if(managed_project)
     message(STATUS "Using managed project content from ${managed_project}")
 endif()

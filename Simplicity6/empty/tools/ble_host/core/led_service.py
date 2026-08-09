@@ -43,7 +43,7 @@ LED_STATE_UUID = "e1bedda7-0002-4000-8000-000000000000"
 BLINK_INTERVAL_UUID = "e1bedda7-0003-4000-8000-000000000000"
 
 # Device name to search for when scanning.
-DEVICE_NAME = "Embeddat_BLE"
+DEVICE_NAME = "embeddat"
 
 
 class LedState(IntEnum):

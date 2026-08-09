@@ -21,11 +21,16 @@
 #include "blink.h"
 #include "sound_pin.h"
 #include "ble_app.h"
+#include "iadc_adc.h"
+#include "dac_out.h"
+#include "app_log.h"
 
 void app_init(void) {
-  blink_init();
-  init_pin_sound();
-  ble_app_init();
+  // blink_init();
+  // init_pin_sound();
+  // ble_app_init();
+  dac_out_init();
+  iadc_adc_init();
 }
 
 /***************************************************************************//**
@@ -33,7 +38,9 @@ void app_init(void) {
  ******************************************************************************/
 void app_process_action(void) {
   // blink_process(); // Có thể tạm ngắt blink tự động để nháy theo âm thanh
-  sound_pin_process();
-  ble_app_process();
+  // sound_pin_process();
+  // ble_app_process();
+  // app_log_info("Haha \n");
+  iadc_adc_process();
 }
 

@@ -15,6 +15,7 @@
  *
  ******************************************************************************/
 #include "blink.h"
+#include "app_log.h"
 
 /***************************************************************************//**
  * Initialize application.
@@ -22,6 +23,7 @@
 void app_init(void)
 {
   blink_init();
+  app_log_info("app_init() done\n");
 }
 
 /***************************************************************************//**
@@ -30,4 +32,5 @@ void app_init(void)
 void app_process_action(void)
 {
   blink_process_action();
+  // app_log_info("app_init() done\n");
 }
