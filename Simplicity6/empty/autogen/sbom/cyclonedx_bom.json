@@ -3,7 +3,7 @@
   "specVersion" : "1.6",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2026-07-22T07:47:30Z",
+    "timestamp" : "2026-08-05T08:22:54Z",
     "authors" : [ {
       "name" : "Silicon Laboratories, Inc."
     } ],
@@ -26,6 +26,18 @@
       "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:EFR32MG24B220F1536IM48",
       "name" : "EFR32MG24B220F1536IM48",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:app_log",
+      "name" : "Log",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -96,6 +108,18 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream",
+      "name" : "IO Stream",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:simple_led",
       "name" : "Simple LED",
       "version" : "2026.6.0",
@@ -120,8 +144,44 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sleeptimer",
+      "name" : "Sleep Timer",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:agents_md",
       "name" : "AGENTS.md",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:atomic",
+      "name" : "Atomic Operations Library",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bit",
+      "name" : "Bit Operations Library",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -332,6 +392,18 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:device_i2c",
+      "name" : "Device Manager I2C",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:device_init_dcdc",
       "name" : "DC-DC Converter",
       "version" : "2026.6.0",
@@ -356,8 +428,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:device_init_emu",
-      "name" : "Energy Management Unit (EMU)",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:device_manager",
+      "name" : "Device Manager",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -382,6 +454,78 @@
       "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:device_peripheral_hal",
       "name" : "Device Manager Peripheral HAL",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:dma_channel",
+      "name" : "DMA Channel Driver",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:dma_descriptor_allocator",
+      "name" : "DMA Descriptor Allocator",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:dma_manager",
+      "name" : "DMA Manager",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:dma_manager_hal_ldma",
+      "name" : "DMA Manager HAL LDMA",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:dma_manager_init",
+      "name" : "DMA Manager Init",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:emlib_burtc",
+      "name" : "BURTC",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -488,6 +632,18 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:emlib_prs",
+      "name" : "PRS",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:emlib_syscfg",
       "name" : "SYSCFG",
       "version" : "2026.6.0",
@@ -512,8 +668,32 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:emlib_timer",
+      "name" : "TIMER",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:enum",
       "name" : "Enumerations",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:errno_error_codes",
+      "name" : "errno error codes support",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -584,6 +764,18 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:hal_ldma",
+      "name" : "LDMA",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:hal_prs",
       "name" : "PRS",
       "version" : "2026.6.0",
@@ -622,6 +814,30 @@
       "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:hal_syscfg_impl",
       "name" : "SYSCFG_IMPL",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:hal_sysrtc",
+      "name" : "SYSRTC",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:hal_sysrtc_subsystem_host",
+      "name" : "SYSRTC for Host Sub-System",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -680,6 +896,66 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream_eusart",
+      "name" : "IO Stream: EUSART",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream_eusart_core",
+      "name" : "IO Stream: EUSART Core",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream_retarget_stdio",
+      "name" : "IO Stream: Retarget STDIO",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream_stdlib_config",
+      "name" : "IO Stream: STDLIB Configuration",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream_uart_common",
+      "name" : "IO Stream: Common code for UART-type streams",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:led",
       "name" : "Generic LED API",
       "version" : "2026.6.0",
@@ -692,8 +968,68 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_manager",
+      "name" : "Memory Manager",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_manager_pool",
+      "name" : "Memory Manager Memory Pool",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_manager_pool_common",
+      "name" : "Memory Manager Memory Pool Common",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_manager_region",
       "name" : "Memory Manager region",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_manager_retention_control",
+      "name" : "Memory Manager Retention Control",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_manager_retention_control_hal",
+      "name" : "Memory Manager Retention Control HAL",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -800,6 +1136,42 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sl_string",
+      "name" : "String Functions",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sleeptimer_cortexm",
+      "name" : "Sleep Timer Cortex-M Architecture Support",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:slist",
+      "name" : "Single Link List",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "silabs.simplicity_sdk:2026.6.0:status",
       "name" : "Status Codes Definitions",
       "version" : "2026.6.0",
@@ -836,8 +1208,20 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sleeptimer",
-      "name" : "Sleep Timer",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_stack",
+      "name" : "Bluetooth Core",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib AND MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:power_manager",
+      "name" : "Power Manager",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -848,8 +1232,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:device_manager",
-      "name" : "Device Manager",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:psa_driver_common",
+      "name" : "PSA Driver Common Source Code",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -860,8 +1244,20 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:hal_sysrtc_subsystem_host",
-      "name" : "SYSRTC for Host Sub-System",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_controller_libraries",
+      "name" : "Bluetooth Low Energy Controller Library",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:psa_crypto_trng",
+      "name" : "TRNG",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -872,8 +1268,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:device_i2c",
-      "name" : "Device Manager I2C",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:psa_crypto_config",
+      "name" : "Configuration",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -884,8 +1280,20 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:atomic",
-      "name" : "Atomic Operations Library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_configuration",
+      "name" : "Instantiation of Bluetooth configuration",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:se_manager_crypto",
+      "name" : "Crypto",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -896,8 +1304,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sleeptimer_cortexm",
-      "name" : "Sleep Timer Cortex-M Architecture Support",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sl_rail_util_pa_tables",
+      "name" : "RAIL Utility, PA Tables",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -908,8 +1316,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:emlib_burtc",
-      "name" : "BURTC",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:power_manager_core_impl_sleep_loop",
+      "name" : "Power Manager: Core implementation",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -920,8 +1328,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:hal_sysrtc",
-      "name" : "SYSRTC",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sli_crypto_s2",
+      "name" : "Accelerated Crypto Primitives for Series-2 devices",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -932,8 +1340,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:emlib_timer",
-      "name" : "TIMER",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sli_protocol_crypto",
+      "name" : "Accelerated Crypto Primitives (CRYPTO and RADIOAES)",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -944,8 +1352,20 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:emlib_prs",
-      "name" : "PRS",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_gattdb_definition",
+      "name" : "Bluetooth GATT database structure definition",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:power_manager_core_impl_sleep_loop_common",
+      "name" : "Power Manager: Core implementation Common files",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -956,8 +1376,20 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream",
-      "name" : "IO Stream",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:rail_lib_singleprotocol",
+      "name" : "RAIL Library, Single Protocol",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sl_rail_util_compatible_pa",
+      "name" : "RAIL Utility, PA compatibility",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -968,8 +1400,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:dma_manager",
-      "name" : "DMA Manager",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sl_rail_util_pa",
+      "name" : "RAIL Utility, PA (RAIL 3)",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -980,8 +1412,32 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bit",
-      "name" : "Bit Operations Library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_device_compatibility",
+      "name" : "Device compatibility defines for Bluetooth features",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_host_release_libraries",
+      "name" : "Bluetooth Low Energy Host Library",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:trustzone_unaware",
+      "name" : "TrustZone Unaware",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -992,8 +1448,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_manager_pool_common",
-      "name" : "Memory Manager Memory Pool Common",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:psa_se_driver",
+      "name" : "PSA SE Driver Source Code",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1004,8 +1460,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:slist",
-      "name" : "Single Link List",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sl_rail_util_sequencer",
+      "name" : "RAIL Utility, Radio Sequencer Image Selection (RAIL 3)",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1016,8 +1472,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:dma_channel",
-      "name" : "DMA Channel Driver",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:hfxo_manager",
+      "name" : "HFXO Manager",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1028,8 +1484,20 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:dma_manager_hal_ldma",
-      "name" : "DMA Manager HAL LDMA",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bgapi_protocol",
+      "name" : "BGAPI Protocol",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib AND MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:psa_crypto",
+      "name" : "PSA Crypto",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1040,8 +1508,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_manager_retention_control",
-      "name" : "Memory Manager Retention Control",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:psa_driver",
+      "name" : "Drivers for Crypto Acceleration",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1052,8 +1520,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sl_string",
-      "name" : "String Functions",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sli_psec_osal",
+      "name" : "OS Abstraction Layer",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1064,8 +1532,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_manager",
-      "name" : "Memory Manager",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:se_manager_mailbox",
+      "name" : "SE mailbox utilities",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1076,8 +1544,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:dma_descriptor_allocator",
-      "name" : "DMA Descriptor Allocator",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:se_manager_config",
+      "name" : "Config",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1088,8 +1556,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream_eusart",
-      "name" : "IO Stream: EUSART",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:power_manager_handler_implementation",
+      "name" : "Power Manager: Handler",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1100,8 +1568,20 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_manager_pool",
-      "name" : "Memory Manager Memory Pool",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_common_libraries_release",
+      "name" : "bluetooth_common_libraries_release",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_profiler_api",
+      "name" : "Memory Profiler API",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1112,8 +1592,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:hal_ldma",
-      "name" : "LDMA",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:power_manager_core_common",
+      "name" : "Power Manager: Core Common",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1124,8 +1604,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:errno_error_codes",
-      "name" : "errno error codes support",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:power_manager_core",
+      "name" : "Power Manager: Core",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1136,8 +1616,20 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream_eusart_core",
-      "name" : "IO Stream: EUSART Core",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bgapi_protocol_libraries_release",
+      "name" : "BGAPI Protocol release libraries",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:mbedtls_slcrypto_driver",
+      "name" : "Drivers for Silicon Labs Crypto Acceleration",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1148,8 +1640,20 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream_uart_common",
-      "name" : "IO Stream: Common code for UART-type streams",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:rail_lib",
+      "name" : "RAIL Library, Core",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:se_manager",
+      "name" : "SE Manager",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1160,8 +1664,20 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:dma_manager_init",
-      "name" : "DMA Manager Init",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_controller",
+      "name" : "Bluetooth Low Energy Controller",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sli_crypto",
+      "name" : "Accelerated Crypto Primitives",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1172,8 +1688,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:memory_manager_retention_control_hal",
-      "name" : "Memory Manager Retention Control HAL",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sl_rail_util_built_in_phys",
+      "name" : "RAIL Utility, Built-in PHYs Across HFXO Frequencies (RAIL 3)",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1184,8 +1700,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:app_log",
-      "name" : "Log",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:power_manager_deepsleep",
+      "name" : "Power Manager: Deepsleep",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1196,8 +1712,80 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream_retarget_stdio",
-      "name" : "IO Stream: Retarget STDIO",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:rail_util_features",
+      "name" : "RAIL Library Features, Core",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:rail_lib_singleprotocol_internal_chips_dummy",
+      "name" : "RAIL Library, Single Protocol Internal Chips Dummy",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_host_adaptation",
+      "name" : "System adaptation layer used by the Bluetooth host stack",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib AND MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_common",
+      "name" : "Bluetooth Low Energy Common Component",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:rail_lib_singleprotocol_alpha_chips",
+      "name" : "RAIL Library, Single Protocol for Alpha Chips",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_version",
+      "name" : "Bluetooth Version",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:mbedtls_slcrypto",
+      "name" : "Silicon Labs Mbed TLS support",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1208,8 +1796,116 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:iostream_stdlib_config",
-      "name" : "IO Stream: STDLIB Configuration",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_controller_crypto",
+      "name" : "Bluetooth Core Crypto Configuration for Controller",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sli_psec_common",
+      "name" : "PSEC Common Primitives",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:sl_rail_util_power_manager_init",
+      "name" : "RAIL Utility, Power manager init (RAIL 3)",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:se_manager_mailbox_default",
+      "name" : "SE mailbox utilities source",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:psa_crypto_common",
+      "name" : "PSA Crypto Common",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:mbedtls_config",
+      "name" : "Configuration",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_feature_gatt_server",
+      "name" : "GATT Server",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_crypto_lib_psa",
+      "name" : "Bluetooth Crypto PSA Backend",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:bluetooth_feature_dynamic_gattdb",
+      "name" : "Dynamic GATT Database",
+      "version" : "2026.6.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib AND MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2026.6.0:gatt_configuration",
+      "name" : "Static GATT Database and Configuration",
       "version" : "2026.6.0",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
