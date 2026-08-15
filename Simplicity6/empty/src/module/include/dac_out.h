@@ -23,7 +23,7 @@ extern "C" {
 #define DAC_OUT_CH0_PA5_DEFAULT_MV   917U
 
 /** Channel 1 (PA6) default output target (0.937 V = 937 mV). */
-#define DAC_OUT_CH1_PA6_DEFAULT_MV   1637U
+#define DAC_OUT_CH1_PA6_DEFAULT_MV   937U
 
 /***************************************************************************//**
  * @brief Initialize VDAC0 hardware peripheral and start dual analog outputs.

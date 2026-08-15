@@ -119,4 +119,4 @@ void blink_set_interval_ms(uint16_t interval_ms)
   _blink_interval_ms = interval_ms;
   _restart_timer();
   app_log_info("Blink: interval changed to %u ms\n", interval_ms);
-}
+}
