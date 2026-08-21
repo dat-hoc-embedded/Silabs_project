@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "empty_silabs_debug:default_config_setup",
+            "type": "shell",
+            "command": "C:/Users/sucut/.silabs/slt/installs/conan/p/cmakefa35ab0687064/p/bin/cmake.exe --preset project",
+            "options": {
+                "cwd": "e:/CODE/Silicon_Labs/Simplicity6/empty/cmake_gcc"
+            }
+        },
+        {
+            "label": "empty_silabs_debug:default_config_build",
+            "type": "shell",
+            "command": "C:/Users/sucut/.silabs/slt/installs/conan/p/cmakefa35ab0687064/p/bin/cmake.exe --build --preset default_config",
+            "options": {
+                "cwd": "e:/CODE/Silicon_Labs/Simplicity6/empty/cmake_gcc"
+            }
+        },
+        {
+            "label": "empty_silabs_debug:default_config_flash",
+            "type": "shell",
+            "command": "C:/Users/sucut/.silabs/slt/installs/archive/Simplicity Commander/commander.exe",
+            "args": [
+                "flash",
+                "e:/CODE/Silicon_Labs/Simplicity6/empty/cmake_gcc/build/base/empty.hex",
+                "--halt",
+                "--serialno",
+                "440049950",
+                "--device",
+                "EFR32MG24B220F1536IM48"
+            ]
+        },
+        {
+            "label": "empty_silabs_debug:default_config_combined",
+            "dependsOrder": "sequence",
+            "presentation": {
+                "reveal": "never"
+            },
+            "dependsOn": [
+                "empty_silabs_debug:default_config_setup",
+                "empty_silabs_debug:default_config_build",
+                "empty_silabs_debug:default_config_flash"
+            ]
+        }
+    ]
+}

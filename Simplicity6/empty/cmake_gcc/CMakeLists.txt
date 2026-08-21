@@ -15,6 +15,7 @@ include(empty.cmake) # Copy entirely content of empty.cmake
 
 file(GLOB MODULE_SOURCES
     "${CMAKE_CURRENT_SOURCE_DIR}/../src/module/source/*.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../src/module/cli/source/*.c"
 )
 
 message(STATUS "Current source dir: ${CMAKE_CURRENT_SOURCE_DIR}")
@@ -32,6 +33,7 @@ target_include_directories(empty PUBLIC
 target_include_directories(slc PUBLIC
     # Add additional include paths here
     ${CMAKE_CURRENT_SOURCE_DIR}/../src/module/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/../src/module/cli/include
 )
 target_sources(slc PRIVATE
     ${MODULE_SOURCES}
