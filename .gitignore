@@ -18,3 +18,5 @@ Simplicity6/bt_soc_blinky/.silabsExtContext
 **/.cproject
 **/.projectlinkstore
 **/build/
+**/.env
+**/.env.*
